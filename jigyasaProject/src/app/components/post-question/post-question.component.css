@@ -1,0 +1,34 @@
+.modal-dialog {
+  position: absolute;
+  left: 13%;
+  top: 5%;
+  width: 75vw;
+}
+.small-msg {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+  padding-left: 1vw;
+}
+
+.form-element {
+  margin-bottom: 0.75rem;
+}
+.mandatory-icon {
+  color: red;
+  font-size: 1rem;
+}
+#codeIcon {
+  margin-left: 0.5rem;
+}
+/* Media queries and Keyframes */
+@media only screen and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  small.small-msg {
+    padding-left: 0;
+  }
+}

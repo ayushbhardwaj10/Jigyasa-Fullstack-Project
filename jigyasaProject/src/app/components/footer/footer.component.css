@@ -1,0 +1,31 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.87);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.border-right {
+  padding-right: 3rem;
+  border-right: 1px solid rgba(277, 277, 277, 0.4);
+}
+.footer-desc {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: rgba(277, 277, 277, 0.7);
+}
+.heart-img {
+  width: 2%;
+  position: absolute;
+  margin-left: 0.2rem;
+}
+.footer {
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .heart-img {
+    width: 6%;
+  }
+}

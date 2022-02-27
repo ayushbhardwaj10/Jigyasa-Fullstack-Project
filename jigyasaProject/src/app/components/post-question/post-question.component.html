@@ -1,0 +1,68 @@
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ask your Question</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="question-heading form-element">
+            <label for="questionHeading" class="form-label"
+              >Question Heading</label
+            >
+            <small class="mandatory-icon">*</small>
+            <small class="small-msg">(100 characters max)</small>
+            <input
+              type="text"
+              class="form-control"
+              id="questionHeading"
+              placeholder=""
+            />
+          </div>
+          <div class="question-description form-element">
+            <label for="questionDesc" class="form-label"
+              >Question Description</label
+            >
+            <small class="mandatory-icon">*</small>
+            <small class="small-msg">(Please describe briefly)</small>
+            <textarea
+              class="form-control"
+              id="questionDesc"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="sample-code form-element">
+            <label for="sampleCode" class="form-label">Sample Code</label>
+            <img
+              id="codeIcon"
+              src="assets/images/code.jpeg"
+              alt="code-icon"
+              aria-label="code icon form input"
+            />
+            <textarea class="form-control" id="sampleCode" rows="10"></textarea>
+          </div>
+          <div class="tag-selections form-element"></div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

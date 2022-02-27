@@ -1,0 +1,83 @@
+<app-header></app-header>
+<div class="home-body">
+  <div class="information-cards">
+    <div class="row">
+      <div
+        class="card-box col-lg-6 first-card ask-questions d-flex justify-content-between c1"
+      >
+        <img
+          src="assets/images/ask-question-card.jpg"
+          alt="ask-question-img"
+          aria-label="askquestion card"
+        />
+        <div class="card-text d-flex align-items-center">
+          Ask questions to peers and friends
+        </div>
+      </div>
+      <div
+        class="card-box col-lg-6 second-card ask-questions d-flex justify-content-between c2"
+      >
+        <img
+          src="assets/images/notification-card.jpg"
+          alt="notification-img"
+          aria-label="notification img"
+        />
+        <div class="card-text d-flex align-items-center">
+          Send notifications for quicker response
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="card-box col-lg-6 first-card ask-questions d-flex justify-content-between c3"
+      >
+        <img
+          src="assets/images/upvote-card.jpg"
+          alt="upvote-image"
+          aria-label="upvote image"
+        />
+        <div class="card-text d-flex align-items-center">
+          Leverage upvotes and downvotes to rate the responses
+        </div>
+      </div>
+      <div
+        class="card-box col-lg-6 second-card ask-questions d-flex justify-content-between c4"
+      >
+        <img
+          src="assets/images/curious.jpg"
+          alt="dark-theme-img"
+          aria-label="dark theme img"
+        />
+        <div class="card-text d-flex align-items-center">
+          Many more features for your curiosity.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bulb-wrapper d-flex justify-content-between">
+    <div class="bulb-wrapper-text">
+      <p>Satiate your curiosity with Jigyasa now</p>
+      <button>Login for free -></button>
+    </div>
+    <div class="lightbulb">
+      <div class="light"></div>
+      <div><img src="https://i.imgur.com/i5AWSel.png" /></div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+>
+  Ask Question
+</button>
+<app-footer></app-footer>
+
+<!-- Modals -->
+
+<!-- Ask question Modal -->
+<app-post-question></app-post-question>

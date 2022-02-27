@@ -1,0 +1,73 @@
+.header {
+  background-color: #fafafa;
+  box-shadow: 0 10px 7px -5px rgb(0 0 0 / 7%);
+  position: fixed;
+  z-index: 1;
+  transition: 0.4s;
+}
+#logoImg {
+  max-height: 4.625rem;
+  transition: 0.4s;
+  margin-top: 14px;
+}
+.login-btn {
+  padding-top: 1.3rem;
+}
+.login-btn > button {
+  border: none;
+  background: #0fccce;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0.6rem;
+  width: 6rem;
+  height: 2.5rem;
+  transition: 0.2s;
+}
+.login-btn > button:hover {
+  box-shadow: 0px 0px 5px 1px #0fccce;
+}
+.search-form {
+  position: relative;
+}
+.search-form input {
+  border: 1.5px solid hsl(210deg 5% 75%);
+  border-radius: 8px;
+  width: 44rem;
+  height: 2.5rem;
+  transition: 0.2s;
+  padding-left: 2rem;
+}
+.search-form > img {
+  height: 1rem;
+  position: relative;
+  top: 2rem;
+  left: 0.5rem;
+}
+.search-form input:hover {
+  box-shadow: 0px 0px 4px 0px #0fccce;
+}
+.search-form input:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #0fccce;
+}
+
+#logoText {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight: 800;
+  color: #08b9bb;
+  position: relative;
+  left: -1.125rem;
+  font-size: 1.5rem;
+  transition: 0.4s;
+}
+
+/* media queries and keyframes */
+@media only screen and (max-width: 1000px) {
+  .search-form input {
+    display: none;
+  }
+  .search-form > img {
+    display: none;
+  }
+}
