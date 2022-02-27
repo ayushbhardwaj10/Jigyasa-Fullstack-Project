@@ -1,0 +1,30 @@
+.container {
+  padding-top: 6rem;
+}
+#questionHeading {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+.date-info {
+  padding-left: 0.7rem;
+}
+.date-head {
+  font-weight: 500;
+}
+hr {
+  background-color: #989898;
+}
+.upvote {
+  width: 2rem;
+  cursor: pointer;
+}
+.downvote {
+  width: 2rem;
+  cursor: pointer;
+}
+.question-vote {
+  margin-bottom: 0px;
+  padding-left: 2px;
+  font-size: 25px;
+  color: #585858;
+}
