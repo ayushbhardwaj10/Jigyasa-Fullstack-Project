@@ -13,6 +13,15 @@
 .form-element {
   margin-bottom: 0.75rem;
 }
+.modal-title {
+  font-weight: 650;
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 17px;
+  color: #303030;
+}
 .mandatory-icon {
   color: red;
   font-size: 1rem;
@@ -20,6 +29,17 @@
 #codeIcon {
   margin-left: 0.5rem;
 }
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.ask-modal-bottom {
+  background: #f13232;
+  color: #fafafa;
+  border: none;
+}
+
 /* Media queries and Keyframes */
 @media only screen and (min-width: 576px) {
   .modal-dialog {
