@@ -1,14 +1,14 @@
 <app-header></app-header>
 <div class="container">
-  <div class="question-info">
+  <div class="question-section">
     <div class="question-header">
       <p id="questionHeading">How to use JQuery with Angular ?</p>
       <small class="date-head">Asked on :</small>
       <small class="date-info">21 Feb 2022 16:40</small>
     </div>
     <hr />
-    <div class="question-description">
-      <div class="vote-question d-flex flex-column">
+    <div class="question-description d-flex">
+      <div class="vote-question d-flex flex-column align-items-center">
         <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
         <p class="question-vote">24</p>
         <img
@@ -18,8 +18,141 @@
         />
       </div>
       <div></div>
-      <div class="question-details"></div>
+      <div class="question-details">
+        <div class="question-desc">
+          I'm new to Angular and building my first sample app. Can anyone please
+          tell me, how to use jQuery with Angular? I'm aware there are
+          workarounds like manipulating the class or id of the DOM element
+          upfront, but I'm hoping for a cleaner way of doing it.
+        </div>
+        <div class="question-code" [innerHTML]="questionCode"></div>
+        <div class="tags-and-userAvatar row justify-content-between">
+          <div class="tags-details col-md-6 d-flex">
+            <div class="tag">Angular/React</div>
+            <div class="tag">Javascript</div>
+          </div>
+          <div class="row col-md-6">
+            <div class="user-avatar col-md-3">
+              <img
+                class="avatar-img"
+                src="assets/images/user-avatar.png"
+                alt="user-profile-img"
+              />
+            </div>
+            <div class="avatar-info col-md-3">
+              <div>
+                <p class="uname">John_Doe2177</p>
+                <p class="author-tag">(Author)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="question-responces"></div>
+  <div class="response-section">
+    <div id="answersHeading"><span>2&nbsp;</span>Answers</div>
+    <hr />
+    <div class="answer d-flex">
+      <div class="vote-question d-flex flex-column align-items-center">
+        <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
+        <p class="question-vote">10</p>
+        <img
+          class="downvote"
+          src="assets/images/downvote.png"
+          alt="upvote image"
+        />
+      </div>
+      <div class="question-details">
+        <div class="question-desc">
+          Use npm i jquery and this is important : npm i @types/jquery
+          angular.json
+        </div>
+        <div class="question-code" [innerHTML]="answerCode1"></div>
+        <div class="tags-and-userAvatar row justify-content-between">
+          <div class="row col-md-6 justify-content-start">
+            <div class="user-avatar col-md-3">
+              <img
+                class="avatar-img"
+                src="assets/images/user-avatar3.jpg"
+                alt="user-profile-img"
+              />
+            </div>
+            <div class="avatar-info col-md-3">
+              <div>
+                <p class="uname">Adam_Smith_2121</p>
+                <p class="author-tag">(Author)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="answer d-flex answers-pd-top">
+      <div class="vote-question d-flex flex-column align-items-center">
+        <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
+        <p class="question-vote">-3</p>
+        <img
+          class="downvote"
+          src="assets/images/downvote.png"
+          alt="upvote image"
+        />
+      </div>
+      <div></div>
+      <div class="question-details">
+        <div class="question-desc">
+          Just install jquery in angular. Simple process
+        </div>
+        <div class="question-code" [innerHTML]="answerCode2"></div>
+        <div class="tags-and-userAvatar row justify-content-between">
+          <div class="row col-md-6">
+            <div class="user-avatar col-md-3">
+              <img
+                class="avatar-img"
+                src="assets/images/user-avatar4.jpg"
+                alt="user-profile-img"
+              />
+            </div>
+            <div class="avatar-info col-md-3">
+              <div>
+                <p class="uname">Katelyn_Foster0101</p>
+                <p class="author-tag">(Author)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reply-section">
+    <div
+      id="replyHeading"
+      data-bs-toggle="collapse"
+      href="#replyForm"
+      role="button"
+      aria-expanded="false"
+      aria-controls="replyForm"
+    >
+      Post your Answer
+    </div>
+    <hr />
+    <div class="collapse reply-form" id="replyForm">
+      <form>
+        <label for="reply-description" class="form-label reply-label"
+          >Answer Description
+        </label>
+        <textarea
+          class="form-control"
+          id="reply-description"
+          rows="3"
+        ></textarea>
+        <label for="reply-code" class="form-label reply-label pd-t1"
+          >Code</label
+        >
+        <textarea class="form-control" id="reply-code" rows="10"></textarea>
+        <button type="button" class="btn btn-primary mg-t1">Submit</button>
+      </form>
+    </div>
+  </div>
 </div>
+<app-footer></app-footer>

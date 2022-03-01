@@ -4,12 +4,19 @@
 #questionHeading {
   font-size: 1.5rem;
   margin-bottom: 0.2rem;
+  color: #4d4d4d;
 }
 .date-info {
   padding-left: 0.7rem;
 }
 .date-head {
-  font-weight: 500;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+.question-details {
+  padding-left: 2rem;
+  width: 100%;
+  overflow-wrap: anywhere;
 }
 hr {
   background-color: #989898;
@@ -27,4 +34,119 @@ hr {
   padding-left: 2px;
   font-size: 25px;
   color: #585858;
+}
+.question-code {
+  background-color: #e8f8f4;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 11px;
+}
+.tag {
+  font-size: 0.8rem;
+  margin-right: 0.8rem;
+  background: hsl(205, 46%, 92%);
+  padding: 6px;
+  border-radius: 4px;
+  color: hsl(205, 47%, 38%);
+  cursor: pointer;
+  height: 2rem;
+}
+.tag:hover {
+  background: hsl(205, 53%, 88%);
+}
+.tags-and-userAvatar {
+  margin-top: 0.8rem;
+}
+.avatar-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.user-avatar {
+  padding-left: 0px;
+}
+.uname {
+  color: hsla(206, 100%, 40%, 1);
+  font-size: 13px;
+  margin-bottom: 0px;
+  width: 7rem;
+}
+.author-tag {
+  margin-bottom: 0px;
+  color: hsla(206, 100%, 40%, 1);
+  font-size: 13px;
+  font-weight: 600;
+}
+.avatar-info {
+  position: relative;
+  left: -5.5rem;
+}
+.response-section {
+  padding-top: 3rem;
+}
+#answersHeading {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  color: #4d4d4d;
+}
+#replyHeading {
+  font-size: 1.4rem;
+  color: #fafafa;
+  background: #318afc;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#replyHeading:hover {
+  background-color: #0e77fc;
+}
+.answers-pd-top {
+  padding-top: 3rem;
+}
+.reply-section {
+  padding-top: 3rem;
+}
+.reply-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.65);
+}
+.reply-form {
+  transition: 1s;
+}
+.pd-t1 {
+  padding-top: 1rem;
+}
+.mg-t1 {
+  margin-top: 1rem;
+}
+/* media queries and keyFrames */
+
+@media only screen and (max-width: 768px) {
+  .user-avatar {
+    padding-top: 22px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .avatar-info {
+    position: relative;
+    left: -2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .avatar-info {
+    position: relative;
+    left: 0rem;
+    padding-left: 0px;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
