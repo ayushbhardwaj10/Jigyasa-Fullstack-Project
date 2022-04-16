@@ -2,7 +2,7 @@
   background-color: #fafafa;
   box-shadow: 0 10px 7px -5px rgb(0 0 0 / 7%);
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   transition: 0.4s;
 }
 #logoImg {

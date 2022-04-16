@@ -1,0 +1,228 @@
+<app-header></app-header>
+<div class="container">
+  <div class="page-heading">Top Questions</div>
+  <hr />
+  <div class="filters">
+    <div class="filter-btn-group m-0 p-0">
+      <button
+        type="button"
+        class="top-filter-tab btn btn-outline-primary rm-right-border-radius active-top-filter"
+        (click)="topFilterApply(0)"
+      >
+        Newest
+      </button>
+      <button
+        type="button"
+        class="top-filter-tab btn btn-outline-primary rm-right-border-radius rm-left-border-radius"
+        (click)="topFilterApply(1)"
+      >
+        Oldest
+      </button>
+      <button
+        type="button"
+        class="top-filter-tab btn btn-outline-primary rm-right-border-radius rm-left-border-radius"
+        (click)="topFilterApply(2)"
+      >
+        Most Liked
+      </button>
+      <button
+        type="button"
+        class="top-filter-tab btn btn-outline-primary rm-left-border-radius"
+        (click)="topFilterApply(3)"
+      >
+        Most commented
+      </button>
+    </div>
+    <div class="filter-tags pt-4 d-flex" (click)="ShowTagSelectionBar()">
+      <img
+        class="filter-tag-img"
+        src="assets/images/filter.jpg"
+        alt="filter icon"
+      />
+      <div class="filter-tag-msg">Filter by Tags</div>
+    </div>
+    <div class="tag-selection-bar">
+      <div class="selection-bar-title">Select your Tags</div>
+      <div>
+        <form class="tags-selections-checkboxes">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              JAVA
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Python
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault"> ML </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Front-End
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Others
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="questions-list">
+    <div class="question-section blue-background d-flex">
+      <div class="left-data">
+        <div><span>10</span> Votes</div>
+        <div><span>5</span> Comments</div>
+      </div>
+      <div class="right-data">
+        <div class="question-title">
+          How to set line color of a particular fxml chart using css?
+        </div>
+        <div class="tags-and-user-info">
+          <div class="tags d-flex">
+            <div class="tag">Font-end</div>
+            <div class="tag">ML</div>
+          </div>
+          <div class="user-information">
+            <div>Ayush Bhardwaj</div>
+            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="question-section d-flex">
+      <div class="left-data">
+        <div><span>10</span> Votes</div>
+        <div><span>5</span> Comments</div>
+      </div>
+      <div class="right-data">
+        <div class="question-title">
+          How to set line color of a particular fxml chart using css?
+        </div>
+        <div class="tags-and-user-info">
+          <div class="tags d-flex">
+            <div class="tag">Font-end</div>
+            <div class="tag">ML</div>
+          </div>
+          <div class="user-information">
+            <div>Ayush Bhardwaj</div>
+            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="question-section blue-background d-flex">
+      <div class="left-data">
+        <div><span>10</span> Votes</div>
+        <div><span>5</span> Comments</div>
+      </div>
+      <div class="right-data">
+        <div class="question-title">
+          How to set line color of a particular fxml chart using css?
+        </div>
+        <div class="tags-and-user-info">
+          <div class="tags d-flex">
+            <div class="tag">Font-end</div>
+            <div class="tag">ML</div>
+          </div>
+          <div class="user-information">
+            <div>Ayush Bhardwaj</div>
+            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="question-section d-flex">
+      <div class="left-data">
+        <div><span>10</span> Votes</div>
+        <div><span>5</span> Comments</div>
+      </div>
+      <div class="right-data">
+        <div class="question-title">
+          How to set line color of a particular fxml chart using css?
+        </div>
+        <div class="tags-and-user-info">
+          <div class="tags d-flex">
+            <div class="tag">Font-end</div>
+            <div class="tag">ML</div>
+          </div>
+          <div class="user-information">
+            <div>Ayush Bhardwaj</div>
+            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="question-section blue-background d-flex">
+      <div class="left-data">
+        <div><span>10</span> Votes</div>
+        <div><span>5</span> Comments</div>
+      </div>
+      <div class="right-data">
+        <div class="question-title">
+          How to set line color of a particular fxml chart using css?
+        </div>
+        <div class="tags-and-user-info">
+          <div class="tags d-flex">
+            <div class="tag">Font-end</div>
+            <div class="tag">ML</div>
+          </div>
+          <div class="user-information">
+            <div>Ayush Bhardwaj</div>
+            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagination-tabs">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination d-flex justify-content-center">
+        <li class="page-item">
+          <a class="page-link prev-pagination-btn" href="">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="">1</a></li>
+        <li class="page-item"><a class="page-link" href="">2</a></li>
+        <li class="page-item"><a class="page-link" href="">3</a></li>
+        <li class="page-item">
+          <a class="page-link next-pagination-btn" href="">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<app-footer></app-footer>
