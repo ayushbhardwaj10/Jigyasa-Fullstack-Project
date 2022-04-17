@@ -127,6 +127,7 @@ hr {
 }
 label {
   color: #22292f;
+  width: 100%;
 }
 .questions-list {
   z-index: -1;
