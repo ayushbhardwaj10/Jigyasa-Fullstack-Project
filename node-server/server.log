@@ -1,0 +1,65 @@
+2022.04.28, 11:17:38.0206 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:17:55.0111 UTC -> OOPS, mySQL connection failed..!!
+2022.04.28, 11:18:07.0589 UTC -> OOPS, mySQL connection failed..!!
+2022.04.28, 11:18:07.0589 UTC -> Error: ER_BAD_DB_ERROR: Unknown database 'jigyasa2'
+2022.04.28, 11:18:18.0300 UTC -> OOPS, mySQL connection failed..!!
+2022.04.28, 11:18:18.0301 UTC -> Error: ER_BAD_DB_ERROR: Unknown database 'jigyasa2'
+2022.04.28, 11:18:22.0815 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:19:23.0094 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:20:32.0480 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:21:35.0390 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:22:45.0910 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:23:16.0870 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:23:25.0112 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:23:54.0847 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:24:00.0091 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:24:11.0534 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:25:11.0357 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:25:17.0653 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:26:22.0423 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:27:05.0456 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:27:12.0386 UTC -> '/createUser' user created successfully
+2022.04.28, 11:27:34.0065 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:29:15.0626 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:29:25.0537 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:30:42.0446 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:31:15.0997 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:33:10.0667 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:34:19.0889 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:34:35.0701 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:34:41.0048 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:35:35.0373 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:36:32.0433 UTC -> /createUser user created successfully
+2022.04.28, 11:37:00.0729 UTC -> /createUser 404 Error , Failed due to incorrect body
+2022.04.28, 11:37:07.0893 UTC -> /createUser 404 Error , Failed due to incorrect body
+2022.04.28, 11:37:11.0730 UTC -> /createUser user created successfully
+2022.04.28, 11:37:38.0464 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:37:58.0265 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:38:06.0527 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:06.0326 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:20.0757 UTC -> mySQL connection successfully established son...!!
+2022.04.28, 11:39:24.0639 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:29.0224 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:32.0452 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:35.0062 UTC -> mySQL connection successfully established...!!
+2022.04.28, 11:39:56.0889 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:40:17.0132 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:41:15.0450 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:41:37.0120 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:41:45.0468 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:42:10.0630 UTC -> Node server started at Port 3000
+2022.04.28, 11:42:10.0649 UTC -> mySQL connection successfully established ayush..!!
+2022.04.28, 11:42:24.0020 UTC -> Node server started at Port 3000
+2022.04.28, 11:42:24.0031 UTC -> mySQL connection successfully established !!
+2022.04.28, 11:42:48.0799 UTC -> Node server started at port 3000
+2022.04.28, 11:42:48.0812 UTC -> mySQL connection successfully established !!
+2022.04.28, 11:42:59.0509 UTC -> :: :: Node server started at port 3000 :: ::
+2022.04.28, 11:42:59.0521 UTC -> mySQL connection successfully established !!
+2022.04.28, 11:43:18.0676 UTC -> :: :: Node server started at port 3000 :: ::
+2022.04.28, 11:43:18.0690 UTC -> mySQL connection successfully established..
+2022.04.28, 11:43:28.0228 UTC -> /createUser user created successfully
+2022.04.28, 11:44:00.0083 UTC -> ==== Node server started at port 3000 ====
+2022.04.28, 11:44:00.0094 UTC -> mySQL connection successfully established..
+2022.04.28, 11:44:04.0898 UTC -> /createUser user created successfully
+2022.04.28, 11:44:21.0974 UTC -> ==== Node server started at port 3000 ====
+2022.04.28, 11:44:21.0985 UTC -> mySQL connection successfully established..
