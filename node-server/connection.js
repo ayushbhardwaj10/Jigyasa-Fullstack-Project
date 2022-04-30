@@ -7,4 +7,4 @@ const connection = mysql.createConnection({
   database: "jigyasa",
 });
 
-exports.mysqlConnection = connection;
+exports.connection = connection;

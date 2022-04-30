@@ -14,7 +14,7 @@ const port = 3000;
 const loggerFile = util.loggerFile;
 
 // Initiating mysql connection with nodeJS
-sql.mysqlConnection.connect((err) => {
+sql.connection.connect((err) => {
   if (!err) {
     log("mySQL connection successfully established..", loggerFile);
   } else {
@@ -22,7 +22,7 @@ sql.mysqlConnection.connect((err) => {
   }
 });
 
-//defining the routes
+//defining the API routes
 
 app.post("/createUser", (req, res) => {
   let body = req.body;
@@ -32,16 +32,70 @@ app.post("/createUser", (req, res) => {
     body.emailID == "" ||
     body.emailID == undefined
   ) {
-    res.status(404).send("Failed due to incorrect body");
-    log("/createUser 404 Error , Failed due to incorrect body", loggerFile);
+    log("/createUser 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  }
+
+  let values = [[body.emailID, body.userName]];
+  log("values from client:", loggerFile);
+  log(values, loggerFile);
+  let query = "INSERT INTO USERS VALUES ?";
+
+  sql.connection.query(query, [values], (err, rows, fields) => {
+    if (err) {
+      log("/createUser Failure in trying to create user..!!", loggerFile);
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying to create users");
+    } else {
+      log("/createUser User created successfully", loggerFile);
+      res.status(200).send("user created successfully");
+    }
+  });
+});
+
+app.post("/postQuestion", (req, res) => {
+  let body = req.body;
+  if (
+    body.author == undefined ||
+    body.title == undefined ||
+    body.description_ == undefined
+  ) {
+    log("/postQuestion 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  } else if (body.author == "" || body.title == "" || body.description_ == "") {
+    log("/postQuestion 400 Error , Failed due to empty fields", loggerFile);
+    res.status(400).send("Failed due to empty fields");
   } else {
-    res.status(200).send("user created successfully");
-    log("/createUser user created successfully", loggerFile);
+    let values = [
+      [
+        util.generateUniqueID(),
+        body.author,
+        util.currentDateTime_mysql(),
+        body.title,
+        body.description_,
+        body.sampleCode,
+      ],
+    ];
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query =
+      "insert into questions(qid,author,postedOn,title,description_,sampleCode) values ?";
+
+    sql.connection.query(query, [values], (err, rows, fields) => {
+      if (err) {
+        log("/postQuestion Failure in trying to post question..!!", loggerFile);
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying to post question");
+      } else {
+        log("/postQuestion Question posted successfully", loggerFile);
+        res.status(200).send("Question posted successfully");
+      }
+    });
   }
 });
 
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
-//sql.mysqlConnection.end();
+//sql.connection.end();
 
 app.listen(port, () => {
   console.log(`==== Node server started at port ${port} ====`);
