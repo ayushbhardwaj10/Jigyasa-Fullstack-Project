@@ -1,302 +1,81 @@
-2022.04.28, 11:17:38.0206 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:17:55.0111 UTC -> OOPS, mySQL connection failed..!!
-2022.04.28, 11:18:07.0589 UTC -> OOPS, mySQL connection failed..!!
-2022.04.28, 11:18:07.0589 UTC -> Error: ER_BAD_DB_ERROR: Unknown database 'jigyasa2'
-2022.04.28, 11:18:18.0300 UTC -> OOPS, mySQL connection failed..!!
-2022.04.28, 11:18:18.0301 UTC -> Error: ER_BAD_DB_ERROR: Unknown database 'jigyasa2'
-2022.04.28, 11:18:22.0815 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:19:23.0094 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:20:32.0480 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:21:35.0390 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:22:45.0910 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:23:16.0870 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:23:25.0112 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:23:54.0847 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:24:00.0091 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:24:11.0534 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:25:11.0357 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:25:17.0653 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:26:22.0423 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:27:05.0456 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:27:12.0386 UTC -> '/createUser' user created successfully
-2022.04.28, 11:27:34.0065 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:29:15.0626 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:29:25.0537 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:30:42.0446 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:31:15.0997 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:33:10.0667 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:34:19.0889 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:34:35.0701 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:34:41.0048 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:35:35.0373 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:36:32.0433 UTC -> /createUser user created successfully
-2022.04.28, 11:37:00.0729 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.28, 11:37:07.0893 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.28, 11:37:11.0730 UTC -> /createUser user created successfully
-2022.04.28, 11:37:38.0464 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:37:58.0265 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:38:06.0527 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:06.0326 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:20.0757 UTC -> mySQL connection successfully established son...!!
-2022.04.28, 11:39:24.0639 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:29.0224 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:32.0452 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:35.0062 UTC -> mySQL connection successfully established...!!
-2022.04.28, 11:39:56.0889 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:40:17.0132 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:41:15.0450 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:41:37.0120 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:41:45.0468 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:42:10.0630 UTC -> Node server started at Port 3000
-2022.04.28, 11:42:10.0649 UTC -> mySQL connection successfully established ayush..!!
-2022.04.28, 11:42:24.0020 UTC -> Node server started at Port 3000
-2022.04.28, 11:42:24.0031 UTC -> mySQL connection successfully established !!
-2022.04.28, 11:42:48.0799 UTC -> Node server started at port 3000
-2022.04.28, 11:42:48.0812 UTC -> mySQL connection successfully established !!
-2022.04.28, 11:42:59.0509 UTC -> :: :: Node server started at port 3000 :: ::
-2022.04.28, 11:42:59.0521 UTC -> mySQL connection successfully established !!
-2022.04.28, 11:43:18.0676 UTC -> :: :: Node server started at port 3000 :: ::
-2022.04.28, 11:43:18.0690 UTC -> mySQL connection successfully established..
-2022.04.28, 11:43:28.0228 UTC -> /createUser user created successfully
-2022.04.28, 11:44:00.0083 UTC -> ==== Node server started at port 3000 ====
-2022.04.28, 11:44:00.0094 UTC -> mySQL connection successfully established..
-2022.04.28, 11:44:04.0898 UTC -> /createUser user created successfully
-2022.04.28, 11:44:21.0974 UTC -> ==== Node server started at port 3000 ====
-2022.04.28, 11:44:21.0985 UTC -> mySQL connection successfully established..
-2022.04.28, 11:46:33.0103 UTC -> ==== Node server started at port 3000 ====
-2022.04.28, 11:46:33.0124 UTC -> mySQL connection successfully established..
-2022.04.29, 04:54:42.0376 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 04:54:42.0390 UTC -> mySQL connection successfully established..
-2022.04.29, 04:55:03.0384 UTC -> /createUser user created successfully
-2022.04.29, 04:55:17.0808 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 04:55:17.0823 UTC -> mySQL connection successfully established..
-2022.04.29, 04:55:26.0864 UTC -> /createUser user created successfully
-2022.04.29, 04:55:28.0876 UTC -> /createUser user created successfully
-2022.04.29, 04:55:31.0034 UTC -> /createUser user created successfully
-2022.04.29, 04:55:32.0126 UTC -> /createUser user created successfully
-2022.04.29, 04:55:37.0602 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.29, 04:55:44.0808 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 04:55:44.0821 UTC -> mySQL connection successfully established..
-2022.04.29, 04:55:49.0669 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.29, 04:55:52.0421 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.29, 04:56:40.0450 UTC -> /createUser 404 Error , Failed due to incorrect body
-2022.04.29, 04:56:47.0803 UTC -> /createUser user created successfully
-2022.04.29, 04:57:51.0476 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 04:57:51.0488 UTC -> mySQL connection successfully established..
-2022.04.29, 04:58:01.0997 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 04:58:02.0009 UTC -> mySQL connection successfully established..
-2022.04.29, 05:00:12.0664 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 05:00:12.0677 UTC -> mySQL connection successfully established..
-2022.04.29, 05:00:39.0655 UTC -> ==== Node server started at port 3000 ====
-2022.04.29, 05:00:39.0740 UTC -> mySQL connection successfully established..
-2022.04.30, 09:52:52.0594 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 09:52:52.0608 UTC -> mySQL connection successfully established..
-2022.04.30, 09:55:18.0672 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 09:55:18.0684 UTC -> mySQL connection successfully established..
-2022.04.30, 09:55:21.0820 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 09:55:21.0820 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Bhardwaj,ayush.b.1998@gmail.com)' at line 1
-2022.04.30, 09:57:00.0125 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 09:57:00.0139 UTC -> mySQL connection successfully established..
-2022.04.30, 09:59:27.0049 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 09:59:27.0062 UTC -> mySQL connection successfully established..
-2022.04.30, 09:59:52.0451 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 09:59:52.0464 UTC -> mySQL connection successfully established..
-2022.04.30, 10:00:01.0378 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:00:01.0389 UTC -> mySQL connection successfully established..
-2022.04.30, 10:00:13.0836 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:00:13.0847 UTC -> mySQL connection successfully established..
-2022.04.30, 10:00:43.0641 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:00:43.0654 UTC -> mySQL connection successfully established..
-2022.04.30, 10:01:22.0700 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:01:22.0711 UTC -> mySQL connection successfully established..
-2022.04.30, 10:01:38.0332 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:01:38.0332 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ayush Bhardwaj'' at line 1
-2022.04.30, 10:02:52.0992 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:02:53.0005 UTC -> mySQL connection successfully established..
-2022.04.30, 10:02:55.0068 UTC -> values :
-2022.04.30, 10:02:55.0068 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com
-2022.04.30, 10:02:55.0072 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ayush Bhardwaj'' at line 1
-2022.04.30, 10:02:55.0072 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:03:13.0905 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:03:13.0921 UTC -> mySQL connection successfully established..
-2022.04.30, 10:03:15.0376 UTC -> values :
-2022.04.30, 10:03:15.0376 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com
-2022.04.30, 10:03:15.0381 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ayush Bhardwaj'' at line 1
-2022.04.30, 10:03:15.0381 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:04:13.0431 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:04:13.0444 UTC -> mySQL connection successfully established..
-2022.04.30, 10:04:18.0627 UTC -> values from client:
-2022.04.30, 10:04:18.0628 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com
-2022.04.30, 10:04:18.0633 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ayush Bhardwaj'' at line 1
-2022.04.30, 10:04:18.0633 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:04:31.0774 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:04:31.0788 UTC -> mySQL connection successfully established..
-2022.04.30, 10:10:42.0914 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:10:42.0930 UTC -> mySQL connection successfully established..
-2022.04.30, 10:10:57.0528 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:10:57.0542 UTC -> mySQL connection successfully established..
-2022.04.30, 10:11:17.0200 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:11:17.0212 UTC -> mySQL connection successfully established..
-2022.04.30, 10:11:19.0576 UTC -> values from client:
-2022.04.30, 10:11:19.0576 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com
-2022.04.30, 10:11:19.0581 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ayush Bhardwaj', 'ayush.b.1998@gmail.com'' at line 1
-2022.04.30, 10:11:19.0581 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:12:14.0644 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:12:14.0658 UTC -> mySQL connection successfully established..
-2022.04.30, 10:12:16.0740 UTC -> values from client:
-2022.04.30, 10:12:16.0740 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com
-2022.04.30, 10:12:16.0981 UTC -> /createUser User created successfully
-2022.04.30, 10:12:50.0277 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:12:50.0288 UTC -> mySQL connection successfully established..
-2022.04.30, 10:13:45.0096 UTC -> values from client:
-2022.04.30, 10:13:45.0096 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:13:45.0155 UTC -> /createUser User created successfully
-2022.04.30, 10:15:13.0335 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:15:13.0346 UTC -> mySQL connection successfully established..
-2022.04.30, 10:15:21.0133 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:15:21.0148 UTC -> mySQL connection successfully established..
-2022.04.30, 10:15:23.0226 UTC -> values from client:
-2022.04.30, 10:15:23.0226 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:15:23.0230 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.04.30, 10:15:23.0230 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:15:30.0058 UTC -> values from client:
-2022.04.30, 10:15:30.0058 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:15:30.0084 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:15:30.0085 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.04.30, 10:15:34.0410 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:15:34.0420 UTC -> mySQL connection successfully established..
-2022.04.30, 10:15:39.0772 UTC -> values from client:
-2022.04.30, 10:15:39.0772 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:15:39.0777 UTC -> /createUser Failure in trying to create user..!!
-2022.04.30, 10:15:39.0777 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.04.30, 10:16:05.0808 UTC -> values from client:
-2022.04.30, 10:16:05.0808 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:16:05.0916 UTC -> /createUser User created successfully
-2022.04.30, 10:16:17.0554 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:16:17.0576 UTC -> mySQL connection successfully established..
-2022.04.30, 10:16:19.0236 UTC -> values from client:
-2022.04.30, 10:16:19.0236 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:16:19.0308 UTC -> /createUser User created successfully
-2022.04.30, 10:16:23.0493 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 10:16:23.0506 UTC -> mySQL connection successfully established..
-2022.04.30, 10:16:30.0168 UTC -> values from client:
-2022.04.30, 10:16:30.0168 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.04.30, 10:16:30.0216 UTC -> /createUser User created successfully
-2022.04.30, 11:30:58.0714 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:30:58.0725 UTC -> mySQL connection successfully established..
-2022.04.30, 11:31:22.0972 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:31:22.0985 UTC -> mySQL connection successfully established..
-2022.04.30, 11:31:49.0861 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:31:49.0876 UTC -> mySQL connection successfully established..
-2022.04.30, 11:33:03.0475 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:33:03.0487 UTC -> mySQL connection successfully established..
-2022.04.30, 11:33:09.0243 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:33:09.0255 UTC -> mySQL connection successfully established..
-2022.04.30, 11:33:32.0320 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:33:32.0336 UTC -> mySQL connection successfully established..
-2022.04.30, 11:33:48.0460 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:33:48.0472 UTC -> mySQL connection successfully established..
-2022.04.30, 11:52:19.0994 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 11:52:20.0005 UTC -> mySQL connection successfully established..
-2022.04.30, 12:03:07.0576 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:03:07.0590 UTC -> mySQL connection successfully established..
-2022.04.30, 12:03:09.0977 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:03:09.0994 UTC -> mySQL connection successfully established..
-2022.04.30, 12:03:16.0918 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:03:16.0932 UTC -> mySQL connection successfully established..
-2022.04.30, 12:32:23.0842 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:32:23.0856 UTC -> mySQL connection successfully established..
-2022.04.30, 12:33:04.0374 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 12:33:04.0403 UTC -> values from client:
-2022.04.30, 12:33:04.0404 UTC -> d4147b19125f8b9f,Ayush Bhardwaj,2022-04-30 12:33:04,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me','function myFunction(p1, p2) {return p1 * p2; }')
-2022.04.30, 12:55:51.0748 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:55:51.0764 UTC -> mySQL connection successfully established..
-2022.04.30, 12:56:00.0599 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 12:56:00.0608 UTC -> d7b097ad0ee0c031,Ayush Bhardwaj,2022-04-30 12:56:00,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 12:56:00.0607 UTC -> values from client:
-2022.04.30, 12:56:51.0573 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 12:56:51.0588 UTC -> mySQL connection successfully established..
-2022.04.30, 12:56:58.0993 UTC -> values from client:
-2022.04.30, 12:56:58.0993 UTC -> 72ed5b5697cf2301,Ayush Bhardwaj,2022-04-30 12:56:58,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 12:56:59.0068 UTC -> /postQuestion Question posted successfully
-2022.04.30, 12:57:35.0487 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 12:57:35.0488 UTC -> values from client:
-2022.04.30, 12:57:35.0488 UTC -> 61b8501c977a0222,,2022-04-30 12:57:35,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:19:54.0774 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:19:54.0785 UTC -> mySQL connection successfully established..
-2022.04.30, 13:35:07.0511 UTC -> values from client:
-2022.04.30, 13:35:07.0511 UTC -> 51c77c205cda8a14,Ayush Bhardwaj,2022-04-30 13:35:07,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:35:07.0992 UTC -> /postQuestion Question posted successfully
-2022.04.30, 13:35:19.0223 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:35:19.0224 UTC -> 0057b5289dd8be1c,,2022-04-30 13:35:19,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:35:19.0224 UTC -> values from client:
-2022.04.30, 13:35:51.0624 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:35:51.0643 UTC -> mySQL connection successfully established..
-2022.04.30, 13:35:52.0568 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:35:52.0580 UTC -> mySQL connection successfully established..
-2022.04.30, 13:36:58.0509 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:36:58.0523 UTC -> mySQL connection successfully established..
-2022.04.30, 13:37:00.0075 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:37:00.0087 UTC -> mySQL connection successfully established..
-2022.04.30, 13:37:11.0935 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:37:11.0943 UTC -> values from client:
-2022.04.30, 13:37:11.0944 UTC -> 92c1c676b62e5ba0,,2022-04-30 13:37:11,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:38:53.0206 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:38:53.0221 UTC -> mySQL connection successfully established..
-2022.04.30, 13:39:10.0974 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:39:10.0986 UTC -> mySQL connection successfully established..
-2022.04.30, 13:39:16.0688 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:39:16.0697 UTC -> 1559015b6356de30,,2022-04-30 13:39:16,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:39:16.0696 UTC -> values from client:
-2022.04.30, 13:40:38.0465 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:40:38.0478 UTC -> mySQL connection successfully established..
-2022.04.30, 13:40:44.0851 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:40:44.0859 UTC -> values from client:
-2022.04.30, 13:40:44.0859 UTC -> 5d859748333771ba,,2022-04-30 13:40:44,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:42:27.0374 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:42:27.0386 UTC -> mySQL connection successfully established..
-2022.04.30, 13:42:30.0026 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:42:30.0042 UTC -> mySQL connection successfully established..
-2022.04.30, 13:53:08.0054 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:53:08.0066 UTC -> mySQL connection successfully established..
-2022.04.30, 13:53:15.0892 UTC -> values from client:
-2022.04.30, 13:53:15.0892 UTC -> 2d022d86bf184863,Ayush Bhardwaj,2022-04-30 13:53:15,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:53:16.0003 UTC -> /postQuestion Question posted successfully
-2022.04.30, 13:53:22.0822 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:53:22.0823 UTC -> 8aa5eefc949a64ae,,2022-04-30 13:53:22,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:53:22.0823 UTC -> values from client:
-2022.04.30, 13:53:53.0761 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:53:53.0779 UTC -> mySQL connection successfully established..
-2022.04.30, 13:54:47.0557 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:54:47.0571 UTC -> mySQL connection successfully established..
-2022.04.30, 13:54:57.0179 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:54:57.0190 UTC -> mySQL connection successfully established..
-2022.04.30, 13:55:28.0276 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:55:28.0289 UTC -> mySQL connection successfully established..
-2022.04.30, 13:55:38.0508 UTC -> /postQuestion 400 Error , Failed due to empty field
-2022.04.30, 13:55:38.0515 UTC -> values from client:
-2022.04.30, 13:55:38.0515 UTC -> 5e85ebc905035982,,2022-04-30 13:55:38,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:55:42.0745 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:55:42.0757 UTC -> mySQL connection successfully established..
-2022.04.30, 13:55:44.0986 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:55:44.0999 UTC -> mySQL connection successfully established..
-2022.04.30, 13:55:46.0267 UTC -> /postQuestion 400 Error , Failed due to empty fields
-2022.04.30, 13:55:46.0275 UTC -> values from client:
-2022.04.30, 13:55:46.0276 UTC -> 5a48071fc60e7a0a,,2022-04-30 13:55:46,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:56:25.0478 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:56:25.0496 UTC -> mySQL connection successfully established..
-2022.04.30, 13:56:32.0550 UTC -> /postQuestion 400 Error , Failed due to empty fields
-2022.04.30, 13:56:32.0561 UTC -> values from client:
-2022.04.30, 13:56:32.0561 UTC -> c87ff331680bec87,,2022-04-30 13:56:32,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:57:12.0021 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:57:12.0033 UTC -> mySQL connection successfully established..
-2022.04.30, 13:57:20.0242 UTC -> /postQuestion 400 Error , Failed due to empty fields
-2022.04.30, 13:57:28.0524 UTC -> values from client:
-2022.04.30, 13:57:28.0524 UTC -> 2d46f57d46261d26,Ayush Bhardwaj,2022-04-30 13:57:28,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:57:28.0591 UTC -> /postQuestion Question posted successfully
-2022.04.30, 13:57:36.0915 UTC -> /postQuestion 400 Error , Failed due to incorrect body
-2022.04.30, 13:57:44.0262 UTC -> values from client:
-2022.04.30, 13:57:44.0262 UTC -> 294632156421e5b6,Ayush Bhardwaj,2022-04-30 13:57:44,Can you please explain me javascript functions concept ?,Im new to javascript and now aware how to use functions. This is my first time learning javascript and earlier I was in python,If somebody can help, itll really mean a lot to me,function myFunction(p1, p2) {return p1 * p2; })
-2022.04.30, 13:57:44.0329 UTC -> /postQuestion Question posted successfully
-2022.04.30, 13:58:08.0467 UTC -> ==== Node server started at port 3000 ====
-2022.04.30, 13:58:08.0480 UTC -> mySQL connection successfully established..
+2022.05.01, 08:25:35.0824 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 08:25:35.0842 UTC -> mySQL connection successfully established..
+2022.05.01, 08:25:38.0007 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.01, 08:25:38.0007 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 12:19:06.0256 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:19:06.0267 UTC -> mySQL connection successfully established..
+2022.05.01, 12:25:47.0583 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:25:47.0595 UTC -> mySQL connection successfully established..
+2022.05.01, 12:28:51.0022 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:28:51.0033 UTC -> mySQL connection successfully established..
+2022.05.01, 12:30:09.0064 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:30:09.0076 UTC -> mySQL connection successfully established..
+2022.05.01, 12:34:24.0852 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:34:24.0863 UTC -> mySQL connection successfully established..
+2022.05.01, 12:55:42.0286 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:55:42.0297 UTC -> mySQL connection successfully established..
+2022.05.01, 12:55:47.0878 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:55:47.0889 UTC -> mySQL connection successfully established..
+2022.05.01, 12:56:31.0109 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:56:31.0127 UTC -> mySQL connection successfully established..
+2022.05.01, 12:57:40.0492 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 12:57:40.0503 UTC -> mySQL connection successfully established..
+2022.05.01, 13:00:22.0402 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:00:22.0413 UTC -> mySQL connection successfully established..
+2022.05.01, 13:00:35.0342 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:00:35.0353 UTC -> mySQL connection successfully established..
+2022.05.01, 13:01:24.0468 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:01:24.0482 UTC -> mySQL connection successfully established..
+2022.05.01, 13:01:56.0820 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:01:56.0833 UTC -> mySQL connection successfully established..
+2022.05.01, 13:05:35.0024 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.05.01, 13:05:35.0024 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2022.05.01, 13:06:08.0314 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:06:08.0329 UTC -> mySQL connection successfully established..
+2022.05.01, 13:06:10.0584 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.05.01, 13:06:10.0584 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'java' in 'where clause'
+2022.05.01, 13:07:07.0046 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:07:07.0069 UTC -> mySQL connection successfully established..
+2022.05.01, 13:07:12.0333 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 13:07:12.0347 UTC -> mySQL connection successfully established..
+2022.05.01, 13:07:14.0730 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.05.01, 13:07:14.0730 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2022.05.01, 15:38:02.0827 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 15:38:02.0838 UTC -> mySQL connection successfully established..
+2022.05.01, 15:41:01.0561 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 15:41:01.0578 UTC -> mySQL connection successfully established..
+2022.05.01, 15:41:19.0368 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.05.01, 15:41:19.0368 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2022.05.01, 15:44:08.0602 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 15:44:08.0617 UTC -> mySQL connection successfully established..
+2022.05.01, 15:44:10.0529 UTC -> /filterByTags Successfully filtered questions using tags 
+2022.05.01, 15:56:59.0337 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 15:56:59.0356 UTC -> mySQL connection successfully established..
+2022.05.01, 15:57:18.0878 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 15:57:18.0897 UTC -> mySQL connection successfully established..
+2022.05.01, 15:57:21.0065 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 15:57:21.0065 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 16:00:52.0710 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 16:00:52.0710 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 16:01:00.0499 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 16:01:00.0499 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 16:01:19.0278 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 16:01:19.0279 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 16:01:33.0936 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 16:01:33.0936 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 17:47:28.0042 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 17:47:28.0053 UTC -> mySQL connection successfully established..
+2022.05.01, 17:49:34.0277 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 17:49:34.0294 UTC -> mySQL connection successfully established..
+2022.05.01, 17:50:01.0894 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 17:50:01.0906 UTC -> mySQL connection successfully established..
+2022.05.01, 17:50:03.0807 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.05.01, 17:50:03.0808 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''java', 'ml')' at line 1
+2022.05.01, 17:50:35.0335 UTC -> ==== Node server started at port 3000 ====
+2022.05.01, 17:50:35.0351 UTC -> mySQL connection successfully established..
+2022.05.01, 17:50:37.0717 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 17:50:37.0717 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 17:51:21.0800 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 17:51:21.0800 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.01, 17:51:45.0697 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.01, 17:51:45.0697 UTC -> /displayAllQuestions Questions list sent successfully
