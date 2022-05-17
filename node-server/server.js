@@ -7,6 +7,16 @@ const log = require("log-to-file");
 
 var app = express();
 
+//using CORS
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
+
 //middleware for express app
 app.use(bodyParser.json());
 
@@ -36,7 +46,7 @@ app.post("/createUser", (req, res) => {
     res.status(400).send("Failed due to incorrect body");
   }
 
-  let values = [[body.emailID, body.userName]];
+  let values = [[body.emailID, body.userName, body.password]];
   log("values from client:", loggerFile);
   log(values, loggerFile);
   let query = "INSERT INTO USERS VALUES ?";
@@ -48,7 +58,7 @@ app.post("/createUser", (req, res) => {
       res.status(500).send("Failure in trying to create users");
     } else {
       log("/createUser User created successfully", loggerFile);
-      res.status(200).send("user created successfully");
+      res.status(200).send();
     }
   });
 });
@@ -241,6 +251,91 @@ app.post("/filterByTags", (req, res) => {
   });
 });
 
+app.post("/postComment", (req, res) => {
+  let body = req.body;
+  if (body.author == undefined || body.description_ == undefined) {
+    log("/postComment 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  } else if (body.author == "" || body.title == "" || body.description_ == "") {
+    log("/postComment 400 Error , Failed due to empty fields", loggerFile);
+    res.status(400).send("Failed due to empty fields");
+  } else {
+    let commentID = util.generateUniqueID();
+    let values = [
+      [
+        commentID,
+        body.author,
+        util.currentDateTime_mysql(),
+        body.description_,
+        body.sampleCode,
+      ],
+    ];
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query =
+      "insert into comments(commentID,author,postedOn,description_,sampleCode) values ?";
+
+    sql.connection.query(query, [values], (err, rows, fields) => {
+      if (err) {
+        log("/postComment Failure in trying to post comment..!!", loggerFile);
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying to post comment");
+      } else {
+        //inserting commentID against questionID in 'questionComments' table.
+        let query2 = "insert into questionComments values ?";
+        let values2 = [[body.qid, commentID]];
+        log("values from client:", loggerFile);
+        log(values2, loggerFile);
+        sql.connection.query(query2, [values2], (err, rows, fields) => {
+          if (err) {
+            log(
+              "/postComment Failure in trying to post data in questionComments..!!",
+              loggerFile
+            );
+            log(err, loggerFile);
+            res.status(500).send("Failure in trying to post comment");
+          } else {
+            log(
+              "/postComment Successfully posted data in questionComments.",
+              loggerFile
+            );
+            res.status(200).send("Comment posted successfully");
+          }
+        });
+      }
+    });
+  }
+});
+
+app.get("/displayComments", (req, res) => {
+  let params = req.query;
+  if (params.qid == undefined) {
+    log(
+      "/displayComments 400 Error , Failed due to incorrect body",
+      loggerFile
+    );
+    res.status(400).send("Failed due to incorrect body");
+  } else if (params.qid == "") {
+    log("/displayComments 400 Error , Failed due to empty fields", loggerFile);
+    res.status(400).send("Failed due to empty fields");
+  } else {
+    query =
+      "select * from comments where commentID IN (select commentID from questionComments where qid = ?)";
+    sql.connection.query(query, [params.qid], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/displayComments Failure in trying to fetch comments..!!",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying to fetch comments");
+      } else {
+        log("/displayComments Successfully fetched comments", loggerFile);
+        res.status(200).send(rows);
+      }
+    });
+  }
+});
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
 //sql.connection.end();
 

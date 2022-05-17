@@ -1,81 +1,156 @@
-2022.05.01, 08:25:35.0824 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 08:25:35.0842 UTC -> mySQL connection successfully established..
-2022.05.01, 08:25:38.0007 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
-2022.05.01, 08:25:38.0007 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 12:19:06.0256 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:19:06.0267 UTC -> mySQL connection successfully established..
-2022.05.01, 12:25:47.0583 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:25:47.0595 UTC -> mySQL connection successfully established..
-2022.05.01, 12:28:51.0022 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:28:51.0033 UTC -> mySQL connection successfully established..
-2022.05.01, 12:30:09.0064 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:30:09.0076 UTC -> mySQL connection successfully established..
-2022.05.01, 12:34:24.0852 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:34:24.0863 UTC -> mySQL connection successfully established..
-2022.05.01, 12:55:42.0286 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:55:42.0297 UTC -> mySQL connection successfully established..
-2022.05.01, 12:55:47.0878 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:55:47.0889 UTC -> mySQL connection successfully established..
-2022.05.01, 12:56:31.0109 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:56:31.0127 UTC -> mySQL connection successfully established..
-2022.05.01, 12:57:40.0492 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 12:57:40.0503 UTC -> mySQL connection successfully established..
-2022.05.01, 13:00:22.0402 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:00:22.0413 UTC -> mySQL connection successfully established..
-2022.05.01, 13:00:35.0342 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:00:35.0353 UTC -> mySQL connection successfully established..
-2022.05.01, 13:01:24.0468 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:01:24.0482 UTC -> mySQL connection successfully established..
-2022.05.01, 13:01:56.0820 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:01:56.0833 UTC -> mySQL connection successfully established..
-2022.05.01, 13:05:35.0024 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
-2022.05.01, 13:05:35.0024 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-2022.05.01, 13:06:08.0314 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:06:08.0329 UTC -> mySQL connection successfully established..
-2022.05.01, 13:06:10.0584 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
-2022.05.01, 13:06:10.0584 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'java' in 'where clause'
-2022.05.01, 13:07:07.0046 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:07:07.0069 UTC -> mySQL connection successfully established..
-2022.05.01, 13:07:12.0333 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 13:07:12.0347 UTC -> mySQL connection successfully established..
-2022.05.01, 13:07:14.0730 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
-2022.05.01, 13:07:14.0730 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-2022.05.01, 15:38:02.0827 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 15:38:02.0838 UTC -> mySQL connection successfully established..
-2022.05.01, 15:41:01.0561 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 15:41:01.0578 UTC -> mySQL connection successfully established..
-2022.05.01, 15:41:19.0368 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
-2022.05.01, 15:41:19.0368 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-2022.05.01, 15:44:08.0602 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 15:44:08.0617 UTC -> mySQL connection successfully established..
-2022.05.01, 15:44:10.0529 UTC -> /filterByTags Successfully filtered questions using tags 
-2022.05.01, 15:56:59.0337 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 15:56:59.0356 UTC -> mySQL connection successfully established..
-2022.05.01, 15:57:18.0878 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 15:57:18.0897 UTC -> mySQL connection successfully established..
-2022.05.01, 15:57:21.0065 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 15:57:21.0065 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 16:00:52.0710 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 16:00:52.0710 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 16:01:00.0499 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 16:01:00.0499 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 16:01:19.0278 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 16:01:19.0279 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 16:01:33.0936 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 16:01:33.0936 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 17:47:28.0042 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 17:47:28.0053 UTC -> mySQL connection successfully established..
-2022.05.01, 17:49:34.0277 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 17:49:34.0294 UTC -> mySQL connection successfully established..
-2022.05.01, 17:50:01.0894 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 17:50:01.0906 UTC -> mySQL connection successfully established..
-2022.05.01, 17:50:03.0807 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
-2022.05.01, 17:50:03.0808 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''java', 'ml')' at line 1
-2022.05.01, 17:50:35.0335 UTC -> ==== Node server started at port 3000 ====
-2022.05.01, 17:50:35.0351 UTC -> mySQL connection successfully established..
-2022.05.01, 17:50:37.0717 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 17:50:37.0717 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 17:51:21.0800 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 17:51:21.0800 UTC -> /displayAllQuestions Questions list sent successfully
-2022.05.01, 17:51:45.0697 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
-2022.05.01, 17:51:45.0697 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.07, 11:16:59.0453 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:16:59.0479 UTC -> mySQL connection successfully established..
+2022.05.07, 11:17:11.0695 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:17:11.0714 UTC -> mySQL connection successfully established..
+2022.05.07, 11:17:33.0798 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:17:33.0813 UTC -> mySQL connection successfully established..
+2022.05.07, 11:23:33.0895 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:23:33.0909 UTC -> mySQL connection successfully established..
+2022.05.07, 11:23:38.0178 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:23:38.0195 UTC -> mySQL connection successfully established..
+2022.05.07, 11:24:07.0068 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:24:07.0086 UTC -> mySQL connection successfully established..
+2022.05.07, 11:24:47.0159 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:24:47.0171 UTC -> mySQL connection successfully established..
+2022.05.07, 11:25:35.0038 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:25:35.0049 UTC -> mySQL connection successfully established..
+2022.05.07, 11:26:05.0901 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:26:05.0912 UTC -> mySQL connection successfully established..
+2022.05.07, 11:26:19.0671 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:26:19.0685 UTC -> mySQL connection successfully established..
+2022.05.07, 11:26:29.0963 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:26:29.0976 UTC -> mySQL connection successfully established..
+2022.05.07, 11:27:08.0081 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:27:08.0096 UTC -> mySQL connection successfully established..
+2022.05.07, 11:27:19.0844 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:27:19.0854 UTC -> mySQL connection successfully established..
+2022.05.07, 11:27:36.0844 UTC -> /displayComments 400 Error , Failed due to incorrect body
+2022.05.07, 11:28:06.0877 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:28:06.0887 UTC -> mySQL connection successfully established..
+2022.05.07, 11:28:09.0879 UTC -> /displayComments 400 Error , Failed due to incorrect body
+2022.05.07, 11:28:33.0010 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:28:33.0026 UTC -> mySQL connection successfully established..
+2022.05.07, 11:28:35.0562 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.05.07, 11:28:35.0563 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'qid' in 'where clause'
+2022.05.07, 11:28:49.0495 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:28:49.0506 UTC -> mySQL connection successfully established..
+2022.05.07, 11:28:51.0188 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.05.07, 11:28:51.0188 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'qid' in 'where clause'
+2022.05.07, 11:30:47.0479 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:30:47.0496 UTC -> mySQL connection successfully established..
+2022.05.07, 11:31:01.0118 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:31:01.0129 UTC -> mySQL connection successfully established..
+2022.05.07, 11:31:11.0387 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:31:11.0400 UTC -> mySQL connection successfully established..
+2022.05.07, 11:31:17.0435 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:31:17.0446 UTC -> mySQL connection successfully established..
+2022.05.07, 11:32:04.0604 UTC -> ==== Node server started at port 3000 ====
+2022.05.07, 11:32:04.0621 UTC -> mySQL connection successfully established..
+2022.05.07, 11:32:10.0252 UTC -> /displayComments Successfully fetched comments
+2022.05.07, 11:32:57.0585 UTC -> values from client:
+2022.05.07, 11:32:57.0586 UTC -> f319dc7f76e52011,Ayush,2022-05-07 11:32:57,You did it right just change the version of Agular to 12 and it'll work good,
+2022.05.07, 11:32:57.0788 UTC -> values from client:
+2022.05.07, 11:32:57.0788 UTC -> 17ff1cd92f88ed1e,f319dc7f76e52011
+2022.05.07, 11:32:57.0996 UTC -> /postComment Successfully posted data in questionComments.
+2022.05.07, 11:33:00.0497 UTC -> /displayComments Successfully fetched comments
+2022.05.14, 10:57:32.0760 UTC -> ==== Node server started at port 3000 ====
+2022.05.14, 10:57:32.0809 UTC -> mySQL connection successfully established..
+2022.05.14, 10:59:07.0444 UTC -> values from client:
+2022.05.14, 10:59:07.0444 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
+2022.05.14, 10:59:08.0426 UTC -> /createUser Failure in trying to create user..!!
+2022.05.14, 10:59:08.0426 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
+2022.05.14, 10:59:32.0075 UTC -> values from client:
+2022.05.14, 10:59:32.0075 UTC -> ayush.b.1998@gmail.coms,Ayush Bhardwaj
+2022.05.14, 10:59:32.0512 UTC -> /createUser User created successfully
+2022.05.14, 10:59:37.0448 UTC -> values from client:
+2022.05.14, 10:59:37.0448 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
+2022.05.14, 10:59:37.0450 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
+2022.05.14, 10:59:37.0450 UTC -> /createUser Failure in trying to create user..!!
+2022.05.17, 15:51:58.0964 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 15:51:59.0002 UTC -> mySQL connection successfully established..
+2022.05.17, 16:27:35.0779 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:27:35.0806 UTC -> mySQL connection successfully established..
+2022.05.17, 16:27:48.0730 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:27:48.0745 UTC -> mySQL connection successfully established..
+2022.05.17, 16:27:54.0660 UTC -> values from client:
+2022.05.17, 16:27:54.0661 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj,pwd@123
+2022.05.17, 16:27:54.0784 UTC -> /createUser User created successfully
+2022.05.17, 16:35:57.0628 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:35:57.0640 UTC -> mySQL connection successfully established..
+2022.05.17, 16:36:07.0368 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:36:07.0381 UTC -> mySQL connection successfully established..
+2022.05.17, 16:36:15.0932 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:36:15.0946 UTC -> mySQL connection successfully established..
+2022.05.17, 16:36:30.0924 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:36:30.0936 UTC -> mySQL connection successfully established..
+2022.05.17, 16:43:12.0902 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:43:12.0921 UTC -> mySQL connection successfully established..
+2022.05.17, 16:53:06.0645 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 16:53:06.0670 UTC -> mySQL connection successfully established..
+2022.05.17, 16:56:39.0998 UTC -> values from client:
+2022.05.17, 16:56:39.0998 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj,pwd@123
+2022.05.17, 16:56:40.0327 UTC -> /createUser User created successfully
+2022.05.17, 17:00:09.0603 UTC -> values from client:
+2022.05.17, 17:00:09.0604 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com,pwd@123
+2022.05.17, 17:00:09.0871 UTC -> /createUser User created successfully
+2022.05.17, 17:00:25.0034 UTC -> values from client:
+2022.05.17, 17:00:25.0034 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com,pwd@123
+2022.05.17, 17:00:25.0060 UTC -> /createUser Failure in trying to create user..!!
+2022.05.17, 17:00:25.0060 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'Ayush Bhardwaj' for key 'users.PRIMARY'
+2022.05.17, 17:02:08.0022 UTC -> values from client:
+2022.05.17, 17:02:08.0022 UTC -> Rahul Bhardwaj,ayush.b.1998@gmail.com,pwd@123
+2022.05.17, 17:02:08.0343 UTC -> /createUser User created successfully
+2022.05.17, 17:03:33.0335 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:03:33.0335 UTC -> values from client:
+2022.05.17, 17:03:34.0099 UTC -> /createUser User created successfully
+2022.05.17, 17:03:47.0277 UTC -> values from client:
+2022.05.17, 17:03:47.0277 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:03:48.0538 UTC -> /createUser User created successfully
+2022.05.17, 17:04:03.0638 UTC -> values from client:
+2022.05.17, 17:04:03.0638 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:04:03.0641 UTC -> /createUser Failure in trying to create user..!!
+2022.05.17, 17:04:03.0641 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
+2022.05.17, 17:09:56.0691 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 17:09:56.0703 UTC -> mySQL connection successfully established..
+2022.05.17, 17:10:02.0754 UTC -> values from client:
+2022.05.17, 17:10:02.0755 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:10:03.0220 UTC -> /createUser User created successfully
+2022.05.17, 17:10:26.0566 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 17:10:26.0577 UTC -> mySQL connection successfully established..
+2022.05.17, 17:12:03.0814 UTC -> values from client:
+2022.05.17, 17:12:03.0814 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:12:04.0056 UTC -> /createUser User created successfully
+2022.05.17, 17:12:17.0562 UTC -> values from client:
+2022.05.17, 17:12:17.0562 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:12:17.0810 UTC -> /createUser User created successfully
+2022.05.17, 17:12:29.0274 UTC -> values from client:
+2022.05.17, 17:12:29.0275 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:12:29.0279 UTC -> /createUser Failure in trying to create user..!!
+2022.05.17, 17:12:29.0279 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
+2022.05.17, 17:13:44.0976 UTC -> values from client:
+2022.05.17, 17:13:44.0977 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:13:45.0038 UTC -> /createUser User created successfully
+2022.05.17, 17:15:25.0123 UTC -> ==== Node server started at port 3000 ====
+2022.05.17, 17:15:25.0139 UTC -> mySQL connection successfully established..
+2022.05.17, 17:15:35.0406 UTC -> values from client:
+2022.05.17, 17:15:35.0406 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
+2022.05.17, 17:15:36.0098 UTC -> /createUser User created successfully
+2022.05.17, 17:54:16.0429 UTC -> naman@tcs.com,naman,pwd
+2022.05.17, 17:54:16.0429 UTC -> values from client:
+2022.05.17, 17:54:16.0614 UTC -> /createUser User created successfully
+2022.05.17, 18:09:42.0042 UTC -> values from client:
+2022.05.17, 18:09:42.0043 UTC -> jeevan@gmail.com,jeevan,pwd
+2022.05.17, 18:09:42.0168 UTC -> /createUser User created successfully
+2022.05.17, 18:11:04.0928 UTC -> values from client:
+2022.05.17, 18:11:04.0928 UTC -> ankur@gmail.com,ankur,pwd
+2022.05.17, 18:11:05.0252 UTC -> /createUser User created successfully
+2022.05.17, 18:12:20.0881 UTC -> values from client:
+2022.05.17, 18:12:20.0881 UTC -> abc@gmail.com,abc,pwd
+2022.05.17, 18:12:21.0066 UTC -> /createUser User created successfully
+2022.05.17, 18:12:26.0976 UTC -> values from client:
+2022.05.17, 18:12:26.0976 UTC -> abc@gmail.com,abc,pwd
+2022.05.17, 18:12:26.0980 UTC -> /createUser Failure in trying to create user..!!
+2022.05.17, 18:12:26.0980 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'abc@gmail.com' for key 'users.PRIMARY'
+2022.05.17, 18:12:39.0520 UTC -> values from client:
+2022.05.17, 18:12:39.0521 UTC -> abca@gmail.com,abc,pwd
+2022.05.17, 18:12:39.0793 UTC -> /createUser User created successfully
