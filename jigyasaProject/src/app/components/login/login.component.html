@@ -1,0 +1,175 @@
+<div class="container">
+  <div class="screen">
+    <div class="screen__content">
+      <div class="switch-login-signup d-flex justify-content-around">
+        <div
+          id="loginTab"
+          class="login-tab tabs active-login"
+          (click)="switchTabs('loginTab')"
+        >
+          Login
+        </div>
+        <div
+          id="signupTab"
+          class="signup-tab tabs"
+          (click)="switchTabs('signupTab')"
+        >
+          Signup
+        </div>
+      </div>
+      <!-- login tab -->
+      <div *ngIf="signinTab">
+        <form class="login">
+          <div class="login__field">
+            <i class="login__icon fas fa-user"></i>
+            <input type="text" class="login__input" placeholder="Email" />
+          </div>
+          <div class="login__field">
+            <i class="login__icon fas fa-lock"></i>
+            <input
+              type="password"
+              class="login__input"
+              placeholder="Password"
+            />
+          </div>
+          <button class="button login__submit">
+            <span class="button__text">Log In Now</span>
+            <i class="button__icon fas fa-chevron-right"></i>
+          </button>
+        </form>
+        <div class="social-login d-flex justify-content-center">
+          <h3>log in via</h3>
+        </div>
+        <div class="google-signin d-flex justify-content-center">
+          <div
+            class="google-back"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Login with Google"
+          >
+            <img src="assets/images/google.png" alt="google-logo" />
+          </div>
+        </div>
+      </div>
+      <!-- signup tab -->
+      <div *ngIf="!signinTab">
+        <form *ngIf="!signinTab" class="login" [formGroup]="signUpForm">
+          <div class="pd-b">
+            <small id="emptyFields" class="form-error"
+              >Empty fields not allowed</small
+            >
+            <i class="login__icon fas fa-user"></i>
+            <label for="uname">Name</label>
+            <input
+              id="uname"
+              type="text"
+              class="login__input"
+              formControlName="username"
+            />
+          </div>
+          <div class="pd-b">
+            <i class="login__icon fas fa-user"></i>
+            <label for="emailSignup">Email</label>
+            <input
+              id="emailSignup"
+              type="text"
+              class="login__input"
+              formControlName="email"
+            />
+          </div>
+          <div class="pd-b">
+            <small id="pwdMismatch" class="form-error">Password Mismatch</small>
+            <i class="login__icon fas fa-lock"></i>
+            <label for="pwd1">Password</label>
+            <input
+              id="pwd1"
+              type="password"
+              class="login__input"
+              formControlName="password"
+            />
+          </div>
+          <div class="pd-b">
+            <i class="login__icon fas fa-lock"></i>
+            <label for="pwd2">Confirm Password</label>
+            <input
+              id="pwd2"
+              type="password"
+              class="login__input"
+              formControlName="confirmPassword"
+            />
+          </div>
+          <button class="button login__submit" (click)="signup()">
+            <span class="button__text">Signup</span>
+            <i class="button__icon fas fa-chevron-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="screen__background">
+      <span class="screen__background__shape screen__background__shape4"></span>
+      <span class="screen__background__shape screen__background__shape3"></span>
+      <span class="screen__background__shape screen__background__shape2"></span>
+      <span class="screen__background__shape screen__background__shape1"></span>
+    </div>
+  </div>
+</div>
+
+<!-- modal for successfull signup  -->
+
+<!-- Button trigger modal -->
+<button
+  id="openSignupSuccessModal"
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+  class="display-none"
+>
+  Launch signup success modal
+</button>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button
+        id="closeSignupSuccessModal"
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+        class="display-none"
+      ></button>
+
+      <div class="modal-body">Signup Succesfully</div>
+      <div>
+        <div>
+          <svg
+            class="checkmark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 52 52"
+          >
+            <circle
+              class="checkmark__circle"
+              cx="26"
+              cy="26"
+              r="25"
+              fill="none"
+            />
+            <path
+              class="checkmark__check"
+              fill="none"
+              d="M14.1 27.2l7.1 7.2 16.7-16.8"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
