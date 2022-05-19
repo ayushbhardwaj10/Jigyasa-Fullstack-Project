@@ -75,8 +75,12 @@ export class LoginComponent implements OnInit {
         this.switchTabs('loginTab');
       },
       (error) => {
-        console.log('Signup response failure :');
-        console.log(error);
+        if (error.status == 500) {
+          document.getElementById('openSignupFailedModal')?.click();
+          setTimeout(() => {
+            document.getElementById('closeSignupFailureModal')?.click();
+          }, 4000);
+        }
       }
     );
   }

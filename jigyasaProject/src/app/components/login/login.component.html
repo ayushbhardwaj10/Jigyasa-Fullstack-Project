@@ -116,7 +116,6 @@
 
 <!-- modal for successfull signup  -->
 
-<!-- Button trigger modal -->
 <button
   id="openSignupSuccessModal"
   type="button"
@@ -128,7 +127,6 @@
   Launch signup success modal
 </button>
 
-<!-- Modal -->
 <div
   class="modal fade"
   id="exampleModal"
@@ -169,6 +167,50 @@
             />
           </svg>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for signup user exists -->
+<button
+  id="openSignupFailedModal"
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#SignupFailedModal"
+  class="display-none"
+>
+  Launch signup Failed modal
+</button>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="SignupFailedModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button
+        id="closeSignupFailureModal"
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+        class="display-none"
+      ></button>
+      <div class="d-flex justify-content-center">
+        <img
+          id="userExist"
+          src="assets/images/user-exists.jpg"
+          alt="user exists img"
+        />
+      </div>
+      <div class="modal-body sign-up-exists">
+        User already exists, Kindly Login
       </div>
     </div>
   </div>

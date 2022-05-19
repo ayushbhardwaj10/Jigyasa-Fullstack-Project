@@ -25,9 +25,7 @@ export class DatabaseConnectionService {
       );
     }
     // Return an observable with a user-facing error message.
-    return throwError(
-      () => new Error('Something bad happened; please try again later.')
-    );
+    return throwError(error);
   }
 
   createUser(_email: any, _userName: any, _password: any) {

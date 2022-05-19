@@ -235,6 +235,13 @@ label {
   font-size: 1.5rem;
   font-weight: 600;
 }
+#userExist {
+  width: 50%;
+}
+.sign-up-exists {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 .checkmark {
   width: 56px;
   height: 56px;
