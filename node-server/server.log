@@ -1,156 +1,220 @@
-2022.05.07, 11:16:59.0453 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:16:59.0479 UTC -> mySQL connection successfully established..
-2022.05.07, 11:17:11.0695 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:17:11.0714 UTC -> mySQL connection successfully established..
-2022.05.07, 11:17:33.0798 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:17:33.0813 UTC -> mySQL connection successfully established..
-2022.05.07, 11:23:33.0895 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:23:33.0909 UTC -> mySQL connection successfully established..
-2022.05.07, 11:23:38.0178 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:23:38.0195 UTC -> mySQL connection successfully established..
-2022.05.07, 11:24:07.0068 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:24:07.0086 UTC -> mySQL connection successfully established..
-2022.05.07, 11:24:47.0159 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:24:47.0171 UTC -> mySQL connection successfully established..
-2022.05.07, 11:25:35.0038 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:25:35.0049 UTC -> mySQL connection successfully established..
-2022.05.07, 11:26:05.0901 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:26:05.0912 UTC -> mySQL connection successfully established..
-2022.05.07, 11:26:19.0671 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:26:19.0685 UTC -> mySQL connection successfully established..
-2022.05.07, 11:26:29.0963 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:26:29.0976 UTC -> mySQL connection successfully established..
-2022.05.07, 11:27:08.0081 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:27:08.0096 UTC -> mySQL connection successfully established..
-2022.05.07, 11:27:19.0844 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:27:19.0854 UTC -> mySQL connection successfully established..
-2022.05.07, 11:27:36.0844 UTC -> /displayComments 400 Error , Failed due to incorrect body
-2022.05.07, 11:28:06.0877 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:28:06.0887 UTC -> mySQL connection successfully established..
-2022.05.07, 11:28:09.0879 UTC -> /displayComments 400 Error , Failed due to incorrect body
-2022.05.07, 11:28:33.0010 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:28:33.0026 UTC -> mySQL connection successfully established..
-2022.05.07, 11:28:35.0562 UTC -> /displayComments Failure in trying to fetch comments..!!
-2022.05.07, 11:28:35.0563 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'qid' in 'where clause'
-2022.05.07, 11:28:49.0495 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:28:49.0506 UTC -> mySQL connection successfully established..
-2022.05.07, 11:28:51.0188 UTC -> /displayComments Failure in trying to fetch comments..!!
-2022.05.07, 11:28:51.0188 UTC -> Error: ER_BAD_FIELD_ERROR: Unknown column 'qid' in 'where clause'
-2022.05.07, 11:30:47.0479 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:30:47.0496 UTC -> mySQL connection successfully established..
-2022.05.07, 11:31:01.0118 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:31:01.0129 UTC -> mySQL connection successfully established..
-2022.05.07, 11:31:11.0387 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:31:11.0400 UTC -> mySQL connection successfully established..
-2022.05.07, 11:31:17.0435 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:31:17.0446 UTC -> mySQL connection successfully established..
-2022.05.07, 11:32:04.0604 UTC -> ==== Node server started at port 3000 ====
-2022.05.07, 11:32:04.0621 UTC -> mySQL connection successfully established..
-2022.05.07, 11:32:10.0252 UTC -> /displayComments Successfully fetched comments
-2022.05.07, 11:32:57.0585 UTC -> values from client:
-2022.05.07, 11:32:57.0586 UTC -> f319dc7f76e52011,Ayush,2022-05-07 11:32:57,You did it right just change the version of Agular to 12 and it'll work good,
-2022.05.07, 11:32:57.0788 UTC -> values from client:
-2022.05.07, 11:32:57.0788 UTC -> 17ff1cd92f88ed1e,f319dc7f76e52011
-2022.05.07, 11:32:57.0996 UTC -> /postComment Successfully posted data in questionComments.
-2022.05.07, 11:33:00.0497 UTC -> /displayComments Successfully fetched comments
-2022.05.14, 10:57:32.0760 UTC -> ==== Node server started at port 3000 ====
-2022.05.14, 10:57:32.0809 UTC -> mySQL connection successfully established..
-2022.05.14, 10:59:07.0444 UTC -> values from client:
-2022.05.14, 10:59:07.0444 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.05.14, 10:59:08.0426 UTC -> /createUser Failure in trying to create user..!!
-2022.05.14, 10:59:08.0426 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.05.14, 10:59:32.0075 UTC -> values from client:
-2022.05.14, 10:59:32.0075 UTC -> ayush.b.1998@gmail.coms,Ayush Bhardwaj
-2022.05.14, 10:59:32.0512 UTC -> /createUser User created successfully
-2022.05.14, 10:59:37.0448 UTC -> values from client:
-2022.05.14, 10:59:37.0448 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj
-2022.05.14, 10:59:37.0450 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.05.14, 10:59:37.0450 UTC -> /createUser Failure in trying to create user..!!
-2022.05.17, 15:51:58.0964 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 15:51:59.0002 UTC -> mySQL connection successfully established..
-2022.05.17, 16:27:35.0779 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:27:35.0806 UTC -> mySQL connection successfully established..
-2022.05.17, 16:27:48.0730 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:27:48.0745 UTC -> mySQL connection successfully established..
-2022.05.17, 16:27:54.0660 UTC -> values from client:
-2022.05.17, 16:27:54.0661 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj,pwd@123
-2022.05.17, 16:27:54.0784 UTC -> /createUser User created successfully
-2022.05.17, 16:35:57.0628 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:35:57.0640 UTC -> mySQL connection successfully established..
-2022.05.17, 16:36:07.0368 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:36:07.0381 UTC -> mySQL connection successfully established..
-2022.05.17, 16:36:15.0932 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:36:15.0946 UTC -> mySQL connection successfully established..
-2022.05.17, 16:36:30.0924 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:36:30.0936 UTC -> mySQL connection successfully established..
-2022.05.17, 16:43:12.0902 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:43:12.0921 UTC -> mySQL connection successfully established..
-2022.05.17, 16:53:06.0645 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 16:53:06.0670 UTC -> mySQL connection successfully established..
-2022.05.17, 16:56:39.0998 UTC -> values from client:
-2022.05.17, 16:56:39.0998 UTC -> ayush.b.1998@gmail.com,Ayush Bhardwaj,pwd@123
-2022.05.17, 16:56:40.0327 UTC -> /createUser User created successfully
-2022.05.17, 17:00:09.0603 UTC -> values from client:
-2022.05.17, 17:00:09.0604 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com,pwd@123
-2022.05.17, 17:00:09.0871 UTC -> /createUser User created successfully
-2022.05.17, 17:00:25.0034 UTC -> values from client:
-2022.05.17, 17:00:25.0034 UTC -> Ayush Bhardwaj,ayush.b.1998@gmail.com,pwd@123
-2022.05.17, 17:00:25.0060 UTC -> /createUser Failure in trying to create user..!!
-2022.05.17, 17:00:25.0060 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'Ayush Bhardwaj' for key 'users.PRIMARY'
-2022.05.17, 17:02:08.0022 UTC -> values from client:
-2022.05.17, 17:02:08.0022 UTC -> Rahul Bhardwaj,ayush.b.1998@gmail.com,pwd@123
-2022.05.17, 17:02:08.0343 UTC -> /createUser User created successfully
-2022.05.17, 17:03:33.0335 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:03:33.0335 UTC -> values from client:
-2022.05.17, 17:03:34.0099 UTC -> /createUser User created successfully
-2022.05.17, 17:03:47.0277 UTC -> values from client:
-2022.05.17, 17:03:47.0277 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:03:48.0538 UTC -> /createUser User created successfully
-2022.05.17, 17:04:03.0638 UTC -> values from client:
-2022.05.17, 17:04:03.0638 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:04:03.0641 UTC -> /createUser Failure in trying to create user..!!
-2022.05.17, 17:04:03.0641 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.05.17, 17:09:56.0691 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 17:09:56.0703 UTC -> mySQL connection successfully established..
-2022.05.17, 17:10:02.0754 UTC -> values from client:
-2022.05.17, 17:10:02.0755 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:10:03.0220 UTC -> /createUser User created successfully
-2022.05.17, 17:10:26.0566 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 17:10:26.0577 UTC -> mySQL connection successfully established..
-2022.05.17, 17:12:03.0814 UTC -> values from client:
-2022.05.17, 17:12:03.0814 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:12:04.0056 UTC -> /createUser User created successfully
-2022.05.17, 17:12:17.0562 UTC -> values from client:
-2022.05.17, 17:12:17.0562 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:12:17.0810 UTC -> /createUser User created successfully
-2022.05.17, 17:12:29.0274 UTC -> values from client:
-2022.05.17, 17:12:29.0275 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:12:29.0279 UTC -> /createUser Failure in trying to create user..!!
-2022.05.17, 17:12:29.0279 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'ayush.b.1998@gmail.com' for key 'users.PRIMARY'
-2022.05.17, 17:13:44.0976 UTC -> values from client:
-2022.05.17, 17:13:44.0977 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:13:45.0038 UTC -> /createUser User created successfully
-2022.05.17, 17:15:25.0123 UTC -> ==== Node server started at port 3000 ====
-2022.05.17, 17:15:25.0139 UTC -> mySQL connection successfully established..
-2022.05.17, 17:15:35.0406 UTC -> values from client:
-2022.05.17, 17:15:35.0406 UTC -> ayush.b.1998@gmail.com,Rahul Bhardwaj,pwd@123
-2022.05.17, 17:15:36.0098 UTC -> /createUser User created successfully
-2022.05.17, 17:54:16.0429 UTC -> naman@tcs.com,naman,pwd
-2022.05.17, 17:54:16.0429 UTC -> values from client:
-2022.05.17, 17:54:16.0614 UTC -> /createUser User created successfully
-2022.05.17, 18:09:42.0042 UTC -> values from client:
-2022.05.17, 18:09:42.0043 UTC -> jeevan@gmail.com,jeevan,pwd
-2022.05.17, 18:09:42.0168 UTC -> /createUser User created successfully
-2022.05.17, 18:11:04.0928 UTC -> values from client:
-2022.05.17, 18:11:04.0928 UTC -> ankur@gmail.com,ankur,pwd
-2022.05.17, 18:11:05.0252 UTC -> /createUser User created successfully
-2022.05.17, 18:12:20.0881 UTC -> values from client:
-2022.05.17, 18:12:20.0881 UTC -> abc@gmail.com,abc,pwd
-2022.05.17, 18:12:21.0066 UTC -> /createUser User created successfully
-2022.05.17, 18:12:26.0976 UTC -> values from client:
-2022.05.17, 18:12:26.0976 UTC -> abc@gmail.com,abc,pwd
-2022.05.17, 18:12:26.0980 UTC -> /createUser Failure in trying to create user..!!
-2022.05.17, 18:12:26.0980 UTC -> Error: ER_DUP_ENTRY: Duplicate entry 'abc@gmail.com' for key 'users.PRIMARY'
-2022.05.17, 18:12:39.0520 UTC -> values from client:
-2022.05.17, 18:12:39.0521 UTC -> abca@gmail.com,abc,pwd
-2022.05.17, 18:12:39.0793 UTC -> /createUser User created successfully
+2022.05.20, 13:19:50.0327 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:19:50.0338 UTC -> mySQL connection successfully established..
+2022.05.20, 13:19:55.0287 UTC -> values from client:
+2022.05.20, 13:19:55.0289 UTC -> inside flag ==0
+2022.05.20, 13:19:55.0287 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:19:55.0289 UTC -> values from client:
+2022.05.20, 13:19:55.0290 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:22.0524 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:23:22.0537 UTC -> mySQL connection successfully established..
+2022.05.20, 13:23:25.0759 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:23:25.0770 UTC -> mySQL connection successfully established..
+2022.05.20, 13:23:27.0845 UTC -> values from client:
+2022.05.20, 13:23:27.0846 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:27.0851 UTC -> /loginUser email not found
+2022.05.20, 13:23:31.0157 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:31.0159 UTC -> /loginUser email not found
+2022.05.20, 13:23:31.0157 UTC -> values from client:
+2022.05.20, 13:23:32.0005 UTC -> values from client:
+2022.05.20, 13:23:32.0006 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:32.0007 UTC -> /loginUser email not found
+2022.05.20, 13:23:32.0714 UTC -> values from client:
+2022.05.20, 13:23:32.0714 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:32.0715 UTC -> /loginUser email not found
+2022.05.20, 13:23:33.0495 UTC -> values from client:
+2022.05.20, 13:23:33.0495 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:33.0496 UTC -> /loginUser email not found
+2022.05.20, 13:23:34.0135 UTC -> values from client:
+2022.05.20, 13:23:34.0135 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:34.0136 UTC -> /loginUser email not found
+2022.05.20, 13:23:35.0218 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:35.0218 UTC -> values from client:
+2022.05.20, 13:23:35.0220 UTC -> /loginUser email not found
+2022.05.20, 13:23:35.0991 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:35.0991 UTC -> values from client:
+2022.05.20, 13:23:35.0993 UTC -> /loginUser email not found
+2022.05.20, 13:23:38.0296 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:38.0295 UTC -> values from client:
+2022.05.20, 13:23:38.0297 UTC -> /loginUser email not found
+2022.05.20, 13:23:38.0898 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:23:38.0898 UTC -> values from client:
+2022.05.20, 13:23:38.0900 UTC -> /loginUser email not found
+2022.05.20, 13:23:46.0763 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:23:46.0776 UTC -> mySQL connection successfully established..
+2022.05.20, 13:24:02.0340 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:24:02.0355 UTC -> mySQL connection successfully established..
+2022.05.20, 13:24:06.0607 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:24:06.0625 UTC -> mySQL connection successfully established..
+2022.05.20, 13:24:11.0022 UTC -> values from client:
+2022.05.20, 13:24:11.0024 UTC -> values from client:
+2022.05.20, 13:24:11.0022 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:24:11.0024 UTC -> inside flag ==0
+2022.05.20, 13:24:11.0024 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:24:35.0621 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:24:35.0633 UTC -> mySQL connection successfully established..
+2022.05.20, 13:24:42.0545 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:24:42.0558 UTC -> mySQL connection successfully established..
+2022.05.20, 13:24:47.0120 UTC -> values from client:
+2022.05.20, 13:24:47.0120 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:24:47.0122 UTC -> values from client:
+2022.05.20, 13:24:47.0122 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:24:47.0122 UTC -> inside flag ==0
+2022.05.20, 13:25:34.0328 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:25:34.0343 UTC -> mySQL connection successfully established..
+2022.05.20, 13:25:36.0250 UTC -> values from client:
+2022.05.20, 13:25:36.0250 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:25:36.0252 UTC -> inside flag ==0
+2022.05.20, 13:25:36.0252 UTC -> values from client:
+2022.05.20, 13:25:36.0252 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:25:40.0536 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:25:40.0549 UTC -> mySQL connection successfully established..
+2022.05.20, 13:25:42.0586 UTC -> values from client:
+2022.05.20, 13:25:42.0588 UTC -> values from client:
+2022.05.20, 13:25:42.0586 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:25:42.0588 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:25:42.0588 UTC -> inside flag ==0
+2022.05.20, 13:26:04.0516 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:26:04.0530 UTC -> mySQL connection successfully established..
+2022.05.20, 13:26:06.0643 UTC -> values from client:
+2022.05.20, 13:26:06.0644 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:26:06.0647 UTC -> /loginUser email not found
+2022.05.20, 13:26:06.0647 UTC -> flag is set to 1
+2022.05.20, 13:26:08.0096 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:26:08.0096 UTC -> values from client:
+2022.05.20, 13:26:08.0098 UTC -> flag is set to 1
+2022.05.20, 13:26:08.0098 UTC -> /loginUser email not found
+2022.05.20, 13:26:09.0042 UTC -> values from client:
+2022.05.20, 13:26:09.0042 UTC -> 1ayush.b.1998@gmail.com
+2022.05.20, 13:26:09.0044 UTC -> /loginUser email not found
+2022.05.20, 13:26:09.0044 UTC -> flag is set to 1
+2022.05.20, 13:26:13.0321 UTC -> values from client:
+2022.05.20, 13:26:13.0321 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:27:45.0605 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:27:45.0621 UTC -> mySQL connection successfully established..
+2022.05.20, 13:27:53.0179 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:27:53.0192 UTC -> mySQL connection successfully established..
+2022.05.20, 13:28:36.0016 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:28:36.0039 UTC -> mySQL connection successfully established..
+2022.05.20, 13:28:58.0688 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:28:58.0700 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:10.0344 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:10.0356 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:22.0726 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:22.0737 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:30.0357 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:30.0369 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:33.0151 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:33.0163 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:35.0514 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:35.0526 UTC -> mySQL connection successfully established..
+2022.05.20, 13:29:41.0379 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:29:41.0390 UTC -> mySQL connection successfully established..
+2022.05.20, 13:30:15.0729 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:30:15.0743 UTC -> mySQL connection successfully established..
+2022.05.20, 13:30:22.0314 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:30:22.0327 UTC -> mySQL connection successfully established..
+2022.05.20, 13:30:56.0867 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:30:56.0898 UTC -> mySQL connection successfully established..
+2022.05.20, 13:30:59.0245 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:30:59.0260 UTC -> mySQL connection successfully established..
+2022.05.20, 13:31:02.0750 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:31:02.0761 UTC -> mySQL connection successfully established..
+2022.05.20, 13:31:56.0232 UTC -> values from client:
+2022.05.20, 13:31:56.0233 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:31:56.0237 UTC -> /isEmailExist email found and returned
+2022.05.20, 13:31:58.0404 UTC -> values from client:
+2022.05.20, 13:31:58.0405 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:31:58.0406 UTC -> /isEmailExist email found and returned
+2022.05.20, 13:32:00.0182 UTC -> values from client:
+2022.05.20, 13:32:00.0182 UTC -> ayush.b.199s8@gmail.com
+2022.05.20, 13:32:00.0184 UTC -> /isEmailExist email not found
+2022.05.20, 13:32:01.0264 UTC -> values from client:
+2022.05.20, 13:32:01.0264 UTC -> ayush.b.199s8@gmail.com
+2022.05.20, 13:32:01.0265 UTC -> /isEmailExist email not found
+2022.05.20, 13:32:02.0140 UTC -> values from client:
+2022.05.20, 13:32:02.0140 UTC -> ayush.b.199s8@gmail.com
+2022.05.20, 13:32:02.0142 UTC -> /isEmailExist email not found
+2022.05.20, 13:32:02.0820 UTC -> ayush.b.199s8@gmail.com
+2022.05.20, 13:32:02.0819 UTC -> values from client:
+2022.05.20, 13:32:02.0821 UTC -> /isEmailExist email not found
+2022.05.20, 13:32:04.0620 UTC -> ayush.b.1a99s8@gmail.com
+2022.05.20, 13:32:04.0620 UTC -> values from client:
+2022.05.20, 13:32:04.0621 UTC -> /isEmailExist email not found
+2022.05.20, 13:33:13.0124 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:33:13.0139 UTC -> mySQL connection successfully established..
+2022.05.20, 13:33:16.0407 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:33:16.0418 UTC -> mySQL connection successfully established..
+2022.05.20, 13:33:29.0739 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:33:29.0770 UTC -> mySQL connection successfully established..
+2022.05.20, 13:33:36.0342 UTC -> values from client:
+2022.05.20, 13:33:36.0342 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:33:36.0347 UTC -> /loginUser User Logged in successfully
+2022.05.20, 13:33:56.0106 UTC -> values from client:
+2022.05.20, 13:33:56.0106 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:33:56.0136 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:00.0204 UTC -> values from client:
+2022.05.20, 13:34:00.0205 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:00.0217 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:01.0244 UTC -> values from client:
+2022.05.20, 13:34:01.0244 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:01.0246 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:02.0076 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:02.0087 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:02.0076 UTC -> values from client:
+2022.05.20, 13:34:11.0208 UTC -> values from client:
+2022.05.20, 13:34:11.0208 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:11.0209 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:12.0142 UTC -> values from client:
+2022.05.20, 13:34:12.0142 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:12.0207 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:12.0846 UTC -> values from client:
+2022.05.20, 13:34:12.0846 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:12.0892 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:13.0685 UTC -> values from client:
+2022.05.20, 13:34:13.0685 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:13.0687 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:14.0397 UTC -> values from client:
+2022.05.20, 13:34:14.0398 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:14.0407 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:15.0079 UTC -> values from client:
+2022.05.20, 13:34:15.0079 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:15.0081 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:26.0111 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:26.0111 UTC -> values from client:
+2022.05.20, 13:34:26.0113 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:28.0619 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:28.0619 UTC -> values from client:
+2022.05.20, 13:34:28.0651 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:29.0452 UTC -> values from client:
+2022.05.20, 13:34:29.0452 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:29.0453 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:30.0356 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:30.0356 UTC -> values from client:
+2022.05.20, 13:34:30.0358 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:34.0581 UTC -> values from client:
+2022.05.20, 13:34:34.0581 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:34.0592 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:34:38.0838 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:34:38.0838 UTC -> values from client:
+2022.05.20, 13:34:38.0840 UTC -> /loginUser User Logged in successfully
+2022.05.20, 13:35:00.0164 UTC -> ayush.b.1998@gmaail.com
+2022.05.20, 13:35:00.0164 UTC -> values from client:
+2022.05.20, 13:35:10.0512 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:35:10.0523 UTC -> mySQL connection successfully established..
+2022.05.20, 13:35:16.0995 UTC -> values from client:
+2022.05.20, 13:35:16.0996 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:35:17.0003 UTC -> /loginUser User Logged in successfully
+2022.05.20, 13:35:19.0847 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:35:19.0847 UTC -> values from client:
+2022.05.20, 13:35:19.0850 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:35:21.0092 UTC -> values from client:
+2022.05.20, 13:35:21.0093 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:35:21.0103 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:35:21.0838 UTC -> values from client:
+2022.05.20, 13:35:21.0838 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:35:21.0846 UTC -> /loginUser User Login failed. Password incorrect
+2022.05.20, 13:35:24.0480 UTC -> values from client:
+2022.05.20, 13:35:24.0480 UTC -> ayush.b.1998@gmail.com
+2022.05.20, 13:35:24.0483 UTC -> /loginUser User Logged in successfully
+2022.05.20, 13:35:40.0048 UTC -> ==== Node server started at port 3000 ====
+2022.05.20, 13:35:40.0060 UTC -> mySQL connection successfully established..

@@ -33,7 +33,6 @@ sql.connection.connect((err) => {
 });
 
 //defining the API routes
-
 app.post("/createUser", (req, res) => {
   let body = req.body;
   if (
@@ -59,6 +58,85 @@ app.post("/createUser", (req, res) => {
     } else {
       log("/createUser User created successfully", loggerFile);
       res.status(200).send();
+    }
+  });
+});
+
+app.post("/isEmailExist", (req, res) => {
+  let body = req.body;
+  if (body.emailID == "" || body.emailID == undefined) {
+    log(
+      "/isEmailExist 400 Error , Failed due to incorrect emailID",
+      loggerFile
+    );
+    res.status(400).send("Failed due to incorrect emailID");
+  }
+
+  //Initial checking if empID exists on DB
+  let values1 = [[body.emailID]];
+  log("values from client:", loggerFile);
+  log(values1, loggerFile);
+  let query1 = "Select userName from users where emailID = ?";
+
+  sql.connection.query(query1, [values1], (err, rows, fields) => {
+    if (err) {
+      log(
+        "/isEmailExist Failure in trying to fetch user userName from database",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying Login");
+    } else {
+      if (rows.length == 0) {
+        log("/isEmailExist email not found", loggerFile);
+        res.status(500).send("email not found");
+      } else {
+        log("/isEmailExist email found and returned", loggerFile);
+        res.status(200).send();
+      }
+    }
+  });
+});
+
+app.post("/loginUser", (req, res) => {
+  let body = req.body;
+  if (
+    body.emailID == "" ||
+    body.emailID == undefined ||
+    body.password == "" ||
+    body.password == undefined
+  ) {
+    log(
+      "/loginUser 400 Error , Failed due to incorrect credentials",
+      loggerFile
+    );
+    res.status(400).send("Failed due to incorrect credentials");
+  }
+  let values = [[body.emailID]];
+  log("values from client:", loggerFile);
+  log(values, loggerFile);
+  let query = "Select * from users where emailID = ?";
+
+  sql.connection.query(query, [values], (err, rows, fields) => {
+    if (err) {
+      log(
+        "/loginUser Failure in trying to fetch user credentials from database",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying Login");
+    } else {
+      console.log("user data :");
+
+      //passwormatch
+      let fetchedRow = rows[0];
+      if (fetchedRow.password == body.password) {
+        log("/loginUser User Logged in successfully", loggerFile);
+        res.status(200).send();
+      } else {
+        log("/loginUser User Login failed. Password incorrect", loggerFile);
+        res.status(401).send();
+      }
     }
   });
 });
@@ -336,6 +414,7 @@ app.get("/displayComments", (req, res) => {
     });
   }
 });
+
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
 //sql.connection.end();
 
