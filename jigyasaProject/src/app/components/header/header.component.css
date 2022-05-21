@@ -10,9 +10,23 @@
   transition: 0.4s;
   margin-top: 14px;
 }
+.right-content {
+  padding-right: 1rem;
+}
+.userName {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+  color: #08b9bb;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+.logout-btn {
+  margin-top: 1.3rem;
+}
 .login-btn {
   padding-top: 1.3rem;
 }
+
 .login-btn > button {
   border: none;
   background: #0fccce;
@@ -69,5 +83,8 @@
   }
   .search-form > img {
     display: none;
+  }
+  .userName {
+    margin-right: 1rem;
   }
 }

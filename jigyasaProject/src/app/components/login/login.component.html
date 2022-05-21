@@ -19,10 +19,24 @@
       </div>
       <!-- login tab -->
       <div *ngIf="signinTab">
-        <form class="login">
+        <form class="login" [formGroup]="loginForm">
           <div class="login__field">
             <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="Email" />
+            <small id="loginEmptyMessage" class="form-error"
+              >Empty credentials not allowed</small
+            >
+            <small id="invalidCredentials" class="form-error"
+              >Invalid emailID</small
+            >
+            <small id="invalidPassword" class="form-error"
+              >Invalid password</small
+            >
+            <input
+              type="text"
+              class="login__input"
+              placeholder="Email"
+              formControlName="email"
+            />
           </div>
           <div class="login__field">
             <i class="login__icon fas fa-lock"></i>
@@ -30,9 +44,10 @@
               type="password"
               class="login__input"
               placeholder="Password"
+              formControlName="password"
             />
           </div>
-          <button class="button login__submit">
+          <button class="button login__submit" (click)="signin()">
             <span class="button__text">Log In Now</span>
             <i class="button__icon fas fa-chevron-right"></i>
           </button>

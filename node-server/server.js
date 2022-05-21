@@ -132,7 +132,7 @@ app.post("/loginUser", (req, res) => {
       let fetchedRow = rows[0];
       if (fetchedRow.password == body.password) {
         log("/loginUser User Logged in successfully", loggerFile);
-        res.status(200).send();
+        res.status(200).send(rows[0]);
       } else {
         log("/loginUser User Login failed. Password incorrect", loggerFile);
         res.status(401).send();

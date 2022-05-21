@@ -38,4 +38,21 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'createUser', requestBody)
       .pipe(catchError(this.handleError));
   }
+  emailExists(_email: any) {
+    let requestBody = {
+      emailID: _email,
+    };
+    return this.http
+      .post(this.baseURL + 'isEmailExist', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  validatepassword(_email: any, _password: any) {
+    let requestBody = {
+      emailID: _email,
+      password: _password,
+    };
+    return this.http
+      .post(this.baseURL + 'loginUser', requestBody)
+      .pipe(catchError(this.handleError));
+  }
 }

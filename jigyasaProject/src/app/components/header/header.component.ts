@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  constructor() {}
+  isLoggedin: Boolean = false;
+  userName: any = '';
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
+    if (sessionStorage.getItem('userName') != undefined) {
+      this.isLoggedin = true;
+      this.userName = sessionStorage.getItem('userName');
+    }
     //managing shrinking of header content on scroll
     window.onscroll = function () {
       scrollFunction();
@@ -54,5 +61,9 @@ export class HeaderComponent implements OnInit {
         }
       }
     }
+  }
+  logout() {
+    sessionStorage.clear();
+    this.router.navigate(['/']);
   }
 }
