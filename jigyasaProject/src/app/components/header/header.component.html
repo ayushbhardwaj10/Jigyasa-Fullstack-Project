@@ -29,10 +29,12 @@
       {{ userName }}
     </div>
     <div *ngIf="!isLoggedin" class="login-btn">
-      <button routerLink="/login">Login</button>
+      <button routerLink="/login" class="btn btn-outline-primary">Login</button>
     </div>
     <div *ngIf="isLoggedin">
-      <button class="btn btn-outline-danger logout-btn" (click)="logout()">Logout</button>
+      <button class="btn btn-outline-danger logout-btn" (click)="logout()">
+        Logout
+      </button>
     </div>
   </div>
 </div>

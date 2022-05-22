@@ -9,9 +9,15 @@
   font-size: 0.8rem;
   padding-left: 1vw;
 }
-/* .display-content {
+.display-content {
   white-space: pre-wrap;
-} */
+}
+.display-none {
+  display: none;
+}
+.display-error {
+  display: block;
+}
 
 .form-element {
   margin-bottom: 0.75rem;
@@ -42,6 +48,115 @@
   color: #fafafa;
   border: none;
 }
+.position-modal {
+  width: 50%;
+  margin: auto;
+}
+.modal-body-modifed {
+  position: relative;
+  margin: auto;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.modal-title-2 {
+  font-weight: 600;
+  margin: auto;
+}
+.modal-header-2 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+  background-color: #e34234;
+  color: white;
+}
+.bck-red {
+  background-color: #e34234;
+  border: none;
+}
+.bck-red:active {
+  border: none;
+}
+#emptyFieldsNotAllowedError {
+  color: red;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+/* tick mark animation  */
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0.5rem;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#userExist {
+  width: 50%;
+}
+.sign-up-exists {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 3% auto;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+}
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+.form-check {
+  font-size: 1.1rem;
+}
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+/* tick mark animation END */
 
 /* Media queries and Keyframes */
 @media only screen and (min-width: 576px) {
@@ -53,5 +168,9 @@
 @media only screen and (max-width: 1000px) {
   small.small-msg {
     padding-left: 0;
+  }
+  .position-modal {
+    width: 93%;
+    margin: auto;
   }
 }

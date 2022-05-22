@@ -55,4 +55,26 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'loginUser', requestBody)
       .pipe(catchError(this.handleError));
   }
+  postQuestion(
+    _author: any,
+    _title: any,
+    _description_: any,
+    _sampleCode: any
+  ) {
+    let requestBody = {
+      author: _author,
+      title: _title,
+      description_: _description_,
+      sampleCode: _sampleCode,
+      tags: ['deep-l', 'nlp', 'high-performance'],
+    };
+    return this.http
+      .post(this.baseURL + 'postQuestion', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  fetchAllQuestions() {
+    return this.http
+      .get(this.baseURL + 'displayAllQuestions')
+      .pipe(catchError(this.handleError));
+  }
 }

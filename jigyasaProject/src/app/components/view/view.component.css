@@ -109,6 +109,9 @@ hr {
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
+.post-question {
+  padding-top: 4rem;
+}
 .tag-selection-bar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.4s;
@@ -167,5 +170,9 @@ label {
   .user-information {
     padding-right: 0;
     font-size: 0.8rem;
+  }
+  .post-question {
+    padding-top: 1rem;
+    display: block !important;
   }
 }

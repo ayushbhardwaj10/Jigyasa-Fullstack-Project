@@ -205,7 +205,7 @@ app.post("/postQuestion", (req, res) => {
         }
         if (flag == 0) {
           log("/postQuestion Question posted successfully", loggerFile);
-          res.status(200).send("Question posted successfully");
+          res.status(200).send();
         }
       }
     });
