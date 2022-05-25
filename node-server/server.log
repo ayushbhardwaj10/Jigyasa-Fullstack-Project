@@ -873,3 +873,157 @@ import dill
     </appender>
 2022.05.25, 07:25:00.0340 UTC -> /postQuestion Question posted successfully
 2022.05.25, 07:25:00.0462 UTC -> /postQuestion Successful insert in table questionTags
+2022.05.25, 07:27:24.0685 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 07:27:24.0696 UTC -> mySQL connection successfully established..
+2022.05.25, 07:27:44.0737 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 07:27:44.0749 UTC -> mySQL connection successfully established..
+2022.05.25, 10:09:47.0807 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:09:47.0880 UTC -> mySQL connection successfully established..
+2022.05.25, 10:10:00.0428 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:10:00.0443 UTC -> mySQL connection successfully established..
+2022.05.25, 10:11:01.0700 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:11:01.0721 UTC -> mySQL connection successfully established..
+2022.05.25, 10:11:26.0528 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:11:26.0556 UTC -> mySQL connection successfully established..
+2022.05.25, 10:11:31.0780 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:11:31.0792 UTC -> mySQL connection successfully established..
+2022.05.25, 10:11:34.0430 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:11:34.0442 UTC -> mySQL connection successfully established..
+2022.05.25, 10:11:50.0072 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:11:50.0083 UTC -> mySQL connection successfully established..
+2022.05.25, 10:12:46.0796 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:12:46.0837 UTC -> mySQL connection successfully established..
+2022.05.25, 10:12:47.0687 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:12:47.0705 UTC -> mySQL connection successfully established..
+2022.05.25, 10:12:52.0143 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:12:52.0173 UTC -> mySQL connection successfully established..
+2022.05.25, 10:12:56.0849 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:12:56.0865 UTC -> mySQL connection successfully established..
+2022.05.25, 10:18:36.0029 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:18:36.0041 UTC -> mySQL connection successfully established..
+2022.05.25, 10:19:30.0934 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:19:30.0947 UTC -> mySQL connection successfully established..
+2022.05.25, 10:21:48.0243 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:21:48.0254 UTC -> mySQL connection successfully established..
+2022.05.25, 10:21:55.0324 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:21:55.0338 UTC -> mySQL connection successfully established..
+2022.05.25, 10:22:12.0849 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:22:12.0860 UTC -> mySQL connection successfully established..
+2022.05.25, 10:23:26.0272 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:23:26.0286 UTC -> mySQL connection successfully established..
+2022.05.25, 10:25:35.0862 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:25:35.0873 UTC -> mySQL connection successfully established..
+2022.05.25, 10:25:37.0510 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:25:37.0522 UTC -> mySQL connection successfully established..
+2022.05.25, 10:26:22.0391 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:26:22.0404 UTC -> mySQL connection successfully established..
+2022.05.25, 10:26:30.0572 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:26:30.0585 UTC -> mySQL connection successfully established..
+2022.05.25, 10:26:46.0452 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:26:46.0464 UTC -> mySQL connection successfully established..
+2022.05.25, 10:27:09.0444 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:27:09.0457 UTC -> mySQL connection successfully established..
+2022.05.25, 10:27:41.0525 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:27:41.0536 UTC -> mySQL connection successfully established..
+2022.05.25, 10:28:02.0745 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:28:02.0758 UTC -> mySQL connection successfully established..
+2022.05.25, 10:28:27.0935 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:28:27.0948 UTC -> mySQL connection successfully established..
+2022.05.25, 10:28:37.0829 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:28:37.0842 UTC -> mySQL connection successfully established..
+2022.05.25, 10:28:52.0690 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:28:52.0701 UTC -> mySQL connection successfully established..
+2022.05.25, 10:29:13.0202 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:29:13.0225 UTC -> mySQL connection successfully established..
+2022.05.25, 10:29:17.0152 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:29:17.0164 UTC -> mySQL connection successfully established..
+2022.05.25, 10:29:28.0044 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:29:28.0059 UTC -> mySQL connection successfully established..
+2022.05.25, 10:29:34.0249 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:29:34.0262 UTC -> mySQL connection successfully established..
+2022.05.25, 10:30:29.0575 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:30:29.0587 UTC -> mySQL connection successfully established..
+2022.05.25, 10:30:55.0948 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:30:55.0960 UTC -> mySQL connection successfully established..
+2022.05.25, 10:31:37.0095 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:31:37.0106 UTC -> mySQL connection successfully established..
+2022.05.25, 10:33:42.0070 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:33:42.0081 UTC -> mySQL connection successfully established..
+2022.05.25, 10:33:50.0542 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:33:50.0553 UTC -> mySQL connection successfully established..
+2022.05.25, 10:34:34.0423 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:34:34.0436 UTC -> mySQL connection successfully established..
+2022.05.25, 10:35:05.0578 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:35:05.0589 UTC -> mySQL connection successfully established..
+2022.05.25, 10:35:57.0119 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:35:57.0133 UTC -> mySQL connection successfully established..
+2022.05.25, 10:36:04.0302 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:36:04.0314 UTC -> mySQL connection successfully established..
+2022.05.25, 10:37:02.0048 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:37:02.0059 UTC -> mySQL connection successfully established..
+2022.05.25, 10:37:16.0755 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:37:16.0789 UTC -> mySQL connection successfully established..
+2022.05.25, 10:37:29.0742 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:37:29.0755 UTC -> mySQL connection successfully established..
+2022.05.25, 10:38:00.0301 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:38:00.0313 UTC -> mySQL connection successfully established..
+2022.05.25, 10:38:09.0787 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:38:09.0804 UTC -> mySQL connection successfully established..
+2022.05.25, 10:38:26.0116 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:38:26.0127 UTC -> mySQL connection successfully established..
+2022.05.25, 10:38:40.0088 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:38:40.0101 UTC -> mySQL connection successfully established..
+2022.05.25, 10:39:05.0392 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 10:39:05.0403 UTC -> mySQL connection successfully established..
+2022.05.25, 11:15:09.0234 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:15:09.0245 UTC -> mySQL connection successfully established..
+2022.05.25, 11:21:47.0099 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:21:47.0112 UTC -> mySQL connection successfully established..
+2022.05.25, 11:21:53.0952 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:21:53.0967 UTC -> mySQL connection successfully established..
+2022.05.25, 11:22:21.0649 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:22:21.0660 UTC -> mySQL connection successfully established..
+2022.05.25, 11:22:26.0515 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:22:26.0529 UTC -> mySQL connection successfully established..
+2022.05.25, 11:22:28.0822 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:22:28.0853 UTC -> mySQL connection successfully established..
+2022.05.25, 11:23:00.0778 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:23:00.0795 UTC -> mySQL connection successfully established..
+2022.05.25, 11:23:59.0030 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:23:59.0045 UTC -> mySQL connection successfully established..
+2022.05.25, 11:24:07.0696 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:24:07.0707 UTC -> mySQL connection successfully established..
+2022.05.25, 11:24:44.0121 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:24:44.0135 UTC -> mySQL connection successfully established..
+2022.05.25, 11:24:58.0843 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:24:58.0854 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:12.0480 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:12.0492 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:16.0351 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:16.0363 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:24.0844 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:24.0856 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:27.0196 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:27.0208 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:30.0404 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:30.0417 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:33.0210 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:33.0220 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:34.0921 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:25:34.0937 UTC -> mySQL connection successfully established..
+2022.05.25, 11:25:49.0500 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 11:25:49.0500 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 11:26:01.0639 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 11:26:01.0639 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 11:26:08.0843 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 11:26:08.0844 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 11:26:14.0146 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 11:26:14.0147 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 11:26:30.0138 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:26:30.0149 UTC -> mySQL connection successfully established..
+2022.05.25, 11:26:33.0765 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:26:33.0778 UTC -> mySQL connection successfully established..
+2022.05.25, 11:26:36.0833 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:26:36.0856 UTC -> mySQL connection successfully established..
+2022.05.25, 11:26:51.0810 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 11:26:51.0823 UTC -> mySQL connection successfully established..
