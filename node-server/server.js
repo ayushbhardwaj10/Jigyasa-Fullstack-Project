@@ -212,7 +212,6 @@ app.post("/postQuestion", (req, res) => {
   }
 });
 
-// Using 'Pagination' here along with 'Filters'
 app.get("/displayAllQuestions", (req, res) => {
   // Setting pagination limit
   let paginationLimit = 2;
@@ -273,11 +272,27 @@ app.get("/displayAllQuestions", (req, res) => {
                 }
               }
             }
+            let response = [];
             log(
-              "/displayAllQuestions Questions list sent successfully",
+              "/displayAllQuestions Questions list found successfully",
               loggerFile
             );
-            res.status(200).send(rows);
+            response.push(rows);
+            let questionCountQuery =
+              "select count(*) as totalQuestions from questions";
+            sql.connection.query(questionCountQuery, (err, rows, fields) => {
+              if (err) {
+                log(
+                  "/fetchQuestions Failure in trying to find count of rows in table 'questions'",
+                  loggerFile
+                );
+                log(err, loggerFile);
+                res.status(500).send("Failure");
+              } else {
+                response.push(rows[0]);
+                res.status(200).send(response);
+              }
+            });
           }
         });
       }
@@ -425,6 +440,49 @@ app.get("/displayComments", (req, res) => {
       }
     });
   }
+});
+
+// 'Pagination' using display questions
+app.get("/fetchQuestions", (req, res) => {
+  let paginationLimit = 5;
+
+  let params = req.query;
+  let pageNumber = params.pageNumber;
+  let recordOffset = (pageNumber - 1) * paginationLimit;
+
+  query = "SELECT * FROM questions LIMIT ? OFFSET ?";
+  let response = [];
+  sql.connection.query(
+    query,
+    [paginationLimit, recordOffset],
+    (err, rows, fields) => {
+      if (err) {
+        log(
+          "/fetchQuestions Failure in trying to return questions via pagination..!!",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure");
+      } else {
+        /* res.status(200).send(rows); */
+        response.push({ pages: rows });
+      }
+    }
+  );
+  let query2 = "select count(*) as totalQuestions from questions";
+  sql.connection.query(query2, (err, rows, fields) => {
+    if (err) {
+      log(
+        "/fetchQuestions Failure in trying to find count of rows in table 'questions'",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure");
+    } else {
+      response.push(rows[0]);
+      res.status(200).send(response);
+    }
+  });
 });
 
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
