@@ -46,7 +46,6 @@ export class PostQuestionComponent implements OnInit {
       this.postQuestionForm.value.desc == '' ||
       this.postQuestionForm.value.desc == undefined
     ) {
-      console.log('in');
       document
         .getElementById('emptyFieldsNotAllowedError')
         ?.classList.remove('display-none');
@@ -54,12 +53,21 @@ export class PostQuestionComponent implements OnInit {
       document
         .getElementById('emptyFieldsNotAllowedError')
         ?.classList.add('display-none');
+
+      let tagsList = [];
+      if (this.postQuestionForm.value.javaCheckbox) tagsList.push('Java');
+      if (this.postQuestionForm.value.pythonCheckbox) tagsList.push('Python');
+      if (this.postQuestionForm.value.mlCheckbox) tagsList.push('ML');
+      if (this.postQuestionForm.value.frontendCheckbox)
+        tagsList.push('Front-end');
+      if (this.postQuestionForm.value.othersCheckbox) tagsList.push('Others');
       this.dbAPI
         .postQuestion(
           sessionStorage.getItem('userName'),
           this.postQuestionForm.value.heading,
           this.postQuestionForm.value.desc,
-          this.postQuestionForm.value.sampleCode
+          this.postQuestionForm.value.sampleCode,
+          tagsList
         )
         .subscribe(
           (response) => {

@@ -59,14 +59,15 @@ export class DatabaseConnectionService {
     _author: any,
     _title: any,
     _description_: any,
-    _sampleCode: any
+    _sampleCode: any,
+    _tagList: any
   ) {
     let requestBody = {
       author: _author,
       title: _title,
       description_: _description_,
       sampleCode: _sampleCode,
-      tags: ['deep-l', 'nlp', 'high-performance'],
+      tags: _tagList,
     };
     return this.http
       .post(this.baseURL + 'postQuestion', requestBody)

@@ -415,6 +415,67 @@ app.get("/displayComments", (req, res) => {
   }
 });
 
+app.get("/fetchQuestions", (req, res) => {
+  let params = req.query;
+  let query = "";
+  if (params.filter == "newest")
+    query = "select * from questions order by postedOn desc";
+  else if (params.filter == "oldest")
+    query = "select * from questions order by postedOn";
+  else if (params.filter == "mostLiked")
+    query = "select * from questions order by votes desc";
+  //params.filter=="mostCommented"
+  else {
+    query = "select * from questions order by commentsCount desc";
+  }
+  sql.connection.query(query, (err, rows, fields) => {
+    if (err) {
+      log(
+        "/displayAllQuestions Failure in trying to display questions..!!",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying to display questions");
+    } else {
+      //merging the tags from different table 'questionTags'
+
+      let tagsQuery = "select * from questionTags";
+      sql.connection.query(tagsQuery, (err, rowTags, fields) => {
+        if (err) {
+          log(
+            "/displayAllQuestions Failure in trying to fetch tags from table 'questionTags' ..!!",
+            loggerFile
+          );
+          log(err, loggerFile);
+          res.status(500).send("Failure in trying to fetch tags");
+        } else {
+          //merging the tags from different table 'questionTags'
+          log(
+            "/displayAllQuestions Successfull fetch of tags from table 'questionTags'",
+            loggerFile
+          );
+          //res.status(200).send(rowsTags);
+
+          for (let i = 0; i < rowTags.length; i++) {
+            let qid = rowTags[i].qid;
+            for (let j = 0; j < rows.length; j++) {
+              if (rows[j].qid == qid) {
+                if (rows[j].tags == undefined) rows[j].tags = [];
+                rows[j].tags.push(rowTags[i].tag);
+              }
+            }
+          }
+          log(
+            "/displayAllQuestions Questions list sent successfully",
+            loggerFile
+          );
+          res.status(200).send(rows);
+        }
+      });
+    }
+  });
+});
+
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
 //sql.connection.end();
 
