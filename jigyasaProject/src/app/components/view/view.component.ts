@@ -9,20 +9,37 @@ import { DatabaseConnectionService } from 'src/app/services/database-connection.
 })
 export class ViewComponent implements OnInit {
   constructor(private dbAPI: DatabaseConnectionService) {}
+  questionFilters = 'newest';
+  pageNumber = 1;
 
   fetchedAllQuestions: any = [];
+  totalQuestions: any = 0;
+  paginationPageLimit: any = 5; //value set based on whats decided from backend
+  paginationTags: any = [];
 
   ngOnInit(): void {
-    this.dbAPI.fetchAllQuestions().subscribe(
-      (response) => {
-        this.fetchedAllQuestions = JSON.parse(JSON.stringify(response));
-        console.log('fetched questions list :');
-        console.log(this.fetchedAllQuestions);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
+    this.dbAPI
+      .displayQuestions(this.questionFilters, this.pageNumber)
+      .subscribe(
+        (response) => {
+          let res = JSON.parse(JSON.stringify(response));
+          this.fetchedAllQuestions = res[0];
+          this.totalQuestions = res[1].totalQuestions;
+          this.paginationTags = Array(
+            Math.ceil(this.totalQuestions / this.paginationPageLimit)
+          ).fill(0);
+
+          console.log('fetched questions list :');
+          console.log(this.fetchedAllQuestions);
+          console.log('total questions count :');
+          console.log(this.totalQuestions);
+
+          console.log('Pagination tabs count :' + this.paginationTags.length);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
   }
 
   ShowTagSelectionBar() {
@@ -45,5 +62,72 @@ export class ViewComponent implements OnInit {
       [index].classList.add('active-top-filter');
 
     //Fetching filtered api data
+  }
+
+  MoveToPage(currPage: any) {
+    this.pageNumber = currPage;
+    this.dbAPI
+      .displayQuestions(this.questionFilters, this.pageNumber)
+      .subscribe(
+        (response) => {
+          let res = JSON.parse(JSON.stringify(response));
+          this.fetchedAllQuestions = res[0];
+          this.totalQuestions = res[1].totalQuestions;
+          this.paginationTags = Array(
+            Math.ceil(this.totalQuestions / this.paginationPageLimit)
+          ).fill(0);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  }
+  nextPage() {
+    this.pageNumber = this.pageNumber + 1;
+
+    if (this.pageNumber > this.paginationTags.length) {
+      this.pageNumber = this.pageNumber - 1;
+      return;
+    }
+
+    this.dbAPI
+      .displayQuestions(this.questionFilters, this.pageNumber)
+      .subscribe(
+        (response) => {
+          let res = JSON.parse(JSON.stringify(response));
+          this.fetchedAllQuestions = res[0];
+          this.totalQuestions = res[1].totalQuestions;
+          this.paginationTags = Array(
+            Math.ceil(this.totalQuestions / this.paginationPageLimit)
+          ).fill(0);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  }
+  previousPage() {
+    this.pageNumber = this.pageNumber - 1;
+
+    if (this.pageNumber < 1) {
+      this.pageNumber = this.pageNumber + 1;
+      return;
+    }
+
+    this.dbAPI
+      .displayQuestions(this.questionFilters, this.pageNumber)
+      .subscribe(
+        (response) => {
+          let res = JSON.parse(JSON.stringify(response));
+          this.fetchedAllQuestions = res[0];
+          this.totalQuestions = res[1].totalQuestions;
+          this.paginationTags = Array(
+            Math.ceil(this.totalQuestions / this.paginationPageLimit)
+          ).fill(0);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
   }
 }

@@ -117,107 +117,35 @@
     </div>
   </div>
   <div class="questions-list">
-    <div class="question-section blue-background d-flex">
+    <div
+      *ngFor="let question of fetchedAllQuestions; let i = index"
+      class="question-section d-flex"
+      [ngClass]="{ 'blue-background': i % 2 == 0 }"
+    >
       <div class="left-data">
-        <div><span>10</span> Votes</div>
-        <div><span>5</span> Comments</div>
+        <div>
+          <span>{{ question.votes }}</span> Votes
+        </div>
+        <div>
+          <span>{{ question.commentsCount }}</span> Comments
+        </div>
       </div>
       <div class="right-data">
         <div class="question-title">
-          How to set line color of a particular fxml chart using css?
+          {{ question.title }}
         </div>
         <div class="tags-and-user-info">
           <div class="tags d-flex">
-            <div class="tag">Font-end</div>
-            <div class="tag">ML</div>
+            <div *ngFor="let tags of question.tags" class="tag">{{ tags }}</div>
+            <!-- <div class="tag">ML</div> -->
           </div>
           <div class="user-information">
-            <div>Ayush Bhardwaj</div>
-            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="question-section d-flex">
-      <div class="left-data">
-        <div><span>10</span> Votes</div>
-        <div><span>5</span> Comments</div>
-      </div>
-      <div class="right-data">
-        <div class="question-title">
-          How to set line color of a particular fxml chart using css?
-        </div>
-        <div class="tags-and-user-info">
-          <div class="tags d-flex">
-            <div class="tag">Font-end</div>
-            <div class="tag">ML</div>
-          </div>
-          <div class="user-information">
-            <div>Ayush Bhardwaj</div>
-            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="question-section blue-background d-flex">
-      <div class="left-data">
-        <div><span>10</span> Votes</div>
-        <div><span>5</span> Comments</div>
-      </div>
-      <div class="right-data">
-        <div class="question-title">
-          How to set line color of a particular fxml chart using css?
-        </div>
-        <div class="tags-and-user-info">
-          <div class="tags d-flex">
-            <div class="tag">Font-end</div>
-            <div class="tag">ML</div>
-          </div>
-          <div class="user-information">
-            <div>Ayush Bhardwaj</div>
-            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="question-section d-flex">
-      <div class="left-data">
-        <div><span>10</span> Votes</div>
-        <div><span>5</span> Comments</div>
-      </div>
-      <div class="right-data">
-        <div class="question-title">
-          How to set line color of a particular fxml chart using css?
-        </div>
-        <div class="tags-and-user-info">
-          <div class="tags d-flex">
-            <div class="tag">Font-end</div>
-            <div class="tag">ML</div>
-          </div>
-          <div class="user-information">
-            <div>Ayush Bhardwaj</div>
-            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="question-section blue-background d-flex">
-      <div class="left-data">
-        <div><span>10</span> Votes</div>
-        <div><span>5</span> Comments</div>
-      </div>
-      <div class="right-data">
-        <div class="question-title">
-          How to set line color of a particular fxml chart using css?
-        </div>
-        <div class="tags-and-user-info">
-          <div class="tags d-flex">
-            <div class="tag">Font-end</div>
-            <div class="tag">ML</div>
-          </div>
-          <div class="user-information">
-            <div>Ayush Bhardwaj</div>
-            <div class="date-posted">Posted on : 21 Feb 2022 16:40</div>
+            <div>{{ question.author }}</div>
+            <div class="date-posted">
+              {{
+                question.postedOn.toLocaleString() | date: "dd-MM-yyyy hh:mm:ss"
+              }}
+            </div>
           </div>
         </div>
       </div>
@@ -226,14 +154,30 @@
   <div class="pagination-tabs">
     <nav aria-label="Page navigation example">
       <ul class="pagination d-flex justify-content-center">
-        <li class="page-item">
-          <a class="page-link prev-pagination-btn" href="">Previous</a>
+        <li class="page-item pointer-cursor" (click)="previousPage()">
+          <a class="page-link prev-pagination-btn disabled-link" href=""
+            >Previous</a
+          >
         </li>
+
+        <!-- 
         <li class="page-item active"><a class="page-link" href="">1</a></li>
         <li class="page-item"><a class="page-link" href="">2</a></li>
         <li class="page-item"><a class="page-link" href="">3</a></li>
-        <li class="page-item">
-          <a class="page-link next-pagination-btn" href="">Next</a>
+        -->
+        <li
+          *ngFor="let pages of paginationTags; let j = index"
+          class="page-item pointer-cursor"
+          [ngClass]="{ active: j == pageNumber - 1 }"
+          (click)="MoveToPage(j + 1)"
+        >
+          <a class="page-link disabled-link">{{ j + 1 }}</a>
+        </li>
+
+        <li class="page-item pointer-cursor" (click)="nextPage()">
+          <a class="page-link next-pagination-btn disabled-link" disabled
+            >Next</a
+          >
         </li>
       </ul>
     </nav>

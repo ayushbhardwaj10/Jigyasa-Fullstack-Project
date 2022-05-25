@@ -128,6 +128,9 @@ hr {
 .display-block {
   display: block;
 }
+.pointer-cursor {
+  cursor: pointer;
+}
 label {
   color: #22292f;
   width: 100%;
@@ -151,6 +154,9 @@ label {
 }
 .next-pagination-btn:hover {
   background-color: #d8d8d8;
+}
+.disabled-link {
+  pointer-events: none;
 }
 /* media queries and keyFrames */
 

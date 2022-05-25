@@ -73,9 +73,13 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'postQuestion', requestBody)
       .pipe(catchError(this.handleError));
   }
-  fetchAllQuestions() {
+  displayQuestions(questionFilter: any, page: any) {
+    let parameters = {
+      filter: questionFilter,
+      pageNumber: page,
+    };
     return this.http
-      .get(this.baseURL + 'displayAllQuestions')
+      .get(this.baseURL + 'displayAllQuestions', { params: parameters })
       .pipe(catchError(this.handleError));
   }
 }
