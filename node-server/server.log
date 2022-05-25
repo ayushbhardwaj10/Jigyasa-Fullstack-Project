@@ -1650,3 +1650,81 @@ How to change my param in URL (ex. shop1 in URL) http://localhost:4200/#/shops/s
 2022.05.25, 13:11:38.0444 UTC -> /displayAllQuestions Questions list found successfully
 2022.05.25, 13:11:39.0315 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
 2022.05.25, 13:11:39.0315 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:03.0762 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:03.0761 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:04.0805 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:04.0805 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:05.0341 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:05.0341 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:05.0901 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:05.0901 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:06.0365 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:06.0365 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:06.0661 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:14:06.0661 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:07.0078 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:14:07.0078 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:16:21.0173 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:16:21.0174 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:17:00.0055 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:17:00.0055 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:17:56.0450 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:17:56.0463 UTC -> mySQL connection successfully established..
+2022.05.25, 13:18:09.0425 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:18:09.0440 UTC -> mySQL connection successfully established..
+2022.05.25, 13:18:14.0834 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:18:14.0845 UTC -> mySQL connection successfully established..
+2022.05.25, 13:18:19.0997 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:18:20.0010 UTC -> mySQL connection successfully established..
+2022.05.25, 13:18:25.0269 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:18:25.0270 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:18:27.0559 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:18:27.0559 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:18:29.0998 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:18:29.0998 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:18:31.0389 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:18:31.0389 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:18:31.0948 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:18:31.0949 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:19:02.0385 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:19:02.0399 UTC -> mySQL connection successfully established..
+2022.05.25, 13:19:44.0965 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:19:44.0977 UTC -> mySQL connection successfully established..
+2022.05.25, 13:20:08.0522 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:20:08.0535 UTC -> mySQL connection successfully established..
+2022.05.25, 13:20:30.0950 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:20:30.0950 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:21:27.0288 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:21:27.0288 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.25, 13:21:40.0412 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:21:40.0412 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:22:03.0428 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:22:03.0428 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:22:12.0747 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:22:12.0747 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:22:23.0096 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:22:23.0096 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:22:26.0672 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:22:26.0672 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:22:33.0181 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:22:33.0181 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:23:42.0866 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:23:42.0866 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:24:06.0151 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:24:06.0151 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:24:28.0006 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:24:28.0006 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:24:35.0334 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:24:35.0335 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:24:42.0025 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:24:42.0025 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:25:15.0251 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:25:15.0251 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:25:23.0458 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.05.25, 13:25:23.0458 UTC -> /displayAllQuestions Questions list sent successfully
+2022.05.25, 13:25:31.0805 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:25:31.0818 UTC -> mySQL connection successfully established..
+2022.05.25, 13:25:47.0039 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:25:47.0051 UTC -> mySQL connection successfully established..
+2022.05.25, 13:25:52.0424 UTC -> ==== Node server started at port 3000 ====
+2022.05.25, 13:25:52.0443 UTC -> mySQL connection successfully established..

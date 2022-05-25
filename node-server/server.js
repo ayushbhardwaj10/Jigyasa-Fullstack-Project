@@ -5,6 +5,9 @@ const sql = require("./connection");
 const util = require("./util");
 const log = require("log-to-file");
 
+// Setting pagination limit
+let paginationLimit = 5;
+
 var app = express();
 
 //using CORS
@@ -212,10 +215,8 @@ app.post("/postQuestion", (req, res) => {
   }
 });
 
+//with pagination
 app.get("/displayAllQuestions", (req, res) => {
-  // Setting pagination limit
-  let paginationLimit = 5;
-
   let params = req.query;
   let query = "";
   let pageNumber = params.pageNumber;
@@ -300,15 +301,20 @@ app.get("/displayAllQuestions", (req, res) => {
   );
 });
 
+//with pagination
 app.post("/filterByTags", (req, res) => {
+  let params = req.query;
+  let pageNumber = params.pageNumber;
+  let recordOffset = (pageNumber - 1) * paginationLimit;
+
   let body = req.body;
   let filterTag = body.filterTag;
 
   //let query =
   ("SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG = '${filterTag})' ");
   let query = mysql.format(
-    "SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?)) ",
-    [filterTag]
+    "SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?)) LIMIT ? OFFSET ? ",
+    [filterTag, paginationLimit, recordOffset]
   );
   sql.connection.query(query, (err, rows, fields) => {
     if (err) {
