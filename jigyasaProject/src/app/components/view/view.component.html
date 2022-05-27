@@ -21,28 +21,28 @@
       <button
         type="button"
         class="top-filter-tab btn btn-outline-primary rm-right-border-radius active-top-filter"
-        (click)="topFilterApply(0)"
+        (click)="topFilterApply(0, 'newest')"
       >
         Newest
       </button>
       <button
         type="button"
         class="top-filter-tab btn btn-outline-primary rm-right-border-radius rm-left-border-radius"
-        (click)="topFilterApply(1)"
+        (click)="topFilterApply(1, 'oldest')"
       >
         Oldest
       </button>
       <button
         type="button"
         class="top-filter-tab btn btn-outline-primary rm-right-border-radius rm-left-border-radius"
-        (click)="topFilterApply(2)"
+        (click)="topFilterApply(2, 'mostLiked')"
       >
         Most Liked
       </button>
       <button
         type="button"
         class="top-filter-tab btn btn-outline-primary rm-left-border-radius"
-        (click)="topFilterApply(3)"
+        (click)="topFilterApply(3, 'mostCommented')"
       >
         Most commented
       </button>
@@ -58,13 +58,15 @@
     <div class="tag-selection-bar">
       <div class="selection-bar-title">Select your Tags</div>
       <div>
-        <form class="tags-selections-checkboxes">
+        <form class="tags-selections-checkboxes" [formGroup]="tagSelectionForm">
           <div class="form-check">
             <input
               class="form-check-input"
               type="checkbox"
               value=""
               id="flexCheckDefault1"
+              formControlName="javaSelection"
+              (change)="tagSelection()"
             />
             <label class="form-check-label" for="flexCheckDefault1">
               JAVA
@@ -76,6 +78,8 @@
               type="checkbox"
               value=""
               id="flexCheckChecked2"
+              formControlName="pythonSelection"
+              (change)="tagSelection()"
             />
             <label class="form-check-label" for="flexCheckChecked2">
               Python
@@ -87,6 +91,8 @@
               type="checkbox"
               value=""
               id="flexCheckDefault3"
+              formControlName="MLSelection"
+              (change)="tagSelection()"
             />
             <label class="form-check-label" for="flexCheckDefault3"> ML </label>
           </div>
@@ -96,6 +102,8 @@
               type="checkbox"
               value=""
               id="flexCheckChecked4"
+              formControlName="frontEndSelection"
+              (change)="tagSelection()"
             />
             <label class="form-check-label" for="flexCheckChecked4">
               Front-End
@@ -107,6 +115,8 @@
               type="checkbox"
               value=""
               id="flexCheckDefault5"
+              formControlName="othersSelection"
+              (change)="tagSelection()"
             />
             <label class="form-check-label" for="flexCheckDefault5">
               Others

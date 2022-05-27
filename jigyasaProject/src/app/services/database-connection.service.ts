@@ -82,4 +82,15 @@ export class DatabaseConnectionService {
       .get(this.baseURL + 'displayAllQuestions', { params: parameters })
       .pipe(catchError(this.handleError));
   }
+  tagFilteredQuestions(page: any, tagList: any) {
+    let parameters = {
+      pageNumber: page,
+    };
+    let requestBody = {
+      filterTag: tagList,
+    };
+    return this.http
+      .post(this.baseURL + 'filterByTags', requestBody, { params: parameters })
+      .pipe(catchError(this.handleError));
+  }
 }

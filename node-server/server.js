@@ -215,7 +215,7 @@ app.post("/postQuestion", (req, res) => {
   }
 });
 
-//with pagination
+//with pagination. Filters =>'mostCommented','oldest','mostLiked','newest'
 app.get("/displayAllQuestions", (req, res) => {
   let params = req.query;
   let query = "";
@@ -301,7 +301,7 @@ app.get("/displayAllQuestions", (req, res) => {
   );
 });
 
-//with pagination
+//with pagination Filters => Java, Python, ML, Front-end, others
 app.post("/filterByTags", (req, res) => {
   let params = req.query;
   let pageNumber = params.pageNumber;
@@ -310,8 +310,6 @@ app.post("/filterByTags", (req, res) => {
   let body = req.body;
   let filterTag = body.filterTag;
 
-  //let query =
-  ("SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG = '${filterTag})' ");
   let query = mysql.format(
     "SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?)) LIMIT ? OFFSET ? ",
     [filterTag, paginationLimit, recordOffset]
@@ -335,6 +333,7 @@ app.post("/filterByTags", (req, res) => {
           log(err, loggerFile);
           res.status(500).send("Failure in trying to fetch tags");
         } else {
+          let response = [];
           //merging the tags from different table 'questionTags'
           log(
             "/filterByTags Successfull fetch of tags from table 'questionTags'",
@@ -351,11 +350,29 @@ app.post("/filterByTags", (req, res) => {
               }
             }
           }
-          log(
-            "/displayAllQuestions Questions list sent successfully",
-            loggerFile
+          response.push(rows);
+
+          let query = mysql.format(
+            "SELECT COUNT(*) as totalQuestions FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?))",
+            [filterTag]
           );
-          res.status(200).send(rows);
+          sql.connection.query(query, (err, rowsQuestionsCount, fields) => {
+            if (err) {
+              log(
+                "/filterByTags Failure in trying to filter questions by tags..!!",
+                loggerFile
+              );
+              log(err, loggerFile);
+              res
+                .status(500)
+                .send("Failure in trying to filter questions by tags");
+            } else {
+              response.push(rowsQuestionsCount);
+              log("/filterByTags Questions list sent successfully", loggerFile);
+              console.log(response);
+              res.status(200).send(response);
+            }
+          });
         }
       });
     }
