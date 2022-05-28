@@ -301,6 +301,59 @@ app.get("/displayAllQuestions", (req, res) => {
   );
 });
 
+app.get("/displaySpecificQuestion", (req, res) => {
+  let params = req.query;
+  let qid = params.qid;
+  if (qid == undefined || qid == "") {
+    log(
+      "/displaySpecificQuestion Failure due to empty qid parameter",
+      loggerFile
+    );
+    log(err, loggerFile);
+    res.status(400).send("Empty qid not accepted");
+  } else {
+    query = "select * from questions where qid = ?";
+    sql.connection.query(query, [qid], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/displaySpecificQuestion Failure in trying fetch specific question detials",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying to display questions");
+      } else {
+        let tagsQuery = "select * from questionTags";
+        sql.connection.query(tagsQuery, (err, rowTags, fields) => {
+          if (err) {
+            log(
+              "/displayAllQuestions Failure in trying to fetch tags from table 'questionTags' ..!!",
+              loggerFile
+            );
+            log(err, loggerFile);
+            res.status(500).send("Failure in trying to fetch tags");
+          } else {
+            rows = rows[0];
+            //merging the tags from different table 'questionTags'
+
+            let tags = [];
+            for (let i = 0; i < rowTags.length; i++) {
+              if (rowTags[i].qid == qid) {
+                tags.push(rowTags[i].tag);
+              }
+            }
+            log(
+              "/displaySpecificQuestion Successfull fetch of tags from table 'questionTags'",
+              loggerFile
+            );
+            rows.tags = tags;
+            res.status(200).send(rows);
+          }
+        });
+      }
+    });
+  }
+});
+
 //with pagination Filters => Java, Python, ML, Front-end, others
 app.post("/filterByTags", (req, res) => {
   let params = req.query;
