@@ -201,8 +201,8 @@ export class ViewComponent implements OnInit {
       }
     );
   }
-  navigateToQuestionPage(qid: any) {
+  navigateToQuestionPage(qid: any, title: any) {
     console.log('Question ID to navigate :' + qid);
-    this.router.navigate(['/question', qid]);
+    this.router.navigate(['/question', qid, title]);
   }
 }
