@@ -93,4 +93,12 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'filterByTags', requestBody, { params: parameters })
       .pipe(catchError(this.handleError));
   }
+  displaySpecificQuestion(qid: any) {
+    let parameters = {
+      qid: qid,
+    };
+    return this.http
+      .get(this.baseURL + 'displaySpecificQuestion', { params: parameters })
+      .pipe(catchError(this.handleError));
+  }
 }

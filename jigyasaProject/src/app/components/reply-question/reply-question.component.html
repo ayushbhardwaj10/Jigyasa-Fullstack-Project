@@ -2,15 +2,17 @@
 <div class="container">
   <div class="question-section">
     <div class="question-header">
-      <p id="questionHeading">How to use JQuery with Angular ?</p>
+      <p id="questionHeading">{{ questionData.title }}</p>
       <small class="date-head">Asked on :</small>
-      <small class="date-info">21 Feb 2022 16:40</small>
+      <small class="date-info">{{
+        questionData.postedOn.toLocaleString() | date: "dd-MM-yyyy hh:mm:ss"
+      }}</small>
     </div>
     <hr />
     <div class="question-description d-flex">
       <div class="vote-question d-flex flex-column align-items-center">
         <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
-        <p class="question-vote">24</p>
+        <p class="question-vote">{{ questionData.votes }}</p>
         <img
           class="downvote"
           src="assets/images/downvote.png"
@@ -20,16 +22,19 @@
       <div></div>
       <div class="question-details">
         <div class="question-desc">
-          I'm new to Angular and building my first sample app. Can anyone please
-          tell me, how to use jQuery with Angular? I'm aware there are
-          workarounds like manipulating the class or id of the DOM element
-          upfront, but I'm hoping for a cleaner way of doing it.
+          {{ questionData.description_ }}
         </div>
-        <div class="question-code" [innerHTML]="questionCode"></div>
+        <div
+          class="question-code display-content"
+          *ngIf="questionData.sampleCode != ''"
+        >
+          {{ questionData.sampleCode }}
+        </div>
         <div class="tags-and-userAvatar row justify-content-between">
           <div class="tags-details col-md-6 d-flex">
-            <div class="tag">Angular/React</div>
-            <div class="tag">Javascript</div>
+            <div class="tag" *ngFor="let tag of questionData.tags">
+              {{ tag }}
+            </div>
           </div>
           <div class="row col-md-6">
             <div class="user-avatar col-md-3">
@@ -41,7 +46,7 @@
             </div>
             <div class="avatar-info col-md-3">
               <div>
-                <p class="uname">John_Doe2177</p>
+                <p class="uname">{{ questionData.author }}</p>
                 <p class="author-tag">(Author)</p>
               </div>
             </div>

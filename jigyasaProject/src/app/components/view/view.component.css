@@ -125,6 +125,9 @@ hr {
 .filter-tags {
   cursor: pointer;
 }
+.display-content {
+  white-space: pre-wrap;
+}
 .display-block {
   display: block;
 }

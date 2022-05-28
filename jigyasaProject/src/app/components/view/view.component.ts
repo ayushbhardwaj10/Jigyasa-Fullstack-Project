@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import * as $ from 'jquery';
 import { DatabaseConnectionService } from 'src/app/services/database-connection.service';
 
@@ -9,7 +10,10 @@ import { DatabaseConnectionService } from 'src/app/services/database-connection.
   styleUrls: ['./view.component.css'],
 })
 export class ViewComponent implements OnInit {
-  constructor(private dbAPI: DatabaseConnectionService) {}
+  constructor(
+    private dbAPI: DatabaseConnectionService,
+    private router: Router
+  ) {}
   questionFilters = 'newest';
   pageNumber = 1;
 
@@ -196,5 +200,9 @@ export class ViewComponent implements OnInit {
         console.log(error);
       }
     );
+  }
+  navigateToQuestionPage(qid: any) {
+    console.log('Question ID to navigate :' + qid);
+    this.router.navigate(['/question', qid]);
   }
 }

@@ -141,7 +141,10 @@
         </div>
       </div>
       <div class="right-data">
-        <div class="question-title">
+        <div
+          class="question-title"
+          (click)="navigateToQuestionPage(question.qid)"
+        >
           {{ question.title }}
         </div>
         <div class="tags-and-user-info">
