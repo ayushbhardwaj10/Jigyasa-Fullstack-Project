@@ -480,7 +480,7 @@ app.post("/postComment", (req, res) => {
               "/postComment Successfully posted data in questionComments.",
               loggerFile
             );
-            res.status(200).send("Comment posted successfully");
+            res.status(200).send();
           }
         });
       }

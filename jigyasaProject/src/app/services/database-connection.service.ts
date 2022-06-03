@@ -101,4 +101,23 @@ export class DatabaseConnectionService {
       .get(this.baseURL + 'displaySpecificQuestion', { params: parameters })
       .pipe(catchError(this.handleError));
   }
+  displayComments(qid: any) {
+    let parameters = {
+      qid: qid,
+    };
+    return this.http
+      .get(this.baseURL + 'displayComments', { params: parameters })
+      .pipe(catchError(this.handleError));
+  }
+  postComment(qid: any, author: any, desc: any, code: any) {
+    let requestBody = {
+      qid: qid,
+      author: author,
+      description_: desc,
+      sampleCode: code,
+    };
+    return this.http
+      .post(this.baseURL + 'postComment', requestBody)
+      .pipe(catchError(this.handleError));
+  }
 }

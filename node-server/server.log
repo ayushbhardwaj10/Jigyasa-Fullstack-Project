@@ -806,3 +806,388 @@
 2022.05.28, 17:33:34.0534 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
 2022.05.28, 17:33:38.0961 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
 2022.05.28, 17:33:38.0961 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:20.0957 UTC -> values from client:
+2022.05.28, 17:38:20.0958 UTC -> ayush.b.1998@gmail.com
+2022.05.28, 17:38:20.0959 UTC -> /isEmailExist email found and returned
+2022.05.28, 17:38:20.0969 UTC -> ayush.b.1998@gmail.com
+2022.05.28, 17:38:20.0969 UTC -> values from client:
+2022.05.28, 17:38:20.0970 UTC -> /loginUser User Logged in successfully
+2022.05.28, 17:38:21.0016 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:21.0016 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:22.0893 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:31.0864 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:31.0864 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:33.0140 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:35.0400 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:35.0399 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:37.0303 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:37.0303 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:39.0016 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:40.0515 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:40.0516 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:41.0957 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:44.0495 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:44.0495 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:46.0487 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.05.28, 17:38:46.0487 UTC -> /displayAllQuestions Questions list found successfully
+2022.05.28, 17:38:50.0564 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:33:48.0529 UTC -> ==== Node server started at port 3000 ====
+2022.06.03, 01:33:48.0615 UTC -> mySQL connection successfully established..
+2022.06.03, 01:52:02.0553 UTC -> values from client:
+2022.06.03, 01:52:02.0553 UTC -> ayush.b.1998@gmail.com
+2022.06.03, 01:52:02.0956 UTC -> /isEmailExist email found and returned
+2022.06.03, 01:52:02.0981 UTC -> values from client:
+2022.06.03, 01:52:02.0981 UTC -> ayush.b.1998@gmail.com
+2022.06.03, 01:52:02.0985 UTC -> /loginUser User Logged in successfully
+2022.06.03, 01:52:03.0307 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:52:03.0308 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 01:52:08.0138 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 01:52:08.0137 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:52:08.0537 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:52:08.0537 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 01:52:09.0007 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:52:09.0007 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 01:52:10.0049 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:52:10.0049 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 01:52:18.0386 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:53:16.0734 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:53:41.0447 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:53:47.0443 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:53:53.0288 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:54:35.0839 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:55:05.0388 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:55:26.0985 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 01:58:30.0122 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 01:58:42.0013 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 01:59:31.0083 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:00:04.0739 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:00:22.0406 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:01:16.0227 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:02:01.0060 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:02:01.0101 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:03:48.0118 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:03:48.0212 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:04:04.0171 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:04:04.0173 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:04:14.0140 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:04:14.0140 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:04:38.0095 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:04:38.0150 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:05:55.0967 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:05:55.0972 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:06:06.0800 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:06:06.0803 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:08:02.0128 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:08:02.0130 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:08:14.0055 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:08:14.0074 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:08:17.0926 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:08:17.0930 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:11.0466 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:11.0469 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:14.0347 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:14.0351 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:29.0887 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:29.0903 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:39.0030 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:39.0034 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:46.0960 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:46.0968 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:09:52.0202 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:09:52.0207 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:10:37.0490 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:10:37.0493 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:11:24.0314 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:11:24.0319 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:12:25.0522 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:12:25.0526 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:13:26.0045 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:13:26.0047 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:13:42.0493 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:13:42.0496 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:13:49.0051 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:13:49.0053 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:14:21.0164 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:14:21.0173 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:14:36.0615 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:14:36.0617 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:05.0849 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:05.0852 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:15:27.0519 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:27.0523 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:15:31.0418 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:31.0423 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:15:33.0960 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:33.0963 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:15:58.0012 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:15:58.0014 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:16:16.0183 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:16:16.0447 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:16:19.0213 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:16:19.0221 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:17:07.0822 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:17:07.0822 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:17:09.0761 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:17:09.0764 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:21:09.0646 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:21:09.0651 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:21:23.0447 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:21:23.0452 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:21:53.0077 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:21:53.0080 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:16.0501 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:16.0503 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:22:26.0542 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:26.0545 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:22:44.0681 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:22:44.0684 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:50.0545 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:22:50.0550 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:53.0848 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:22:53.0850 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:23:04.0285 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:23:04.0288 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:23:12.0457 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:23:12.0459 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:23:53.0116 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:23:53.0118 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:23:55.0390 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:23:55.0393 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:26:05.0524 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:26:05.0529 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:26:29.0110 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:26:29.0112 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:26:36.0579 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:26:36.0582 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:26:54.0552 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:26:54.0554 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:27:21.0219 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:27:21.0222 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:27:32.0779 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:27:32.0781 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:28:20.0092 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:28:20.0094 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:28:25.0615 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:28:25.0617 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:28:43.0841 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:28:43.0842 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:29:24.0000 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:29:24.0004 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:29:47.0223 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:29:47.0226 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:31:02.0992 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:31:02.0994 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:31:09.0743 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:31:09.0754 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:31:32.0865 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:31:32.0869 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:31:38.0966 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:31:38.0968 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:32:05.0407 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:32:05.0408 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:33:40.0878 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:33:40.0880 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:34:19.0571 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:34:19.0573 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:34:46.0326 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:34:46.0328 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:34:59.0050 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:34:59.0052 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:35:09.0684 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:35:09.0686 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:35:43.0106 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:35:43.0108 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:35:59.0794 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:35:59.0796 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:36:07.0523 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:36:07.0524 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:36:16.0630 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:36:16.0634 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:36:31.0214 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:36:31.0216 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:36:52.0488 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:36:52.0492 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:38:56.0669 UTC -> 20371af564893223,Ayush Bhardwaj,2022-06-03 02:38:56,Kindly install the pyspark with the code : pip install pyspark,# Spark SQL
+pip install pyspark[sql]
+# pandas API on Spark
+pip install pyspark[pandas_on_spark] plotly  # to plot your data, you can install plotly together.
+
+#For PySpark with/without a specific Hadoop version, you can install it by using PYSPARK_HADOOP_VERSION environment variables as below:
+PYSPARK_HADOOP_VERSION=2.7 pip install pyspark
+
+Supported values in PYSPARK_HADOOP_VERSION are:
+
+- without: Spark pre-built with user-provided Apache Hadoop
+- 2.7: Spark pre-built for Apache Hadoop 2.7
+- 3.2: Spark pre-built for Apache Hadoop 3.2 and later (default)
+2022.06.03, 02:38:56.0669 UTC -> values from client:
+2022.06.03, 02:38:57.0037 UTC -> values from client:
+2022.06.03, 02:38:57.0038 UTC -> 49bf4a5ff8691612,20371af564893223
+2022.06.03, 02:38:57.0214 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 02:39:22.0116 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:39:22.0120 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:40:08.0727 UTC -> ==== Node server started at port 3000 ====
+2022.06.03, 02:40:08.0756 UTC -> mySQL connection successfully established..
+2022.06.03, 02:40:59.0677 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:40:59.0695 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:41:17.0447 UTC -> values from client:
+2022.06.03, 02:41:17.0447 UTC -> e168c06a56a12c98,Ayush Bhardwaj,2022-06-03 02:41:17,Try installing through conda,conda create -n pyspark_env
+conda activate pyspark_env
+2022.06.03, 02:41:17.0657 UTC -> values from client:
+2022.06.03, 02:41:17.0657 UTC -> 49bf4a5ff8691612,e168c06a56a12c98
+2022.06.03, 02:41:17.0795 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 02:41:47.0690 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:41:47.0693 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:42:18.0241 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:42:18.0249 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:43:18.0141 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:43:18.0144 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:44:19.0499 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:44:19.0520 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:44:35.0013 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:44:35.0014 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:44:41.0900 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:44:41.0906 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:45:23.0510 UTC -> values from client:
+2022.06.03, 02:45:23.0510 UTC -> ea1f8bdcb0456326,Ayush Bhardwaj,2022-06-03 02:45:23,Try using this code,        // import 
+        import { ActivatedRoute, Router } from "@angular/router";
+
+        // in your constructor
+        constructor(private route: ActivatedRoute,private router: Router) {}
+
+        // on changing the dropdown value
+        onDropdownChange(event: any) {
+        this.router.navigate(['../../', + event.shopId + '/dashboard'],{relativeTo: this.route});
+        }
+2022.06.03, 02:45:23.0649 UTC -> fd989e1b44d3d4bf,ea1f8bdcb0456326
+2022.06.03, 02:45:23.0648 UTC -> values from client:
+2022.06.03, 02:45:23.0904 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 02:45:54.0484 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:45:54.0537 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:46:51.0168 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:46:51.0171 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:46:56.0040 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:46:56.0045 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:47:07.0638 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:47:07.0645 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:47:30.0866 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:47:30.0868 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:55:43.0522 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:55:43.0526 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:56:07.0247 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:56:07.0264 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:56:26.0601 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:56:26.0604 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:57:24.0523 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:24.0528 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:57:27.0856 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:57:27.0856 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:29.0435 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:57:29.0437 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:31.0231 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:57:31.0231 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:36.0589 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 02:57:36.0591 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:40.0406 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:40.0406 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 02:57:42.0599 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 02:57:42.0605 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:00:04.0134 UTC -> values from client:
+2022.06.03, 03:00:04.0134 UTC -> 0fc9961a902b3d12,Ayush Bhardwaj,2022-06-03 03:00:04,You need to cancel your timer when alert appears. If you cant reference to it inside here:
+You can pass a variable like var shouldContinue = True somewhere before and switch it to false when button is clicked, onHomeButtonClick: () {
+   _showcontent();       // method for altert dailog box                                                                                     
+  },
+2022.06.03, 03:00:04.0254 UTC -> values from client:
+2022.06.03, 03:00:04.0254 UTC -> 0efcefaf58188f0a,0fc9961a902b3d12
+2022.06.03, 03:00:04.0399 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 03:00:37.0076 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:00:37.0078 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:01:17.0183 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:01:17.0186 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:01:34.0347 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:01:34.0352 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:01:49.0891 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:01:49.0893 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:13.0741 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:02:13.0744 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:24.0491 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:02:24.0521 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:29.0595 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:29.0595 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 03:02:31.0773 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 03:02:31.0773 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:34.0785 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:02:34.0790 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:03:33.0817 UTC -> values from client:
+2022.06.03, 03:03:33.0817 UTC -> 2ccbf494d746fb3c,Ayush Bhardwaj,2022-06-03 03:03:33,I was able to mask sensitive data by writing a custom implementation of ValueMasker
+
+Two components are required:
+
+A class that implements ValueMasker
+Declaring the jsonGeneratorDecorator in your logback.xml,import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.IntStream;
+
+public class SensitiveMaskingPatternLayout implements ValueMasker {
+    private Pattern multilinePattern = Pattern.compile("\\\"msg\\\"\\s*:\\s*\\\"(.*?)\\\"", Pattern.MULTILINE);;
+    private List<String> maskPatterns = new ArrayList<>();
+
+    private String maskMessage(String message) {
+
+        StringBuilder sb = new StringBuilder(message);
+        Matcher matcher = multilinePattern.matcher(sb);
+        while (matcher.find()) {
+            IntStream.rangeClosed(1, matcher.groupCount()).forEach(group -> {
+                if (matcher.group(group) != null) {
+                    IntStream.range(matcher.start(group), matcher.end(group)).forEach(i -> sb.setCharAt(i, 'x'));
+                }
+            });
+        }
+        return sb.toString();
+    }
+
+    @Override
+    public Object mask(JsonStreamContext context, Object value) {
+        if (value instanceof CharSequence) {
+            return maskMessage((String) value);
+        }
+        return value;
+    }
+}
+2022.06.03, 03:03:33.0910 UTC -> values from client:
+2022.06.03, 03:03:33.0910 UTC -> e3fc6a1365d27bcd,2ccbf494d746fb3c
+2022.06.03, 03:03:34.0030 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 03:04:27.0632 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:04:27.0647 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:07:57.0693 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:07:57.0693 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 03:07:59.0765 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:07:59.0765 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 03:08:01.0586 UTC -> /displayComments Successfully fetched comments
+2022.06.03, 03:08:01.0588 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:08:56.0003 UTC -> values from client:
+2022.06.03, 03:08:56.0003 UTC -> 9c54ed37f5cf8af0,Ayush Bhardwaj,2022-06-03 03:08:56,You can upload it to your Google drive:,from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+from google.colab import auth
+from oauth2client.client import GoogleCredentials
+
+# 1. Authenticate and create the PyDrive client.
+auth.authenticate_user()
+gauth = GoogleAuth()
+gauth.credentials = GoogleCredentials.get_application_default()
+drive = GoogleDrive(gauth)  
+
+# get the folder id where you want to save your file
+file = drive.CreateFile({'parents':[{u'id': folder_id}]})
+file.SetContentFile('data.pkl')
+file.Upload() 
+This code basically fetches the data.pkl from the cloud VM and upload it permanently to your Google Drive under a specific folder.
+
+If you choose not to specify a folder, the file will be uploaded under the root of your Google Drive.
+2022.06.03, 03:08:56.0229 UTC -> values from client:
+2022.06.03, 03:08:56.0229 UTC -> fbc32d822729701f,9c54ed37f5cf8af0
+2022.06.03, 03:08:56.0385 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.03, 03:09:11.0510 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.03, 03:09:11.0510 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'

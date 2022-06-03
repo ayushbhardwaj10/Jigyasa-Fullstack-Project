@@ -37,13 +37,13 @@
             </div>
           </div>
           <div class="row col-md-6">
-            <div class="user-avatar col-md-3">
+            <!--             <div class="user-avatar col-md-3">
               <img
                 class="avatar-img"
                 src="assets/images/user-avatar.png"
                 alt="user-profile-img"
               />
-            </div>
+            </div> -->
             <div class="avatar-info col-md-3">
               <div>
                 <p class="uname">{{ questionData.author }}</p>
@@ -56,12 +56,14 @@
     </div>
   </div>
   <div class="response-section">
-    <div id="answersHeading"><span>2&nbsp;</span>Answers</div>
+    <div id="answersHeading">
+      <span>{{ commentsList.length }}&nbsp;</span>Answers
+    </div>
     <hr />
-    <div class="answer d-flex">
+    <div *ngFor="let comment of commentsList" class="answer d-flex">
       <div class="vote-question d-flex flex-column align-items-center">
         <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
-        <p class="question-vote">10</p>
+        <p class="question-vote">{{ comment.votes }}</p>
         <img
           class="downvote"
           src="assets/images/downvote.png"
@@ -70,30 +72,30 @@
       </div>
       <div class="question-details">
         <div class="question-desc">
-          Use npm i jquery and this is important : npm i @types/jquery
-          angular.json
+          {{ comment.description_ }}
         </div>
-        <div class="question-code" [innerHTML]="answerCode1"></div>
+        <div class="question-code display-content">
+          {{ comment.sampleCode }}
+        </div>
+
         <div class="tags-and-userAvatar row justify-content-between">
           <div class="row col-md-6 justify-content-start">
-            <div class="user-avatar col-md-3">
-              <img
-                class="avatar-img"
-                src="assets/images/user-avatar3.jpg"
-                alt="user-profile-img"
-              />
-            </div>
             <div class="avatar-info col-md-3">
               <div>
-                <p class="uname">Adam_Smith_2121</p>
+                <p class="uname">{{ comment.author }}</p>
                 <p class="author-tag">(Author)</p>
               </div>
+            </div>
+            <div>
+              <small class="comment-postedOn">{{
+                comment.postedOn.toLocaleString() | date: "dd-MM-yyyy hh:mm:ss"
+              }}</small>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="answer d-flex answers-pd-top">
+    <!--     <div class="answer d-flex answers-pd-top">
       <div class="vote-question d-flex flex-column align-items-center">
         <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
         <p class="question-vote">-3</p>
@@ -111,13 +113,6 @@
         <div class="question-code" [innerHTML]="answerCode2"></div>
         <div class="tags-and-userAvatar row justify-content-between">
           <div class="row col-md-6">
-            <div class="user-avatar col-md-3">
-              <img
-                class="avatar-img"
-                src="assets/images/user-avatar4.jpg"
-                alt="user-profile-img"
-              />
-            </div>
             <div class="avatar-info col-md-3">
               <div>
                 <p class="uname">Katelyn_Foster0101</p>
@@ -127,7 +122,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="reply-section">
     <div
@@ -142,22 +137,94 @@
     </div>
     <hr />
     <div class="collapse reply-form" id="replyForm">
-      <form>
+      <form [formGroup]="postCommentForm">
         <label for="reply-description" class="form-label reply-label"
-          >Answer Description
+          >Comment Description
         </label>
         <textarea
           class="form-control"
           id="reply-description"
           rows="3"
+          formControlName="ansDescription"
         ></textarea>
         <label for="reply-code" class="form-label reply-label pd-t1"
           >Code</label
         >
-        <textarea class="form-control" id="reply-code" rows="10"></textarea>
-        <button type="button" class="btn btn-primary mg-t1">Submit</button>
+        <textarea
+          class="form-control"
+          id="reply-code"
+          rows="10"
+          formControlName="sampleCode"
+        ></textarea>
+
+        <small class="comment-desc-invalid"
+          >Comment Description cannot be empty</small
+        >
+        <button
+          type="button"
+          class="btn btn-primary mg-t1"
+          (click)="submitComment()"
+        >
+          Submit
+        </button>
       </form>
     </div>
   </div>
 </div>
 <app-footer></app-footer>
+
+<button
+  id="openCommentSuccessModal"
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+  class="display-none"
+>
+  Launch signup success modal
+</button>
+
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button
+        id="closeCommentSuccessModal"
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+        class="display-none"
+      ></button>
+
+      <div class="modal-body">Comment posted Succesfully</div>
+      <div>
+        <div>
+          <svg
+            class="checkmark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 52 52"
+          >
+            <circle
+              class="checkmark__circle"
+              cx="26"
+              cy="26"
+              r="25"
+              fill="none"
+            />
+            <path
+              class="checkmark__check"
+              fill="none"
+              d="M14.1 27.2l7.1 7.2 16.7-16.8"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
