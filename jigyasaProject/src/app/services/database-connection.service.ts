@@ -109,12 +109,13 @@ export class DatabaseConnectionService {
       .get(this.baseURL + 'displayComments', { params: parameters })
       .pipe(catchError(this.handleError));
   }
-  postComment(qid: any, author: any, desc: any, code: any) {
+  postComment(qid: any, author: any, desc: any, code: any, commentsCount: any) {
     let requestBody = {
       qid: qid,
       author: author,
       description_: desc,
       sampleCode: code,
+      commentsCount: commentsCount,
     };
     return this.http
       .post(this.baseURL + 'postComment', requestBody)

@@ -74,7 +74,7 @@
         <div class="question-desc">
           {{ comment.description_ }}
         </div>
-        <div class="question-code display-content">
+        <div *ngIf="comment.sampleCode" class="question-code display-content">
           {{ comment.sampleCode }}
         </div>
 

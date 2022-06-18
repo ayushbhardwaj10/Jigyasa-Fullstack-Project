@@ -364,7 +364,7 @@ app.post("/filterByTags", (req, res) => {
   let filterTag = body.filterTag;
 
   let query = mysql.format(
-    "SELECT * FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?)) LIMIT ? OFFSET ? ",
+    "SELECT * FROM QUESTIONS WHERE  QID IN (SELECT DISTINCT QID FROM QUESTIONTAGS WHERE TAG IN (?)) LIMIT ? OFFSET ? ",
     [filterTag, paginationLimit, recordOffset]
   );
   sql.connection.query(query, (err, rows, fields) => {
@@ -406,7 +406,7 @@ app.post("/filterByTags", (req, res) => {
           response.push(rows);
 
           let query = mysql.format(
-            "SELECT COUNT(*) as totalQuestions FROM QUESTIONS WHERE  QID IN (SELECT QID FROM QUESTIONTAGS WHERE TAG IN (?))",
+            "SELECT COUNT(*) as totalQuestions FROM QUESTIONS WHERE  QID IN (SELECT DISTINCT QID FROM QUESTIONTAGS WHERE TAG IN (?))",
             [filterTag]
           );
           sql.connection.query(query, (err, rowsQuestionsCount, fields) => {
@@ -420,6 +420,9 @@ app.post("/filterByTags", (req, res) => {
                 .status(500)
                 .send("Failure in trying to filter questions by tags");
             } else {
+              console.log(
+                "Question count :" + rowsQuestionsCount[0].totalQuestions
+              );
               response.push(rowsQuestionsCount);
               log("/filterByTags Questions list sent successfully", loggerFile);
               console.log(response);
@@ -434,6 +437,7 @@ app.post("/filterByTags", (req, res) => {
 
 app.post("/postComment", (req, res) => {
   let body = req.body;
+  let currentCount = body.commentsCount;
   if (body.author == undefined || body.description_ == undefined) {
     log("/postComment 400 Error , Failed due to incorrect body", loggerFile);
     res.status(400).send("Failed due to incorrect body");
@@ -480,7 +484,32 @@ app.post("/postComment", (req, res) => {
               "/postComment Successfully posted data in questionComments.",
               loggerFile
             );
-            res.status(200).send();
+
+            console.log("Comments count :");
+            console.log(currentCount);
+            console.log("QID :");
+            console.log(body.qid);
+
+            //Updating the comments count in questions table
+            let query = "UPDATE QUESTIONS SET commentsCount = ? WHERE qid = ?";
+
+            sql.connection.query(
+              query,
+              [currentCount, body.qid],
+              (err, rows, fields) => {
+                if (err) {
+                  log(
+                    "/postComment Failure in trying increment comments count in QUESTIONS table",
+                    loggerFile
+                  );
+                  log(err, loggerFile);
+                  res.status(500).send("Failure in trying to post comment");
+                } else {
+                  log("/postComment Comment Posted Successfully", loggerFile);
+                  res.status(200).send();
+                }
+              }
+            );
           }
         });
       }

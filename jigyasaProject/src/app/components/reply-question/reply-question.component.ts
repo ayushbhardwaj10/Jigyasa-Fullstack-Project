@@ -64,7 +64,8 @@ export class ReplyQuestionComponent implements OnInit {
           this.qid,
           sessionStorage.getItem('userName'),
           commentDesc,
-          sampleCode
+          sampleCode,
+          this.commentsList.length + 1
         )
         .subscribe(
           (response) => {

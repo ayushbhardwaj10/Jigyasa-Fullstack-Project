@@ -1191,3 +1191,643 @@ If you choose not to specify a folder, the file will be uploaded under the root 
 2022.06.03, 03:08:56.0385 UTC -> /postComment Successfully posted data in questionComments.
 2022.06.03, 03:09:11.0510 UTC -> /displayAllQuestions Questions list found successfully
 2022.06.03, 03:09:11.0510 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.03, 03:20:52.0717 UTC -> ==== Node server started at port 3000 ====
+2022.06.03, 03:20:52.0735 UTC -> mySQL connection successfully established..
+2022.06.18, 10:29:56.0647 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 10:29:56.0695 UTC -> mySQL connection successfully established..
+2022.06.18, 10:52:46.0480 UTC -> values from client:
+2022.06.18, 10:52:46.0481 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:52:47.0482 UTC -> values from client:
+2022.06.18, 10:52:47.0482 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:52:47.0556 UTC -> /isEmailExist email found and returned
+2022.06.18, 10:52:47.0558 UTC -> /isEmailExist email found and returned
+2022.06.18, 10:52:47.0576 UTC -> values from client:
+2022.06.18, 10:52:47.0574 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:52:47.0574 UTC -> values from client:
+2022.06.18, 10:52:47.0576 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:52:47.0705 UTC -> /loginUser User Login failed. Password incorrect
+2022.06.18, 10:52:47.0708 UTC -> /loginUser User Login failed. Password incorrect
+2022.06.18, 10:53:12.0208 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:53:12.0208 UTC -> values from client:
+2022.06.18, 10:53:12.0211 UTC -> /isEmailExist email found and returned
+2022.06.18, 10:53:12.0220 UTC -> values from client:
+2022.06.18, 10:53:12.0220 UTC -> ayush.b.1998@gmail.com
+2022.06.18, 10:53:12.0222 UTC -> /loginUser User Logged in successfully
+2022.06.18, 10:53:12.0486 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:53:12.0486 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:45.0618 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:45.0618 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:46.0010 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:46.0010 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:49.0226 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:49.0227 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:50.0715 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:50.0715 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:54.0029 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:54.0029 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:55.0060 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:55.0060 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:56.0884 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:56.0884 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:57.0172 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:57.0172 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:57.0555 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:54:57.0555 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:59.0798 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:54:59.0800 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:00.0820 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:00.0822 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:04.0575 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:04.0577 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:05.0070 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:05.0073 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:07.0629 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:07.0628 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:16.0187 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:16.0189 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:18.0024 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:18.0026 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:23.0373 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:23.0373 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:30.0562 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:30.0565 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:31.0695 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:31.0696 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:55:34.0136 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:34.0136 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:41.0323 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:41.0323 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:42.0340 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:42.0340 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:46.0355 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:46.0355 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:46.0810 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:46.0811 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:47.0843 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:47.0843 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:49.0700 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:49.0700 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:55:55.0003 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:55:55.0004 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:02.0601 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:02.0603 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:03.0123 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:03.0124 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:08.0040 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:08.0042 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:09.0084 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:09.0087 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:16.0282 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:16.0283 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:16.0755 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:16.0758 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:17.0844 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:17.0846 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:18.0375 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:18.0378 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:18.0748 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:18.0750 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:23.0877 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:23.0877 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:56:32.0012 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:32.0015 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:33.0302 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:33.0304 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:56:52.0069 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:56:52.0070 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:57:08.0123 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:57:08.0125 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:57:08.0528 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:57:08.0529 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:58:43.0491 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:58:43.0493 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:04.0487 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:04.0489 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:05.0828 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:05.0831 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:09.0154 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:09.0154 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 10:59:13.0151 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:13.0154 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:13.0589 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:13.0591 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:14.0260 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:14.0263 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:20.0378 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:20.0380 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:39.0373 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:39.0375 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 10:59:41.0181 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 10:59:41.0184 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:00:10.0542 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:00:10.0544 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:00:49.0224 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:00:49.0224 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:03:32.0850 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:03:32.0850 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:03:40.0334 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:03:40.0334 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:03:46.0434 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:03:46.0436 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:03:51.0342 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:03:51.0345 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:04:36.0366 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:04:36.0366 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:16:44.0203 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:16:44.0208 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:16:58.0814 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:16:58.0814 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:03.0652 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:03.0655 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:04.0113 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:04.0116 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:10.0762 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:10.0764 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:11.0407 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:11.0410 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:11.0752 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:11.0754 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:12.0048 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:12.0051 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:13.0837 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:17:13.0837 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:33.0135 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:33.0137 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:17:59.0027 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:17:59.0030 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:18:25.0618 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:18:25.0618 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:29.0928 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:29.0928 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:18:41.0390 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:41.0390 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:18:45.0260 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:45.0262 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:18:47.0280 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:47.0283 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:18:51.0049 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:18:51.0049 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:18:56.0980 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:18:56.0979 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:01.0953 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:01.0956 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:19:02.0303 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:02.0304 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:19:02.0841 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:02.0843 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:19:03.0184 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:03.0187 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:19:07.0952 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:07.0952 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:19:12.0077 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:19:12.0078 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:30:42.0012 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:30:42.0060 UTC -> mySQL connection successfully established..
+2022.06.18, 11:31:45.0016 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:31:45.0032 UTC -> mySQL connection successfully established..
+2022.06.18, 11:31:54.0923 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:31:54.0926 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:36:29.0852 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:36:29.0866 UTC -> mySQL connection successfully established..
+2022.06.18, 11:36:33.0037 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:36:33.0040 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:37:15.0519 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:37:15.0536 UTC -> mySQL connection successfully established..
+2022.06.18, 11:37:37.0378 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:37:37.0394 UTC -> mySQL connection successfully established..
+2022.06.18, 11:39:25.0791 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:39:25.0804 UTC -> mySQL connection successfully established..
+2022.06.18, 11:39:32.0107 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:39:32.0118 UTC -> mySQL connection successfully established..
+2022.06.18, 11:39:33.0072 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:39:33.0098 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:39:44.0166 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:39:44.0185 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:40:46.0783 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:40:46.0794 UTC -> mySQL connection successfully established..
+2022.06.18, 11:41:12.0549 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:41:12.0564 UTC -> mySQL connection successfully established..
+2022.06.18, 11:41:28.0589 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:41:28.0604 UTC -> mySQL connection successfully established..
+2022.06.18, 11:41:34.0113 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:41:34.0134 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:42:10.0646 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:42:10.0659 UTC -> mySQL connection successfully established..
+2022.06.18, 11:42:19.0458 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:42:19.0469 UTC -> mySQL connection successfully established..
+2022.06.18, 11:42:22.0380 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:42:22.0401 UTC -> mySQL connection successfully established..
+2022.06.18, 11:42:27.0451 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:42:27.0455 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:43:04.0750 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:43:04.0761 UTC -> mySQL connection successfully established..
+2022.06.18, 11:43:06.0887 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:43:06.0927 UTC -> mySQL connection successfully established..
+2022.06.18, 11:43:10.0251 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:43:10.0255 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:43:28.0697 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:43:28.0699 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:43:46.0694 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 11:43:46.0718 UTC -> mySQL connection successfully established..
+2022.06.18, 11:43:49.0328 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:43:49.0335 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:07.0424 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:07.0427 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:32.0077 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:32.0085 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:32.0431 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:32.0433 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:34.0928 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:34.0932 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:35.0248 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:35.0253 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:46:38.0440 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:46:38.0441 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:48:33.0293 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:48:33.0293 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:51:53.0535 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:51:53.0535 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:52:36.0676 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:52:36.0676 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:53:45.0036 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:53:45.0036 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:53:55.0427 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:53:55.0428 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:54:48.0536 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:54:48.0536 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:54:51.0141 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:54:51.0149 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:54:51.0678 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:54:51.0681 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:54:55.0522 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:54:55.0522 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:55:00.0635 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:55:00.0635 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:02.0674 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:02.0676 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:04.0156 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:04.0158 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:13.0510 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:13.0519 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:13.0877 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:13.0893 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:16.0460 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:16.0461 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:55:23.0325 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:23.0329 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:23.0534 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:23.0536 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:26.0240 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:26.0248 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:26.0853 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:26.0857 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:55:29.0667 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:55:29.0667 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:56:08.0121 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:56:08.0120 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:56:17.0831 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:56:17.0880 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:56:18.0198 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:56:18.0206 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:56:21.0553 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:56:21.0555 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:56:56.0807 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:56:56.0807 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:57:14.0015 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:57:14.0015 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:57:22.0353 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:57:22.0353 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:57:37.0616 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:57:37.0616 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:58:33.0443 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:58:33.0443 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:46.0658 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:46.0658 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:58:48.0504 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:48.0510 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:48.0891 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:48.0894 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:50.0815 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:50.0819 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:53.0436 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:53.0441 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:54.0878 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:54.0880 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:57.0339 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:57.0341 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:58.0858 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:58.0860 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:58:59.0829 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:58:59.0832 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:00.0142 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:00.0145 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:00.0773 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:00.0778 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:02.0610 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:02.0612 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:03.0747 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:03.0750 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:04.0571 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:04.0573 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:05.0150 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:05.0153 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:11.0937 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:11.0939 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:21.0127 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:21.0129 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:26.0405 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:26.0408 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:27.0488 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:27.0492 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:32.0038 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:32.0040 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:35.0269 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:35.0271 UTC -> /filterByTags Questions list sent successfully
+2022.06.18, 11:59:40.0915 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 11:59:40.0919 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:43.0066 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 11:59:43.0067 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 11:59:45.0246 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 11:59:45.0247 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:00:45.0661 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:00:45.0669 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:02:02.0054 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:02.0055 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:02:09.0444 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:02:09.0446 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:12.0798 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:12.0798 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:02:15.0976 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:15.0980 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:02:19.0319 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:19.0319 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:02:30.0813 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:02:30.0813 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:03:01.0866 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:03:01.0918 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:03:08.0850 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:03:08.0850 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:03:16.0585 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:03:16.0601 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:04:14.0970 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:14.0970 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:16.0065 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:16.0071 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:04:20.0268 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:20.0268 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:21.0897 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:21.0915 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:04:24.0091 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:24.0091 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:25.0820 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:25.0820 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:27.0897 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:27.0906 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:04:29.0672 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:29.0672 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:30.0873 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:30.0876 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:04:32.0544 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:32.0544 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:04:34.0185 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:04:34.0203 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:05:05.0605 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:05:05.0605 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:07:05.0015 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:07:05.0014 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:07:09.0179 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:07:09.0183 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:00.0246 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:14.0606 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:19.0916 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:19.0916 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:21.0186 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:21.0188 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:23.0035 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:23.0034 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:24.0881 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:24.0882 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:26.0501 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:26.0501 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:27.0571 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:27.0636 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:31.0315 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:31.0315 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:32.0480 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:32.0480 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:34.0829 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:34.0840 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:37.0151 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:37.0152 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:39.0647 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:39.0648 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:41.0778 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:41.0788 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:08:43.0882 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:43.0882 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:48.0376 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:08:48.0376 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:59.0956 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:08:59.0960 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:09:01.0311 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:09:01.0311 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:06.0351 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:09:06.0352 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:08.0310 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:08.0311 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:09:09.0627 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:09:09.0629 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:11.0250 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:11.0250 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:09:12.0226 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:09:12.0228 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:26.0202 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:09:26.0204 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:09:49.0446 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:12:42.0784 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:12:42.0795 UTC -> mySQL connection successfully established..
+2022.06.18, 12:13:31.0503 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:13:31.0521 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:14:04.0760 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:14:04.0764 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:15:09.0611 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:15:09.0623 UTC -> mySQL connection successfully established..
+2022.06.18, 12:15:14.0107 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:15:14.0118 UTC -> mySQL connection successfully established..
+2022.06.18, 12:15:28.0257 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:15:28.0268 UTC -> mySQL connection successfully established..
+2022.06.18, 12:17:07.0719 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:17:07.0731 UTC -> mySQL connection successfully established..
+2022.06.18, 12:17:18.0619 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:17:18.0630 UTC -> mySQL connection successfully established..
+2022.06.18, 12:17:36.0546 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:17:36.0558 UTC -> mySQL connection successfully established..
+2022.06.18, 12:17:46.0284 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:17:46.0297 UTC -> mySQL connection successfully established..
+2022.06.18, 12:18:11.0338 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:18:11.0349 UTC -> mySQL connection successfully established..
+2022.06.18, 12:18:22.0973 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:18:22.0991 UTC -> mySQL connection successfully established..
+2022.06.18, 12:18:46.0666 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:18:46.0677 UTC -> mySQL connection successfully established..
+2022.06.18, 12:18:53.0703 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 12:18:53.0715 UTC -> mySQL connection successfully established..
+2022.06.18, 12:23:12.0202 UTC -> values from client:
+2022.06.18, 12:23:12.0202 UTC -> 21d54f01dfa9293e,Ayush Bhardwaj,2022-06-18 12:23:12,Try updating your Java to 17. I solved the issue for me,
+2022.06.18, 12:23:12.0426 UTC -> 0efcefaf58188f0a,21d54f01dfa9293e
+2022.06.18, 12:23:12.0425 UTC -> values from client:
+2022.06.18, 12:23:12.0745 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.18, 12:23:12.0888 UTC -> /postComment Comment Posted Successfully
+2022.06.18, 12:25:49.0474 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:25:49.0481 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:26:02.0864 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:26:02.0868 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:26:17.0952 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:26:17.0956 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:26:36.0368 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:26:36.0368 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:26:44.0485 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:26:44.0490 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:27:20.0881 UTC -> e56c3680cba7deb6,Ayush Bhardwaj,2022-06-18 12:27:20,Since your route ends at "shops/shop1/dashboard", you need to go back 2 levels to change route as per your requirement without reloading, ["../../"] will take you 2 steps back in your current router path, i.e to "shops/", and then you navigate to proper route.,
+2022.06.18, 12:27:20.0881 UTC -> values from client:
+2022.06.18, 12:27:21.0009 UTC -> values from client:
+2022.06.18, 12:27:21.0010 UTC -> fd989e1b44d3d4bf,e56c3680cba7deb6
+2022.06.18, 12:27:21.0578 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.18, 12:27:21.0734 UTC -> /postComment Comment Posted Successfully
+2022.06.18, 12:27:29.0993 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:27:29.0993 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:27:32.0713 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:27:32.0717 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:29:38.0829 UTC -> 6782b6ed732c8e88,Ayush Bhardwaj,2022-06-18 12:29:38,Try upgrading your nodeJS,
+2022.06.18, 12:29:38.0828 UTC -> values from client:
+2022.06.18, 12:29:38.0957 UTC -> values from client:
+2022.06.18, 12:29:38.0957 UTC -> fd989e1b44d3d4bf,6782b6ed732c8e88
+2022.06.18, 12:29:39.0045 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.18, 12:29:39.0132 UTC -> /postComment Comment Posted Successfully
+2022.06.18, 12:29:46.0107 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:29:46.0107 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:29:59.0663 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:29:59.0707 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:30:14.0803 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:30:14.0803 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:30:56.0248 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:30:56.0248 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:31:12.0051 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:31:12.0051 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 12:31:16.0238 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 12:31:16.0242 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:32:03.0508 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 12:32:03.0510 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:05:10.0235 UTC -> ==== Node server started at port 3000 ====
+2022.06.18, 13:05:10.0246 UTC -> mySQL connection successfully established..
+2022.06.18, 13:05:14.0285 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:05:14.0286 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 13:05:15.0697 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:05:15.0720 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:05:48.0640 UTC -> values from client:
+2022.06.18, 13:05:48.0640 UTC -> 30830f954e1c5d02,Ayush Bhardwaj,2022-06-18 13:05:48,The get() operation returns a Task<> which means it is an asynchronous operation. Calling getListItems() only starts the operation, it does not wait for it to complete, that's why you have to add success and failure listeners.
+
+Although there's not much you can do about the async nature of the operation, you can simplify your code as follows:,private void getListItems() {
+    mFirebaseFirestore.collection("some collection").get()
+            .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot documentSnapshots) {
+                    if (documentSnapshots.isEmpty()) {
+                        Log.d(TAG, "onSuccess: LIST EMPTY");
+                        return;
+                    } else {
+                        // Convert the whole Query Snapshot to a list
+                        // of objects directly! No need to fetch each
+                        // document.
+                        List<Type> types = documentSnapshots.toObjects(Type.class);   
+
+                        // Add all to your list
+                        mArrayList.addAll(types);
+                        Log.d(TAG, "onSuccess: " + mArrayList);
+                    }
+            })
+            .addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Toast.makeText(getApplicationContext(), "Error getting data!!!", Toast.LENGTH_LONG).show();
+                }
+            });
+}
+2022.06.18, 13:05:48.0874 UTC -> values from client:
+2022.06.18, 13:05:48.0875 UTC -> ddb29e29d2d34537,30830f954e1c5d02
+2022.06.18, 13:05:49.0172 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.18, 13:05:49.0261 UTC -> /postComment Comment Posted Successfully
+2022.06.18, 13:06:07.0221 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:06:07.0226 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:06:24.0471 UTC -> 08b9d0422cd85a28,Ayush Bhardwaj,2022-06-18 13:06:24,Try this..Working fine.Below function will get Realtime Updates from firebse as well,db = FirebaseFirestore.getInstance();
+
+
+        db.collection("dynamic_menu").addSnapshotListener(new EventListener<QuerySnapshot>() {
+            @Override
+            public void onEvent(QuerySnapshot documentSnapshots, FirebaseFirestoreException e) {
+
+                if (e !=null)
+                {
+
+                }
+
+                for (DocumentChange documentChange : documentSnapshots.getDocumentChanges())
+                {
+                 String   isAttendance =  documentChange.getDocument().getData().get("Attendance").toString();
+                 String  isCalender   =  documentChange.getDocument().getData().get("Calender").toString();
+                 String isEnablelocation = documentChange.getDocument().getData().get("Enable Location").toString();
+
+                   }
+                }
+        });
+2022.06.18, 13:06:24.0471 UTC -> values from client:
+2022.06.18, 13:06:24.0539 UTC -> ddb29e29d2d34537,08b9d0422cd85a28
+2022.06.18, 13:06:24.0539 UTC -> values from client:
+2022.06.18, 13:06:24.0756 UTC -> /postComment Successfully posted data in questionComments.
+2022.06.18, 13:06:24.0888 UTC -> /postComment Comment Posted Successfully
+2022.06.18, 13:07:03.0147 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:07:03.0147 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 13:07:26.0290 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:07:26.0291 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 13:07:31.0024 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:07:31.0024 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 13:07:33.0206 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:07:33.0206 UTC -> /displayAllQuestions Questions list found successfully
+2022.06.18, 13:07:41.0805 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:07:41.0812 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:12:40.0109 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:12:40.0124 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:13:05.0089 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:13:05.0093 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:14:07.0504 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:14:07.0509 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:15:15.0771 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:15:15.0775 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:22:53.0449 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:22:53.0451 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:24:57.0196 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:24:57.0199 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:27:35.0654 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:27:35.0657 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:27:49.0179 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:27:49.0182 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:27:52.0245 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:27:52.0261 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:27:54.0147 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:27:54.0151 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:28:04.0627 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:28:04.0639 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:28:48.0064 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:28:48.0071 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:30:32.0363 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:30:32.0365 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:32:28.0866 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:32:28.0870 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:33:29.0544 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:33:29.0551 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:34:48.0090 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:34:48.0094 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:36:21.0809 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:36:21.0811 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:37:20.0363 UTC -> /displayComments Successfully fetched comments
+2022.06.18, 13:37:20.0365 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'

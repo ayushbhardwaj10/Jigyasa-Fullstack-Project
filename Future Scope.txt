@@ -1,0 +1,4 @@
+- User should be able to view the questions without login but requires login for =>to post a question, reply a question, upvote, downvote
+
+- Each user has few preferential Tags. Once any new question is posted, all the users who have subscribed to those tags get a notification in their portal.
+
