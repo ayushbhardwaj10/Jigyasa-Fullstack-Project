@@ -1831,3 +1831,5 @@ Although there's not much you can do about the async nature of the operation, yo
 2022.06.18, 13:36:21.0811 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
 2022.06.18, 13:37:20.0363 UTC -> /displayComments Successfully fetched comments
 2022.06.18, 13:37:20.0365 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:41:39.0976 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.06.18, 13:41:39.0976 UTC -> /displayAllQuestions Questions list found successfully

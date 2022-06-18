@@ -2,3 +2,6 @@
 
 - Each user has few preferential Tags. Once any new question is posted, all the users who have subscribed to those tags get a notification in their portal.
 
+- breadcrumb for navigation. 
+
+- Each pagination page should be reflected in URL. 
