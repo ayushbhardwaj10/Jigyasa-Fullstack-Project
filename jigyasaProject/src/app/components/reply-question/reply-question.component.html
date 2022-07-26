@@ -11,13 +11,15 @@
     <hr />
     <div class="question-description d-flex">
       <div class="vote-question d-flex flex-column align-items-center">
-        <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
-        <p class="question-vote">{{ questionData.votes }}</p>
         <img
-          class="downvote"
-          src="assets/images/downvote.png"
+          class="upvote"
+          src="assets/images/upvote.png"
           alt="upvote image"
+          (click)="voteQuestion(1)"
         />
+        <p class="question-vote">{{ questionData.votes }}</p>
+        <img class="downvote" src="assets/images/downvote.png" alt="upvote
+        image" (click)="voteQuestion(-1)" />
       </div>
       <div></div>
       <div class="question-details">

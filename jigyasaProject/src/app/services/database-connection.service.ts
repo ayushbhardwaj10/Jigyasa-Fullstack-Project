@@ -121,4 +121,14 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'postComment', requestBody)
       .pipe(catchError(this.handleError));
   }
+  voteQuestion(qid: any, emailID: any, voteStatus: any) {
+    let requestBody = {
+      qid: qid,
+      emailID: emailID,
+      voteStatus: voteStatus,
+    };
+    return this.http
+      .post(this.baseURL + 'voteQuestion', requestBody)
+      .pipe(catchError(this.handleError));
+  }
 }

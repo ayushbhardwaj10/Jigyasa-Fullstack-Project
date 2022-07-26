@@ -15,8 +15,10 @@
     "log-to-file": "^3.0.0",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.16",
     "to": "^0.2.9",
     "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

@@ -98,4 +98,17 @@ export class ReplyQuestionComponent implements OnInit {
         );
     }
   }
+  voteQuestion(vote: any) {
+    this.dbAPI
+      .voteQuestion(this.qid, sessionStorage.getItem('email'), vote)
+      .subscribe(
+        (response) => {
+          console.log('successfully voted');
+        },
+        (error) => {
+          console.log('Error in voting question');
+          console.log(error);
+        }
+      );
+  }
 }

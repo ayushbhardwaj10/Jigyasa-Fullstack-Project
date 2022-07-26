@@ -38,6 +38,8 @@ export class ViewComponent implements OnInit {
         (response) => {
           let res = JSON.parse(JSON.stringify(response));
           this.fetchedAllQuestions = res[0];
+          console.log("fetched questions :");
+          console.log(this.fetchedAllQuestions);
           this.totalQuestions = res[1].totalQuestions;
 
           //Array created to display pagination tabs dynamically
@@ -278,8 +280,8 @@ export class ViewComponent implements OnInit {
           data[1][0].totalQuestions / this.paginationPageLimit
         );
 
-        console.log(tabsPages);
-        if (this.pageNumber > tabsPages) {
+        console.log('tabPages:' +tabsPages);
+        if (this.pageNumber > tabsPages && tabsPages!=0) {
           this.pageNumber = tabsPages;
         }
 

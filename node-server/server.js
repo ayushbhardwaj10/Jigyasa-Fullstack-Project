@@ -31,7 +31,8 @@ sql.connection.connect((err) => {
   if (!err) {
     log("mySQL connection successfully established..", loggerFile);
   } else {
-    log("OOPS, mySQL connection failed..", loggerFile);
+    log("OOPS, mySQL connection failed", loggerFile);
+    log(err,loggerFile);
   }
 });
 
@@ -545,6 +546,36 @@ app.get("/displayComments", (req, res) => {
       }
     });
   }
+});
+
+app.post("/voteQuestion", (req, res) => {
+  let body = req.body;
+  if (
+    body.qid == "" ||
+    body.qid == undefined ||
+    body.emailID == "" ||
+    body.emailID == undefined ||
+    body.voteStatus == "" ||
+    body.voteStatus == undefined
+  ) {
+    log("/voteQuestion 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  }
+  let values = [[body.qid, body.emailID, body.voteStatus]];
+  log("values from client:", loggerFile);
+  log(values, loggerFile);
+  let query = "INSERT INTO QUESTIONVOTES VALUES ?";
+
+  sql.connection.query(query, [values], (err, rows, fields) => {
+    if (err) {
+      log("/voteQuestion Failure in trying to vote question", loggerFile);
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying to vote question");
+    } else {
+      log("/voteQuestion Voted the question successfully", loggerFile);
+      res.status(200).send();
+    }
+  });
 });
 
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
