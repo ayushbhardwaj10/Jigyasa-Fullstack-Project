@@ -142,7 +142,7 @@ export class ViewComponent implements OnInit {
   nextPage() {
     this.pageNumber = this.pageNumber + 1;
 
-    if (this.tagsList.length > 0) {
+    if (this.tagsList.length > 0 && this.pageNumber<=this.paginationTags) {
       this.dbAPI.tagFilteredQuestions(this.pageNumber, this.tagsList).subscribe(
         (response) => {
           console.log('successful tag selected questions:');
@@ -195,7 +195,7 @@ export class ViewComponent implements OnInit {
   previousPage() {
     this.pageNumber = this.pageNumber - 1;
 
-    if (this.tagsList.length > 0) {
+    if (this.tagsList.length > 0  && this.pageNumber>0) {
       this.dbAPI.tagFilteredQuestions(this.pageNumber, this.tagsList).subscribe(
         (response) => {
           console.log('successful tag selected questions:');

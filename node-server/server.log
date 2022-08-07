@@ -76,3 +76,696 @@
 2022.07.26, 08:17:43.0448 UTC -> /filterByTags Questions list sent successfully
 2022.07.26, 08:17:43.0946 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
 2022.07.26, 08:17:43.0949 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 13:59:58.0168 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 13:59:58.0168 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 14:48:16.0496 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 14:48:16.0496 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:13:24.0207 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:13:24.0207 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:24:16.0427 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:24:16.0427 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:26:06.0266 UTC -> values from client:
+2022.07.26, 15:26:06.0266 UTC -> f630ee1f002551ae,Ayush,2022-07-26 15:26:06,MySQL 8.0 - Client does not support authentication protocol requested by server; consider upgrading MySQL client,I can't make a simple connection to the server for some reason. I install the newest MySQL Community 8.0 database along with Node.JS with default settings.
+This is my node.js code :,    var mysql = require('mysql');
+
+    var con = mysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "password",
+      insecureAuth : true
+    });
+
+    con.connect(function(err) {
+      if (err) throw err;
+      console.log("Connected!");
+    });
+2022.07.26, 15:26:06.0595 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:26:06.0734 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:26:11.0841 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:26:11.0841 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:26:16.0494 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:26:16.0495 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:26:40.0662 UTC -> values from client:
+2022.07.26, 15:26:40.0662 UTC -> rahul@gmail.com,Rahul,pwd@123
+2022.07.26, 15:26:40.0736 UTC -> /createUser User created successfully
+2022.07.26, 15:26:49.0164 UTC -> values from client:
+2022.07.26, 15:26:49.0164 UTC -> rahul@gmail.com
+2022.07.26, 15:26:49.0166 UTC -> /isEmailExist email found and returned
+2022.07.26, 15:26:49.0175 UTC -> values from client:
+2022.07.26, 15:26:49.0175 UTC -> rahul@gmail.com
+2022.07.26, 15:26:49.0203 UTC -> /loginUser User Logged in successfully
+2022.07.26, 15:26:49.0259 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:26:49.0259 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:27:38.0908 UTC -> values from client:
+2022.07.26, 15:27:38.0908 UTC -> f2aea3b904be5068,Rahul,2022-07-26 15:27:38,How do I return the response from an Observable/http/async call in angular?,I have service which returns an observable which does an http request to my server and gets the data. I want to use this data but I always end up getting undefined. What's the problem?,@Injectable()
+export class EventService {
+
+  constructor(private http: Http) { }
+
+  getEventList(): Observable<any>{
+    let headers = new Headers({ 'Content-Type': 'application/json' });
+    let options = new RequestOptions({ headers: headers });
+
+    return this.http.get("http://localhost:9999/events/get", options)
+                .map((res)=> res.json())
+                .catch((err)=> err)
+  }
+}
+2022.07.26, 15:27:38.0972 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:27:39.0061 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:27:47.0051 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:27:47.0051 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:28:02.0015 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:28:02.0072 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:28:02.0073 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:28:04.0792 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:28:04.0793 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:28:37.0858 UTC -> values from client:
+2022.07.26, 15:28:37.0858 UTC -> 66ba6c9a8b9293ef,Rahul,2022-07-26 15:28:37,Angular/RxJS When should I unsubscribe from `Subscription`,When should I store the Subscription instances and invoke unsubscribe() during the ngOnDestroy life cycle and when can I simply ignore them?
+
+Saving all subscriptions introduces a lot of mess into component code.
+
+HTTP Client Guide ignore subscriptions like this:,getHeroes() {
+  this.heroService.getHeroes()
+                  .subscribe(
+                     heroes => this.heroes = heroes,
+                     error =>  this.errorMessage = <any>error);
+}
+2022.07.26, 15:28:37.0979 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:28:38.0024 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:28:41.0690 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:28:41.0690 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:29:25.0283 UTC -> values from client:
+2022.07.26, 15:29:25.0283 UTC -> d57244856c4ab1b9,Rahul,2022-07-26 15:29:25,Difference between Constructor and ngOnInit,Angular provides life cycle hook ngOnInit by default.
+
+Why should ngOnInit be used, if we already have a constructor?,
+2022.07.26, 15:29:25.0363 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:29:25.0444 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:29:29.0893 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:29:29.0893 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:29:32.0015 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:29:32.0015 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:29:34.0159 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:29:34.0160 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:30:36.0981 UTC -> values from client:
+2022.07.26, 15:30:36.0981 UTC -> 2b3f4d3c022938aa,Rahul,2022-07-26 15:30:36,What function defines accuracy in Keras when the loss is mean squared error (MSE)?,How is Accuracy defined when the loss function is mean square error? Is it mean absolute percentage error?
+The model I use has output activation linear and is compiled with loss= mean_squared_error
+
+Output : 
+Epoch 99/100
+1000/1000 [==============================] - 687s 687ms/step - loss: 0.0463 - acc: 0.9689 - val_loss: 3.7303 - val_acc: 0.3250
+Epoch 100/100
+1000/1000 [==============================] - 688s 688ms/step - loss: 0.0424 - acc: 0.9740 - val_loss: 3.4221 - val_acc: 0.3701,model.add(Dense(1))
+model.add(Activation('linear'))  # number
+
+model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
+2022.07.26, 15:30:37.0065 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:30:37.0422 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:30:40.0965 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:30:40.0965 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:31:03.0981 UTC -> values from client:
+2022.07.26, 15:31:03.0981 UTC -> ankur@gmail.com,Ankur Ojha ,pwd@123
+2022.07.26, 15:31:04.0168 UTC -> /createUser User created successfully
+2022.07.26, 15:31:14.0779 UTC -> values from client:
+2022.07.26, 15:31:14.0780 UTC -> ankur@gmail.com
+2022.07.26, 15:31:14.0781 UTC -> /isEmailExist email found and returned
+2022.07.26, 15:31:14.0790 UTC -> ankur@gmail.com
+2022.07.26, 15:31:14.0790 UTC -> values from client:
+2022.07.26, 15:31:14.0792 UTC -> /loginUser User Logged in successfully
+2022.07.26, 15:31:14.0842 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:31:14.0842 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:31:58.0548 UTC -> values from client:
+2022.07.26, 15:31:58.0548 UTC -> 5507a9780489e612,Ankur Ojha ,2022-07-26 15:31:58,How can I one hot encode in Python?,I have a machine learning classification problem with 80% categorical variables. Must I use one hot encoding if I want to use some classifier for the classification? Can i pass the data to a classifier without the encoding?
+I am trying to do the following for feature selection:
+I read the train file:,num_rows_to_read = 10000
+train_small = pd.read_csv("../../dataset/train.csv",   nrows=num_rows_to_read)
+
+non_categorial_features = ['orig_destination_distance',
+                          'srch_adults_cnt',
+                          'srch_children_cnt',
+                          'srch_rm_cnt',
+                          'cnt']
+
+for categorical_feature in list(train_small.columns):
+    if categorical_feature not in non_categorial_features:
+        train_small[categorical_feature] = train_small[categorical_feature].astype('category')
+2022.07.26, 15:31:58.0610 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:31:58.0674 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:32:02.0561 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:32:02.0561 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:33:13.0621 UTC -> values from client:
+2022.07.26, 15:33:13.0621 UTC -> 28b85915d706d374,Ankur Ojha ,2022-07-26 15:33:13,Scanner is skipping nextLine() after using next() or nextFoo()?,I am using the Scanner methods nextInt() and nextLine() for reading input.
+It looks like this:,System.out.println("Enter numerical value");    
+int option;
+option = input.nextInt(); // Read numerical value from input
+System.out.println("Enter 1st string"); 
+String string1 = input.nextLine(); // Read 1st string (this is skipped)
+System.out.println("Enter 2nd string");
+String string2 = input.nextLine(); // Read 2nd string (this appears right after reading numerical value)
+2022.07.26, 15:33:13.0724 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:33:13.0818 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:33:18.0188 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:33:18.0188 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:33:47.0163 UTC -> values from client:
+2022.07.26, 15:33:47.0163 UTC -> e6c47385136f6887,Ankur Ojha ,2022-07-26 15:33:47,What does a "Cannot find symbol" or "Cannot resolve symbol" error mean?,Please explain the following about "Cannot find symbol", "Cannot resolve symbol" or "Symbol not found" errors (in Java):
+
+What do they mean?
+What things can cause them?
+How does the programmer go about fixing them?
+This question is designed to seed a comprehensive Q&A about these common compilation errors in Java.,
+2022.07.26, 15:33:47.0255 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:33:47.0319 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:33:51.0014 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:33:51.0014 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:33:52.0691 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:33:52.0692 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:34:09.0853 UTC -> values from client:
+2022.07.26, 15:34:09.0853 UTC -> ayush.b.1998@gmail.com
+2022.07.26, 15:34:09.0855 UTC -> /isEmailExist email found and returned
+2022.07.26, 15:34:09.0865 UTC -> values from client:
+2022.07.26, 15:34:09.0865 UTC -> ayush.b.1998@gmail.com
+2022.07.26, 15:34:09.0867 UTC -> /loginUser User Logged in successfully
+2022.07.26, 15:34:09.0910 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:34:09.0910 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:35:18.0971 UTC -> values from client:
+2022.07.26, 15:35:18.0971 UTC -> 725e05e1f966ec77,Ayush,2022-07-26 15:35:18,Strange OutOfMemory issue while loading an image to a Bitmap object,I have a ListView with a couple of image buttons on each row. When the user clicks the list row, it launches a new activity. I have had to build my own tabs because of an issue with the camera layout. The activity that gets launched for the result is a map. If I click on my button to launch the image preview (load an image off the SD card) the application returns from the activity back to the ListView activity to the result handler to relaunch my new activity which is nothing more than an image widget.
+
+The image preview on the ListView is being done with the cursor and ListAdapter. This makes it pretty simple, but I am not sure how I can put a resized image (I.e. Smaller bit size not pixel as the src for the image button on the fly. So I just resized the image that came off the phone camera.
+
+The issue is that I get an OutOfMemoryError when it tries to go back and re-launch the 2nd activity.
+
+Is there a way I can build the list adapter easily row by row, where I can resize on the fly (bitwise)?
+This would be preferable as I also need to make some changes to the properties of the widgets/elements in each row as I am unable to select a row with the touch screen because of the focus issue. (I can use rollerball.)
+
+I know I can do an out of band resize and save my image, but that is not really what I want to do, but some sample code for that would be nice.
+As soon as I disabled the image on the ListView it worked fine again.
+
+FYI: This is how I was doing it:,String[] from = new String[] { DBHelper.KEY_BUSINESSNAME, DBHelper.KEY_ADDRESS,
+    DBHelper.KEY_CITY, DBHelper.KEY_GPSLONG, DBHelper.KEY_GPSLAT,
+    DBHelper.KEY_IMAGEFILENAME  + ""};
+int[] to = new int[] { R.id.businessname, R.id.address, R.id.city, R.id.gpslong,
+    R.id.gpslat, R.id.imagefilename };
+notes = new SimpleCursorAdapter(this, R.layout.notes_row, c, from, to);
+setListAdapter(notes);
+
+22:13:18.594: DEBUG/skia(4204): xxxxxxxxxxx jpeg error 20 Improper call to JPEG library in state %d
+22:13:18.604: INFO/System.out(4204): resolveUri failed on bad bitmap uri: 
+22:13:18.694: ERROR/dalvikvm-heap(4204): 6291456-byte external allocation too large for this process.
+22:13:18.694: ERROR/(4204): VM won't let us allocate 6291456 bytes
+22:13:18.694: DEBUG/skia(4204): xxxxxxxxxxxxxxxxxxxx allocPixelRef failed
+2022.07.26, 15:35:19.0115 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:35:19.0179 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:35:22.0459 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:35:22.0460 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:35:24.0016 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:35:24.0016 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:35:24.0018 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:35:40.0376 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:35:40.0376 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:05.0420 UTC -> values from client:
+2022.07.26, 15:37:05.0420 UTC -> fc30425503b73559,Ayush,2022-07-26 15:37:05,How to create RecyclerView with multiple view types,From Create dynamic lists with RecyclerView:
+
+When we create a RecyclerView.Adapter we have to specify ViewHolder that will bind with the adapter.
+
+Is it possible to create RecyclerView with multiple view types?,public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+
+    private String[] mDataset;
+
+    public MyAdapter(String[] myDataset) {
+        mDataset = myDataset;
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        public TextView mTextView;
+        public ViewHolder(TextView v) {
+            super(v);
+            mTextView = v;
+        }
+    }
+
+    @Override
+    public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.some_layout, parent, false);
+
+        //findViewById...
+
+        ViewHolder vh = new ViewHolder(v);
+        return vh;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.mTextView.setText(mDataset[position]);
+    }
+
+    @Override
+    public int getItemCount() {
+        return mDataset.length;
+    }
+}
+2022.07.26, 15:37:05.0497 UTC -> /postQuestion Question posted successfully
+2022.07.26, 15:37:05.0587 UTC -> /postQuestion Successful insert in table questionTags
+2022.07.26, 15:37:09.0736 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:09.0736 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:11.0870 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:11.0870 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:12.0517 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:12.0517 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:14.0645 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:14.0646 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:18.0180 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:18.0186 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:18.0766 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:18.0769 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:19.0169 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:19.0196 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:19.0718 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:19.0727 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:20.0134 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:20.0138 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:20.0431 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:20.0436 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:20.0733 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:20.0739 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:21.0133 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:21.0138 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:21.0751 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:21.0753 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:24.0506 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:24.0510 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:25.0438 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:25.0442 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:26.0985 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:26.0989 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:30.0057 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:30.0062 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:33.0045 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:33.0048 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:33.0406 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:33.0409 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:34.0645 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:34.0649 UTC -> /filterByTags Questions list sent successfully
+2022.07.26, 15:37:36.0464 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:36.0464 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:36.0917 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:36.0917 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:37.0269 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:37.0269 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:38.0239 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:38.0239 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:45.0030 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:45.0030 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:46.0805 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:46.0806 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:47.0317 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:47.0317 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:47.0806 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:47.0806 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:48.0268 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:48.0268 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:48.0790 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:48.0790 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:49.0292 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:49.0292 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:50.0590 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:50.0590 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:53.0779 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:53.0782 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:37:53.0782 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:37:55.0053 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:55.0053 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:56.0563 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:37:56.0563 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:37:56.0565 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:57.0860 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:57.0860 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:37:59.0837 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:37:59.0837 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:38:01.0590 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:38:01.0593 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:38:01.0593 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:38:05.0655 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:38:05.0655 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:39:16.0566 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:39:16.0566 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:39:16.0568 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:39:40.0053 UTC -> values from client:
+2022.07.26, 15:39:40.0053 UTC -> rahul@gmail.com
+2022.07.26, 15:39:40.0054 UTC -> /isEmailExist email found and returned
+2022.07.26, 15:39:40.0063 UTC -> values from client:
+2022.07.26, 15:39:40.0063 UTC -> rahul@gmail.com
+2022.07.26, 15:39:40.0065 UTC -> /loginUser User Logged in successfully
+2022.07.26, 15:39:40.0101 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:39:40.0102 UTC -> /displayAllQuestions Questions list found successfully
+2022.07.26, 15:39:44.0296 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 15:39:44.0299 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 15:39:44.0299 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:40:00.0715 UTC -> 2a792880f10f254c,Rahul,2022-07-26 15:40:00,Yes, it's possible. Just implement getItemViewType(), and take care of the viewType parameter in onCreateViewHolder().
+So you do something like:,public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    class ViewHolder0 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder0(View itemView){
+        ...
+        }
+    }
+
+    class ViewHolder2 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder2(View itemView){
+        ...
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        // Just as an example, return 0 or 2 depending on position
+        // Note that unlike in ListView adapters, types don't have to be contiguous
+        return position % 2 * 2;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+         switch (viewType) {
+             case 0: return new ViewHolder0(...);
+             case 2: return new ViewHolder2(...);
+             ...
+         }
+    }
+
+    @Override
+    public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
+        switch (holder.getItemViewType()) {
+            case 0:
+                ViewHolder0 viewHolder0 = (ViewHolder0)holder;
+                ...
+                break;
+
+            case 2:
+                ViewHolder2 viewHolder2 = (ViewHolder2)holder;
+                ...
+                break;
+        }
+    }
+}
+2022.07.26, 15:40:00.0715 UTC -> values from client:
+2022.07.26, 15:40:00.0719 UTC -> /postComment Failure in trying to post comment..!!
+2022.07.26, 15:40:00.0719 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 15:45:26.0443 UTC -> values from client:
+2022.07.26, 15:45:26.0443 UTC -> 27bca53dccc100ac,Rahul,2022-07-26 15:45:26,Yes, it's possible. Just implement getItemViewType(), and take care of the viewType parameter in onCreateViewHolder().
+So you do something like:,public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    class ViewHolder0 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder0(View itemView){
+        ...
+        }
+    }
+
+    class ViewHolder2 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder2(View itemView){
+        ...
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        // Just as an example, return 0 or 2 depending on position
+        // Note that unlike in ListView adapters, types don't have to be contiguous
+        return position % 2 * 2;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+         switch (viewType) {
+             case 0: return new ViewHolder0(...);
+             case 2: return new ViewHolder2(...);
+             ...
+         }
+    }
+
+    @Override
+    public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
+        switch (holder.getItemViewType()) {
+            case 0:
+                ViewHolder0 viewHolder0 = (ViewHolder0)holder;
+                ...
+                break;
+
+            case 2:
+                ViewHolder2 viewHolder2 = (ViewHolder2)holder;
+                ...
+                break;
+        }
+    }
+}
+2022.07.26, 15:45:26.0446 UTC -> /postComment Failure in trying to post comment..!!
+2022.07.26, 15:45:26.0446 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.07.26, 17:53:23.0219 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.07.26, 17:53:23.0222 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.07.26, 17:53:23.0222 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.08.07, 23:11:07.0213 UTC -> ==== Node server started at port 3000 ====
+2022.08.07, 23:11:07.0262 UTC -> mySQL connection successfully established..
+2022.08.07, 23:11:08.0075 UTC -> values from client:
+2022.08.07, 23:11:08.0076 UTC -> ayush.b.1998@gmail.com
+2022.08.07, 23:11:08.0296 UTC -> /isEmailExist email found and returned
+2022.08.07, 23:11:08.0348 UTC -> ayush.b.1998@gmail.com
+2022.08.07, 23:11:08.0348 UTC -> values from client:
+2022.08.07, 23:11:08.0351 UTC -> /loginUser User Logged in successfully
+2022.08.07, 23:11:08.0695 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:08.0695 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:16.0896 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:16.0896 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:17.0465 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:17.0465 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:18.0135 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:18.0136 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:20.0055 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:20.0055 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:20.0533 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:20.0533 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:23.0372 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:23.0391 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:23.0945 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:23.0947 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:25.0423 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:25.0438 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:26.0055 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:26.0057 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:26.0645 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:26.0647 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:27.0054 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:27.0056 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:29.0649 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:29.0651 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:30.0183 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:30.0183 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:31.0054 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:31.0054 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 1
+2022.08.07, 23:11:31.0547 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:31.0547 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:33.0348 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:33.0348 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:33.0820 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:33.0820 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:34.0814 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:34.0815 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:35.0190 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:35.0190 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:36.0692 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:36.0692 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:37.0179 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:37.0179 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:38.0685 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:38.0685 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:11:43.0187 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:43.0190 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:43.0598 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:43.0600 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:45.0174 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:45.0177 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:46.0127 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:46.0129 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:46.0885 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:46.0887 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:49.0057 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:49.0057 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:52.0456 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:52.0459 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:53.0025 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:53.0027 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:54.0181 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:54.0182 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:54.0375 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:54.0375 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:54.0815 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 1
+2022.08.07, 23:11:54.0815 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:56.0076 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:56.0076 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15' at line 1
+2022.08.07, 23:11:56.0318 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:56.0318 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20' at line 1
+2022.08.07, 23:11:58.0067 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15' at line 1
+2022.08.07, 23:11:58.0067 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:58.0635 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:58.0635 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 1
+2022.08.07, 23:11:59.0019 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:11:59.0019 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:11:59.0328 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:59.0329 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:11:59.0545 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:11:59.0547 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:12:00.0205 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:12:00.0209 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:12:02.0173 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:12:02.0175 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:12:02.0491 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.08.07, 23:12:02.0491 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.08.07, 23:12:02.0494 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:12:04.0987 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:12:04.0987 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:31.0101 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:31.0102 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:33.0238 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:33.0238 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:33.0886 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:33.0886 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:34.0934 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:34.0934 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:35.0567 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:35.0566 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:38.0902 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:38.0901 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:39.0501 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:39.0501 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:14:44.0412 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:44.0415 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:45.0513 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:45.0515 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:49.0273 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:49.0275 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:51.0642 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:14:51.0642 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:14:53.0218 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:53.0220 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:53.0811 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:53.0814 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:54.0577 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:54.0580 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:57.0127 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:57.0129 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:57.0533 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:57.0535 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:14:58.0273 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:14:58.0275 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:15:04.0929 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.08.07, 23:15:04.0930 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.08.07, 23:15:04.0932 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:15:24.0667 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:15:24.0667 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:22:39.0980 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:22:39.0980 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:24:23.0216 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:24:23.0215 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:24:27.0812 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:24:27.0814 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:24:41.0857 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:24:41.0867 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:24:47.0067 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:24:47.0067 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:24:50.0073 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:24:50.0074 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:24:53.0457 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:24:53.0457 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:28:23.0692 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:28:23.0692 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:29:43.0287 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:29:43.0290 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:29:53.0212 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:29:53.0212 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:29:59.0979 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:29:59.0980 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:30:12.0745 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:30:12.0745 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:33:09.0415 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:33:09.0415 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:33:24.0141 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:33:24.0151 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:33:24.0850 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:33:24.0854 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:33:27.0610 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:27.0610 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+2022.08.07, 23:33:27.0920 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 1
+2022.08.07, 23:33:27.0920 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:28.0111 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15' at line 1
+2022.08.07, 23:33:28.0111 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:29.0345 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:29.0345 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20' at line 1
+2022.08.07, 23:33:29.0736 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:29.0736 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-25' at line 1
+2022.08.07, 23:33:29.0906 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:29.0906 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-30' at line 1
+2022.08.07, 23:33:30.0088 UTC -> /filterByTags Failure in trying to filter questions by tags..!!
+2022.08.07, 23:33:30.0088 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-35' at line 1
+2022.08.07, 23:33:39.0853 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:33:39.0853 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:33:47.0656 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:33:47.0656 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:34:00.0984 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:34:00.0991 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:34:01.0248 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:34:01.0252 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:34:05.0873 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:34:05.0874 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:34:06.0423 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:34:06.0425 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:35:50.0936 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:35:50.0936 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:35:56.0276 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:35:56.0276 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:35:58.0841 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:35:58.0841 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:35:59.0882 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:35:59.0882 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:36:03.0864 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:03.0868 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:04.0202 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:04.0211 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:07.0795 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:07.0796 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:11.0366 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:11.0368 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:11.0705 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:11.0708 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:12.0226 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:12.0228 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:12.0605 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:12.0608 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:36:43.0864 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:36:43.0865 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:32.0148 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:32.0148 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:37:40.0219 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:40.0220 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:37:40.0929 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:40.0929 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.07, 23:37:45.0159 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:45.0160 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:47.0263 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:47.0269 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:48.0210 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:48.0213 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:48.0906 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:48.0909 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:54.0605 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:54.0608 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:37:55.0138 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:37:55.0141 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:05.0636 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:05.0640 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:06.0093 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:06.0095 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:06.0914 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:06.0915 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:07.0612 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:07.0613 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:08.0050 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:08.0052 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:38:08.0493 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:38:08.0495 UTC -> /filterByTags Questions list sent successfully
