@@ -551,29 +551,33 @@ app.get("/displayComments", (req, res) => {
 app.post("/voteQuestion", (req, res) => {
   let body = req.body;
   if (
-    body.qid == "" ||
-    body.qid == undefined ||
     body.emailID == "" ||
     body.emailID == undefined ||
-    body.voteStatus == "" ||
-    body.voteStatus == undefined
+    body.qid == "" || 
+    body.qid == undefined ||
+    body.vote == "" ||
+    body.vote == undefined
   ) {
     log("/voteQuestion 400 Error , Failed due to incorrect body", loggerFile);
     res.status(400).send("Failed due to incorrect body");
   }
-  let values = [[body.qid, body.emailID, body.voteStatus]];
+  let values = [[body.qid]];
   log("values from client:", loggerFile);
   log(values, loggerFile);
-  let query = "INSERT INTO QUESTIONVOTES VALUES ?";
+  let query= "update questions set votes = votes + 1 where qid = ?";
+  if(body.vote == -1)
+   query = "update questions set votes = votes - 1 where qid = ?";
 
   sql.connection.query(query, [values], (err, rows, fields) => {
     if (err) {
-      log("/voteQuestion Failure in trying to vote question", loggerFile);
+      log("/voteQuestion Failure in trying to vote question.!!", loggerFile);
       log(err, loggerFile);
       res.status(500).send("Failure in trying to vote question");
     } else {
-      log("/voteQuestion Voted the question successfully", loggerFile);
+      log("/voteQuestion User created successfully", loggerFile);
       res.status(200).send();
+
+      
     }
   });
 });

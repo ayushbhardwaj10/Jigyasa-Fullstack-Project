@@ -769,3 +769,236 @@ So you do something like:,public class MyAdapter extends RecyclerView.Adapter<Re
 2022.08.07, 23:38:08.0052 UTC -> /filterByTags Questions list sent successfully
 2022.08.07, 23:38:08.0493 UTC -> /filterByTags Successfull fetch of tags from table 'questionTags'
 2022.08.07, 23:38:08.0495 UTC -> /filterByTags Questions list sent successfully
+2022.08.07, 23:39:59.0432 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:39:59.0435 UTC -> Error: ER_NO_SUCH_TABLE: Table 'jigyasa.comments' doesn't exist
+2022.08.07, 23:39:59.0435 UTC -> /displayComments Failure in trying to fetch comments..!!
+2022.08.07, 23:59:40.0349 UTC -> values from client:
+2022.08.07, 23:59:40.0349 UTC -> 5405dbd08c3f3657,Ayush,2022-08-07 23:59:40,Execute the following query in MYSQL Workbench
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+Where root as your user localhost as your URL and password as your password
+
+Then run this query to refresh privileges:
+
+flush privileges;
+
+Try connecting using node after you do so.
+
+If that doesn't work, try it without @'localhost' part.,
+2022.08.07, 23:59:40.0573 UTC -> values from client:
+2022.08.07, 23:59:40.0573 UTC -> f630ee1f002551ae,5405dbd08c3f3657
+2022.08.07, 23:59:40.0767 UTC -> /postComment Successfully posted data in questionComments.
+2022.08.07, 23:59:40.0901 UTC -> /postComment Comment Posted Successfully
+2022.08.07, 23:59:57.0324 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.07, 23:59:57.0325 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:00.0186 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:00.0186 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:05.0193 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:05.0193 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:11.0145 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:11.0145 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:14.0213 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:14.0214 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:15.0497 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:15.0497 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:17.0601 UTC -> /displayComments Successfully fetched comments
+2022.08.08, 00:00:17.0604 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:27.0273 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:00:27.0273 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:29.0056 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:00:29.0059 UTC -> /displayComments Successfully fetched comments
+2022.08.08, 00:01:23.0470 UTC -> a02c707355a2dc64,Ayush,2022-08-08 00:01:23,Yes, it's possible. Just implement getItemViewType(), and take care of the viewType parameter in onCreateViewHolder().
+So you do something like:,public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    class ViewHolder0 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder0(View itemView){
+        ...
+        }
+    }
+
+    class ViewHolder2 extends RecyclerView.ViewHolder {
+        ...
+        public ViewHolder2(View itemView){
+        ...
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        // Just as an example, return 0 or 2 depending on position
+        // Note that unlike in ListView adapters, types don't have to be contiguous
+        return position % 2 * 2;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+         switch (viewType) {
+             case 0: return new ViewHolder0(...);
+             case 2: return new ViewHolder2(...);
+             ...
+         }
+    }
+
+    @Override
+    public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
+        switch (holder.getItemViewType()) {
+            case 0:
+                ViewHolder0 viewHolder0 = (ViewHolder0)holder;
+                ...
+                break;
+            case 2:
+                ViewHolder2 viewHolder2 = (ViewHolder2)holder;
+                ...
+                break;
+        }
+    }
+}
+2022.08.08, 00:01:23.0469 UTC -> values from client:
+2022.08.08, 00:01:23.0646 UTC -> fc30425503b73559,a02c707355a2dc64
+2022.08.08, 00:01:23.0646 UTC -> values from client:
+2022.08.08, 00:01:23.0702 UTC -> /postComment Successfully posted data in questionComments.
+2022.08.08, 00:01:23.0830 UTC -> /postComment Comment Posted Successfully
+2022.08.08, 00:03:31.0481 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:03:31.0569 UTC -> /displayComments Successfully fetched comments
+2022.08.08, 00:03:31.0620 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:03:31.0620 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 00:03:34.0436 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:03:34.0477 UTC -> /displayComments Successfully fetched comments
+2022.08.08, 00:04:17.0632 UTC -> values from client:
+2022.08.08, 00:04:17.0632 UTC -> 9396db39d06f6198,Ayush,2022-08-08 00:04:17,To fix the OutOfMemory error, you should do something like this:
+This inSampleSize option reduces memory consumption.
+
+Here's a complete method. First it reads image size without decoding the content itself. Then it finds the best inSampleSize value, it should be a power of 2, and finally the image is decoded,// Decodes image and scales it to reduce memory consumption
+private Bitmap decodeFile(File f) {
+    try {
+        // Decode image size
+        BitmapFactory.Options o = new BitmapFactory.Options();
+        o.inJustDecodeBounds = true;
+        BitmapFactory.decodeStream(new FileInputStream(f), null, o);
+
+        // The new size we want to scale to
+        final int REQUIRED_SIZE=70;
+
+        // Find the correct scale value. It should be the power of 2.
+        int scale = 1;
+        while(o.outWidth / scale / 2 >= REQUIRED_SIZE && 
+              o.outHeight / scale / 2 >= REQUIRED_SIZE) {
+            scale *= 2;
+        }
+
+        // Decode with inSampleSize
+        BitmapFactory.Options o2 = new BitmapFactory.Options();
+        o2.inSampleSize = scale;
+        return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
+    } catch (FileNotFoundException e) {}
+    return null;
+}
+2022.08.08, 00:04:17.0744 UTC -> values from client:
+2022.08.08, 00:04:17.0744 UTC -> 725e05e1f966ec77,9396db39d06f6198
+2022.08.08, 00:04:17.0836 UTC -> /postComment Successfully posted data in questionComments.
+2022.08.08, 00:04:18.0058 UTC -> /postComment Comment Posted Successfully
+2022.08.08, 00:04:38.0573 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:04:38.0579 UTC -> /displayComments Successfully fetched comments
+2022.08.08, 00:05:08.0746 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 00:05:08.0746 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.08, 01:53:13.0686 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.08, 01:53:13.0686 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.10, 23:20:29.0465 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:20:29.0578 UTC -> mySQL connection successfully established..
+2022.08.10, 23:27:17.0458 UTC -> ayush.b.1998@gmail.com
+2022.08.10, 23:27:17.0458 UTC -> values from client:
+2022.08.10, 23:27:17.0465 UTC -> /isEmailExist email found and returned
+2022.08.10, 23:27:17.0484 UTC -> values from client:
+2022.08.10, 23:27:17.0484 UTC -> ayush.b.1998@gmail.com
+2022.08.10, 23:27:17.0488 UTC -> /loginUser User Logged in successfully
+2022.08.10, 23:27:17.0548 UTC -> /displayAllQuestions Successfull fetch of tags from table 'questionTags'
+2022.08.10, 23:27:17.0549 UTC -> /displayAllQuestions Questions list found successfully
+2022.08.10, 23:27:23.0286 UTC -> /displayComments Successfully fetched comments
+2022.08.10, 23:27:23.0290 UTC -> /displaySpecificQuestion Successfull fetch of tags from table 'questionTags'
+2022.08.10, 23:39:24.0978 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:39:25.0022 UTC -> mySQL connection successfully established..
+2022.08.10, 23:41:18.0310 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:41:18.0346 UTC -> mySQL connection successfully established..
+2022.08.10, 23:45:09.0571 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:45:09.0595 UTC -> mySQL connection successfully established..
+2022.08.10, 23:47:12.0198 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:47:12.0221 UTC -> mySQL connection successfully established..
+2022.08.10, 23:47:30.0405 UTC -> values from client:
+2022.08.10, 23:47:30.0405 UTC -> 1,28b85915d706d374
+2022.08.10, 23:47:30.0415 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.10, 23:47:30.0415 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2022.08.10, 23:48:08.0462 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:48:08.0484 UTC -> mySQL connection successfully established..
+2022.08.10, 23:48:11.0145 UTC -> values from client:
+2022.08.10, 23:48:11.0145 UTC -> 1,28b85915d706d374
+2022.08.10, 23:48:11.0192 UTC -> Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+2022.08.10, 23:48:11.0192 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.10, 23:49:11.0142 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:49:11.0164 UTC -> mySQL connection successfully established..
+2022.08.10, 23:49:13.0581 UTC -> values from client:
+2022.08.10, 23:49:13.0581 UTC -> 1,28b85915d706d374
+2022.08.10, 23:49:13.0586 UTC -> Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+2022.08.10, 23:49:13.0586 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.10, 23:49:49.0998 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:49:50.0017 UTC -> mySQL connection successfully established..
+2022.08.10, 23:49:53.0923 UTC -> values from client:
+2022.08.10, 23:49:53.0923 UTC -> 28b85915d706d374
+2022.08.10, 23:49:54.0050 UTC -> /voteQuestion User created successfully
+2022.08.10, 23:50:11.0390 UTC -> values from client:
+2022.08.10, 23:50:11.0390 UTC -> 28b85915d706d374
+2022.08.10, 23:50:11.0473 UTC -> /voteQuestion User created successfully
+2022.08.10, 23:59:28.0459 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:59:28.0474 UTC -> mySQL connection successfully established..
+2022.08.10, 23:59:39.0234 UTC -> ==== Node server started at port 3000 ====
+2022.08.10, 23:59:39.0254 UTC -> mySQL connection successfully established..
+2022.08.10, 23:59:47.0468 UTC -> values from client:
+2022.08.10, 23:59:47.0468 UTC -> 1,28b85915d706d374
+2022.08.10, 23:59:47.0472 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2022.08.10, 23:59:47.0472 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.11, 00:01:15.0852 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:01:15.0874 UTC -> mySQL connection successfully established..
+2022.08.11, 00:01:19.0589 UTC -> values from client:
+2022.08.11, 00:01:19.0589 UTC -> 1,28b85915d706d374
+2022.08.11, 00:01:19.0593 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.11, 00:01:19.0593 UTC -> Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+2022.08.11, 00:01:37.0149 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:01:37.0166 UTC -> mySQL connection successfully established..
+2022.08.11, 00:01:42.0989 UTC -> values from client:
+2022.08.11, 00:01:42.0989 UTC -> 1,28b85915d706d374
+2022.08.11, 00:01:42.0994 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.11, 00:01:42.0994 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+= 2 where qid = (1, '28b85915d706d374')' at line 1
+2022.08.11, 00:05:22.0954 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:05:22.0975 UTC -> mySQL connection successfully established..
+2022.08.11, 00:05:30.0152 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:05:30.0178 UTC -> mySQL connection successfully established..
+2022.08.11, 00:05:36.0798 UTC -> values from client:
+2022.08.11, 00:05:36.0798 UTC -> 28b85915d706d374
+2022.08.11, 00:05:36.0954 UTC -> /voteQuestion User created successfully
+2022.08.11, 00:08:07.0524 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:08:07.0554 UTC -> mySQL connection successfully established..
+2022.08.11, 00:08:28.0353 UTC -> values from client:
+2022.08.11, 00:08:28.0353 UTC -> 4,28b85915d706d374
+2022.08.11, 00:08:28.0357 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.11, 00:08:28.0358 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2022.08.11, 00:25:20.0265 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:25:20.0292 UTC -> mySQL connection successfully established..
+2022.08.11, 00:25:24.0456 UTC -> values from client:
+2022.08.11, 00:25:24.0456 UTC -> 20,28b85915d706d374
+2022.08.11, 00:25:24.0461 UTC -> Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2022.08.11, 00:25:24.0461 UTC -> /voteQuestion Failure in trying to vote question.!!
+2022.08.11, 00:29:36.0080 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 00:29:36.0106 UTC -> mySQL connection successfully established..
+2022.08.11, 05:56:55.0904 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 05:56:55.0995 UTC -> mySQL connection successfully established..
+2022.08.11, 05:57:44.0922 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 05:57:44.0978 UTC -> mySQL connection successfully established..
+2022.08.11, 05:58:05.0299 UTC -> values from client:
+2022.08.11, 05:58:05.0300 UTC -> 28b85915d706d374
+2022.08.11, 05:58:07.0046 UTC -> /voteQuestion User created successfully
+2022.08.11, 05:58:22.0796 UTC -> values from client:
+2022.08.11, 05:58:22.0796 UTC -> 28b85915d706d374
+2022.08.11, 05:58:23.0716 UTC -> /voteQuestion User created successfully
+2022.08.11, 21:42:12.0553 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 21:42:12.0676 UTC -> mySQL connection successfully established..
+2022.08.11, 21:42:15.0131 UTC -> ==== Node server started at port 3000 ====
+2022.08.11, 21:42:15.0507 UTC -> mySQL connection successfully established..
