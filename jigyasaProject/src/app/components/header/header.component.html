@@ -1,40 +1,14 @@
 <div class="header container-fluid d-flex justify-content-between">
+<div class="header-wrap">
+  <div class="logo">Cleancode<span class="dot-span">.</span></div>
+</div>
+<div class="header-wrap pd-right-head">
   <div class="d-flex">
-    <div>
-      <img id="logoImg" src="assets/images/bulb-logo.jpeg" alt="Jigyasa logo" />
-    </div>
-    <div id="logoText">JIGYASA</div>
+    <div  *ngIf= "!isLogin()" class="pd-left-headerRight pd-top-14"><div class="head-right-content nav-active" (click)="scrollToTopSection()">Home</div></div>
+    <div *ngIf= "!isLogin()" class="pd-left-headerRight pd-top-14"><div class="head-right-content" (click)="scrollToServiceSection()">Services</div></div>
+   <div *ngIf= "!isLogin()"class="pd-left-headerRight pd-top-14"> <div class="head-right-content" (click)="login()">Login</div></div>
+   <div *ngIf= "isLogin()" class="welcome">Welcome {{userName}}</div>
+   <div *ngIf= "isLogin()"class="pd-left-headerRight"> <div class="head-right-content logoutbtn" (click)="logout()">Logout</div></div>
   </div>
-  <!--   <div class="search-form">
-    <img
-      src="assets/images/magnify-icon.jpeg"
-      alt="search-icon"
-      aria-label="Search icon image"
-    />
-    <form>
-      <input
-        name="q"
-        type="text"
-        placeholder="Search…"
-        value=""
-        autocomplete="off"
-        maxlength="240"
-        class="s-input s-input__search js-search-field"
-        aria-label="Search"
-      />
-    </form>
-  </div> -->
-  <div class="d-flex justify-content-around right-content">
-    <div class="userName" *ngIf="userName != '' || userName != undefined">
-      {{ userName }}
-    </div>
-    <div *ngIf="!isLoggedin" class="login-btn">
-      <button routerLink="/login" class="btn btn-outline-primary">Login</button>
-    </div>
-    <div *ngIf="isLoggedin">
-      <button class="btn btn-outline-danger logout-btn" (click)="logout()">
-        Logout
-      </button>
-    </div>
-  </div>
+</div>
 </div>

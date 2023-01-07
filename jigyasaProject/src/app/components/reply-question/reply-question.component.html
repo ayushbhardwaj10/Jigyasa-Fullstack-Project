@@ -10,15 +10,15 @@
     </div>
     <hr />
     <div class="question-description d-flex">
-      <div class="vote-question d-flex flex-column align-items-center">
+      <div *ngIf="isLoginUserQuestion" class="vote-question d-flex flex-column align-items-center">
         <img
           class="upvote"
-          src="assets/images/upvote.png"
+          [src]="upVoteQuestionURL"
           alt="upvote image"
           (click)="voteQuestion(1)"
         />
         <p class="question-vote">{{ questionData.votes }}</p>
-        <img class="downvote" src="assets/images/downvote.png" alt="upvote
+        <img class="downvote" [src]="downVoteQuestionURL" alt="upvote
         image" (click)="voteQuestion(-1)" />
       </div>
       <div></div>
@@ -32,7 +32,7 @@
         >
           {{ questionData.sampleCode }}
         </div>
-        <div class="tags-and-userAvatar row justify-content-between">
+        <div id="tagsofQuestion" class="tags-and-userAvatar row justify-content-between">
           <div class="tags-details col-md-6 d-flex">
             <div class="tag" *ngFor="let tag of questionData.tags">
               {{ tag }}
@@ -62,15 +62,23 @@
       <span>{{ commentsList.length }}&nbsp;</span>Answers
     </div>
     <hr />
-    <div *ngFor="let comment of commentsList" class="answer d-flex">
-      <div class="vote-question d-flex flex-column align-items-center">
-        <img class="upvote" src="assets/images/upvote.png" alt="upvote image" />
+    <div *ngFor="let comment of commentsList;index as i" class="answer d-flex">
+      <div class="vote-question d-flex flex-column align-items-center" (mouseover)="giveTickOption(i,comment.commentID)" (mouseout)="removeTickOption(i,comment.commentID)">
+        <!-- <img class="upvote" src="assets/images/upvote.png" alt="upvote image" /> -->
+        <img class="upvote" [src]="commentsUpvotesURL[comment.commentID]" alt="upvote image" (click)="voteComment(1,comment.commentID)" />
         <p class="question-vote">{{ comment.votes }}</p>
-        <img
+        <!-- <img
           class="downvote"
           src="assets/images/downvote.png"
           alt="upvote image"
-        />
+        /> -->
+        <img
+          class="downvote"
+          [src]="commentsDownvotesURL[comment.commentID]"
+          alt="upvote image"
+          (click)="voteComment(-1,comment.commentID)"
+        />  
+        <img src="assets/images/checked.png" class="tick cursor-pointer" [ngClass]="{'display-none': checkTickStatus(comment.commentID)}" (click)="markTickQuestion(comment.commentID)"/>
       </div>
       <div class="question-details">
         <div class="question-desc">

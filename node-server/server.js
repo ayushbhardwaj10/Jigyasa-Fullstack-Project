@@ -439,6 +439,7 @@ app.post("/filterByTags", (req, res) => {
 app.post("/postComment", (req, res) => {
   let body = req.body;
   let currentCount = body.commentsCount;
+  let resObj ={};
   if (body.author == undefined || body.description_ == undefined) {
     log("/postComment 400 Error , Failed due to incorrect body", loggerFile);
     res.status(400).send("Failed due to incorrect body");
@@ -447,6 +448,7 @@ app.post("/postComment", (req, res) => {
     res.status(400).send("Failed due to empty fields");
   } else {
     let commentID = util.generateUniqueID();
+    resObj["commentID"]= commentID;
     let values = [
       [
         commentID,
@@ -507,7 +509,7 @@ app.post("/postComment", (req, res) => {
                   res.status(500).send("Failure in trying to post comment");
                 } else {
                   log("/postComment Comment Posted Successfully", loggerFile);
-                  res.status(200).send();
+                  res.status(200).send(resObj);
                 }
               }
             );
@@ -556,31 +558,276 @@ app.post("/voteQuestion", (req, res) => {
     body.qid == "" || 
     body.qid == undefined ||
     body.vote == "" ||
-    body.vote == undefined
+    body.vote == undefined ||
+    body.queryType == undefined ||
+    body.queryType == ""
   ) {
     log("/voteQuestion 400 Error , Failed due to incorrect body", loggerFile);
     res.status(400).send("Failed due to incorrect body");
   }
-  let values = [[body.qid]];
-  log("values from client:", loggerFile);
-  log(values, loggerFile);
-  let query= "update questions set votes = votes + 1 where qid = ?";
-  if(body.vote == -1)
-   query = "update questions set votes = votes - 1 where qid = ?";
+  if(body.queryType=="insert"){
+    let values = [
+      [
+        body.emailID,
+        body.qid,
+        body.vote
+      ],
+    ];
 
-  sql.connection.query(query, [values], (err, rows, fields) => {
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query = "insert into userquestionvotes values ?";
+  
+    sql.connection.query(query, [values], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/voteQuestion Failure in trying to insert vote data in table userquestionovotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying insert vote data");
+      } else {
+          //log("/voteQuestion Votes inserted successfully", loggerFile);
+          //res.status(200).send();  
+      }
+    });
+
+  }else {
+    let values = [
+      [
+        body.emailID,
+        body.qid,
+        body.vote
+      ],
+    ];
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query = "update userquestionvotes set votes = ? where qid = ? and emailID = ?";
+    sql.connection.query(query, [body.vote,body.qid,body.emailID], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/voteQuestion Failure in trying to update vote data in table userquestionovotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying update vote data");
+      } else {
+          log("/voteQuestion Votes updated successfully", loggerFile);
+          //res.status(200).send();  
+      }
+    });
+  }
+  //finally updating the questions table to count the overall count for the question
+  let query = "update questions set votes=votes+? where qid = ?";
+  sql.connection.query(query, [body.vote,body.qid], (err, rows, fields) => {
     if (err) {
-      log("/voteQuestion Failure in trying to vote question.!!", loggerFile);
+      log(
+        "/voteQuestion Failure in trying to update vote data in table questions",
+        loggerFile
+      );
       log(err, loggerFile);
-      res.status(500).send("Failure in trying to vote question");
+      res.status(500).send("Failure in trying update vote data");
     } else {
-      log("/voteQuestion User created successfully", loggerFile);
-      res.status(200).send();
-
-      
+        log("/voteQuestion Votes updated successfully", loggerFile);
+        res.status(200).send();  
     }
   });
+
 });
+
+app.post("/getUserVoteForQuestion", (req, res) => {
+  let body = req.body;
+  if(
+    body.emailID == "" ||
+    body.emailID == undefined ||
+    body.qid == "" || 
+    body.qid == undefined
+  ){
+    log("/getUserVoteForQuestion 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  }
+    let query = "select * from userquestionvotes where emailID=? && qid=?";
+  
+    sql.connection.query(query, [body.emailID,body.qid], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/getUserVoteForQuestion Failure in trying to fetch vote data from userquestionovotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying fetch vote data");
+      } else {
+          log("/getUserVoteForQuestion Votes fetched and returned successfully", loggerFile);
+          res.status(200).send(rows);
+      }
+    });
+});
+
+app.post("/voteComment", (req, res) => {
+  let body = req.body;
+  if (
+    body.emailID == "" ||
+    body.emailID == undefined ||
+    body.commentID == "" || 
+    body.commentID == undefined ||
+    body.vote == "" ||
+    body.vote == undefined ||
+    body.queryType == undefined ||
+    body.queryType == ""
+  ) {
+    log("/voteComment 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  }
+  if(body.queryType=="insert"){
+    let values = [
+      [
+        body.emailID,
+        body.commentID,
+        body.vote
+      ],
+    ];
+
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query = "insert into userCommentVotes values ?";
+  
+    sql.connection.query(query, [values], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/voteComment Failure in trying to insert vote data in table userCommentVotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying insert vote data");
+      } else {
+          //log("/voteQuestion Votes inserted successfully", loggerFile);
+          //res.status(200).send();  
+      }
+    });
+
+  }else {
+    let values = [
+      [
+        body.emailID,
+        body.commentID,
+        body.vote
+      ],
+    ];
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+    let query = "update userCommentVotes set votes = ? where commentID = ? and emailID = ?";
+    sql.connection.query(query, [body.vote,body.commentID,body.emailID], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/voteComment Failure in trying to update vote data in table userCommentVotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying update vote data");
+      } else {
+          log("/voteComment Votes updated successfully", loggerFile);
+          //res.status(200).send();  
+      }
+    });
+  }
+  //finally updating the comments table to count the overall count for the question
+  let query = "update comments set votes=votes+? where commentID = ?";
+  sql.connection.query(query, [body.vote,body.commentID], (err, rows, fields) => {
+    if (err) {
+      log(
+        "/voteQuestion Failure in trying to update vote data in table questions",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying update vote data");
+    } else {
+        log("/voteQuestion Votes updated successfully", loggerFile);
+        res.status(200).send();  
+    }
+  });
+
+});
+
+app.post("/getUserVoteForComment", (req, res) => {
+  let body = req.body;
+  commentIDList = req.body.commentIDS;
+  let obj ={};
+
+  if(body.commentIDS.length==0)
+    return obj;
+
+  if(
+    body.emailID == "" ||
+    body.emailID == undefined ||
+    body.commentIDS == "" || 
+    body.commentIDS == undefined
+  ){
+    log("/getUserVoteForComment 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+   }
+    console.log("not empty......")
+    console.log(body.commentIDS);
+    let query = "select * from userCommentVotes where emailID=? && commentID IN ?";
+    sql.connection.query(query, [body.emailID,[body.commentIDS]], (err, rows, fields) => {
+      if (err) {
+        log(
+          "/getUserVoteForQuestion Failure in trying to fetch vote data from userquestionovotes",
+          loggerFile
+        );
+        log(err, loggerFile);
+        res.status(500).send("Failure in trying fetch vote data");
+      } else {
+        for(let i=0; i<rows.length; i++)
+        {
+          obj[rows[i].commentID]=rows[i].votes;
+        }   
+        log("/getUserVoteForQuestion Votes fetched and returned successfully", loggerFile);
+        res.status(200).send(obj);
+      }
+    });
+});
+
+app.post("/tickQuestion", (req, res) => {
+  let body = req.body;
+  if (
+    body.commentID == "" ||
+    body.commentID == undefined ||
+    body.markStatus == "" ||
+    body.markStatus == undefined
+  ) {
+    log("/tickQuestion 400 Error , Failed due to incorrect body", loggerFile);
+    res.status(400).send("Failed due to incorrect body");
+  }
+    let values = [
+      [
+        body.commentID,
+        body.markStatus
+      ],
+    ];
+
+    log("values from client:", loggerFile);
+    log(values, loggerFile);
+  
+  let query = "update comments set isMarked = ? where commentID = ?";
+  sql.connection.query(query, [body.markStatus,body.commentID], (err, rows, fields) => {
+    if (err) {
+      log(
+        "/voteQuestion Failure in trying to update vote data in table questions",
+        loggerFile
+      );
+      log(err, loggerFile);
+      res.status(500).send("Failure in trying update vote data");
+    } else {
+        log("/voteQuestion Votes updated successfully", loggerFile);
+        res.status(200).send();  
+    }
+  });
+
+});
+
+
+
+
 
 // Only call this after your app is closed. else it'll get executed before the nodes waits for url endpoints
 //sql.connection.end();

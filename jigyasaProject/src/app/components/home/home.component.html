@@ -1,68 +1,104 @@
 <app-header></app-header>
-<div class="home-body">
-  <div class="information-cards">
+<div class="home-body" >
+  <div class="home-section1">
     <div class="row">
-      <div
-        class="card-box col-lg-6 first-card ask-questions d-flex justify-content-between c1"
-      >
-        <img
-          src="assets/images/ask-question-card.jpg"
-          alt="ask-question-img"
-          aria-label="askquestion card"
-        />
-        <div class="card-text d-flex align-items-center">
-          Ask questions to peers and friends
-        </div>
+      <div class="left-head col-lg-6" data-aos="fade-in" data-aos-duration="2500">
+        <h2 id="cleanCodeHeading">Welcome to Cleancode</h2>
+        <div id="cleanCodeTitle">A haven for passionate coders to post their queries and help others</div>
+        <div id="getStartedBtn" (click)="login()">Get Started</div>
       </div>
-      <div
-        class="card-box col-lg-6 second-card ask-questions d-flex justify-content-between c2"
-      >
-        <img
-          src="assets/images/notification-card.jpg"
-          alt="notification-img"
-          aria-label="notification img"
-        />
-        <div class="card-text d-flex align-items-center">
-          Send notifications for quicker response
+      <div class="right-head col-lg-6" data-aos="zoom-out" data-aos-duration="3000" data-aos-delay="100">
+        <div class="d-flex justify-content-center">
+          <img src="assets/images/home-page-img1.svg" alt="home page image" id="welcomeImg">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div
-        class="card-box col-lg-6 first-card ask-questions d-flex justify-content-between c3"
-      >
-        <img
-          src="assets/images/upvote-card.jpg"
-          alt="upvote-image"
-          aria-label="upvote image"
-        />
-        <div class="card-text d-flex align-items-center">
-          Leverage upvotes and downvotes to rate the responses
-        </div>
+    <div class="row justify-content-center home-section2">
+      <div class="home-box col-lg-3" (mouseover)="changeBox(0)" (mouseout)="resetBox(0)" data-aos-duration="2000" data-aos="fade-up" data-aos-delay="100">
+        <div class="home-box-img-wrap"><i class="bi bi-question-circle"></i></div>
+        <p class="home-box-title"> Post Questions</p>
       </div>
-      <div
-        class="card-box col-lg-6 second-card ask-questions d-flex justify-content-between c4"
-      >
-        <img
-          src="assets/images/curious.jpg"
-          alt="dark-theme-img"
-          aria-label="dark theme img"
-        />
-        <div class="card-text d-flex align-items-center">
-          Many more features for your curiosity.
-        </div>
+      <div class="home-box col-lg-3" (mouseover)="changeBox(1)" (mouseout)="resetBox(1)" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+        <div id="homeBoxImgpdt" class="home-box-img-wrap"><i class="bi bi-reply"></i></div>
+        <p class="home-box-title">Comment on questions</p>  
+      </div>
+      <div class="home-box col-lg-3" (mouseover)="changeBox(2)" (mouseout)="resetBox(2)" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+        <div class="home-box-img-wrap"><i class="bi bi-arrow-up-circle"></i></div>
+        <p class="home-box-title">Upvote Downvote</p> 
+      </div>
+      <div class="home-box col-lg-3"(mouseover)="changeBox(3)" (mouseout)="resetBox(3)" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+        <div class="home-box-img-wrap"><i class="bi bi-emoji-heart-eyes"></i></div>
+       <p class="home-box-title">Mark comment useful</p>  
       </div>
     </div>
   </div>
+  <div class="home-section3 row" data-aos-duration="2000" data-aos="fade-up" data-aos-offset="400">
+    <div class="col-lg-6"> <div class="d-flex justify-content-center"><img src="assets/images/stats-img.svg" alt="home page image" id="welcomeImg"></div></div>
+    <div class="col-lg-6 d-flex align-items-center stats-section">   
+        <div>
+          <div class="stats-item d-flex">
+            <div class="stats-count">100</div>
+            <div class="stats-text"><p><b>Happy Users </b>at University of Southern California</p></div>
+          </div>
+          <div class="stats-item d-flex">
+            <div class="stats-count">24</div>
+            <div class="stats-text"><p><b>Hours of Support </b>by our talented developers team</p></div>
+          </div>
+          <div class="stats-item d-flex">
+            <div class="stats-count">6</div>
+            <div class="stats-text"><p><b>Tags </b>to help you categorize your questions for easy filtering</p></div>
+          </div>
+        
+      </div>
 
-  <div class="bulb-wrapper d-flex justify-content-between">
-    <div class="bulb-wrapper-text">
-      <p>Satiate your curiosity with Jigyasa now</p>
-      <button routerLink="/login">Login for free</button>
     </div>
-    <div class="lightbulb">
-      <div class="light"></div>
-      <div><img src="https://i.imgur.com/i5AWSel.png" /></div>
+  </div>
+  <div class="home-section4" >
+    <div data-aos-duration="2000" data-aos="fade-up" data-aos-offset="200">
+      <div class="feature-center" ><span class="feature-heading">Our Features</span></div>
+      <div class="feature-title">Hey programmer, We are here for you with our services to make your life easy</div>
+    </div>
+    <div class="services" data-aos-duration="2000" data-aos="fade-up" data-aos-offset="500" id="serviceID">
+      <div class="row">
+        <div class="col-lg-4 service-item" (mouseover)="serviceMouseOver(0)" (mouseout)="serviceMouseOut(0)">
+          <div class="service-box-img-wrap"><i class="bi bi-question-circle ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Post Questions</div>
+          <div class="service-item-text">Utilize Cleancode to post questions you face everyday and let the developer community help you.</div>
+        </div>
+        <div class="col-lg-4 service-item mg-l-si" (mouseover)="serviceMouseOver(1)" (mouseout)="serviceMouseOut(1)">
+          <div class="service-box-img-wrap"><i class="bi bi-reply ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Comment on Questions</div>
+          <div class="service-item-text">Help others by commenting on their questions :)</div>
+        </div>
+        <div class="col-lg-4 service-item mg-l-si" (mouseover)="serviceMouseOver(2)" (mouseout)="serviceMouseOut(2)">
+          <div class="service-box-img-wrap"><i class="bi bi-arrow-up-circle ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Upvote Downvote</div>
+          <div class="service-item-text">Upvote and Downvote questions and comments to quantify their significance. Authors of questions cannot vote their own questions.</div>
+        </div>
+      </div>
+      <div class="row mg-t-si">
+        <div class="col-lg-4 service-item" (mouseover)="serviceMouseOver(3)" (mouseout)="serviceMouseOut(3)">
+          <div class="service-box-img-wrap"><i class="bi bi-emoji-heart-eyes ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Mark Useful Comment</div>
+          <div class="service-item-text">Authors of the questions can mark a solution that worked for them. This will help other users to try those solutions first.</div>
+        </div>
+        <div class="col-lg-4 service-item mg-l-si" (mouseover)="serviceMouseOver(4)" (mouseout)="serviceMouseOut(4)">
+          <div class="service-box-img-wrap"><i class="bi bi-funnel ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Filter Questions</div>
+          <div class="service-item-text">Filter questions based on various tags to selectively search questions.</div>
+        </div>
+        <div class="col-lg-4 service-item mg-l-si" (mouseover)="serviceMouseOver(5)" (mouseout)="serviceMouseOut(5)">
+          <div class="service-box-img-wrap"><i class="bi bi-sort-down ic"></i></div>
+          <div class="topover-circle"></div>
+          <div class="service-item-title">Sort Questions</div>
+          <div class="service-item-text">Sort the questions based on date, most votes and most comments.</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

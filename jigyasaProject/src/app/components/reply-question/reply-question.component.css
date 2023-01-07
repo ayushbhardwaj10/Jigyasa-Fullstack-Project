@@ -146,6 +146,12 @@ hr {
 .answer {
   padding-top: 2rem;
 }
+.cursor-pointer{
+  cursor:pointer;
+}
+.pd-b-emptyComment{
+  padding-bottom: 5.5rem;
+}
 
 /* tick mark animation  */
 

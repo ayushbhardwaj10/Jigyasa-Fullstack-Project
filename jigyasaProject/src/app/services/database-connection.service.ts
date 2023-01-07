@@ -121,14 +121,53 @@ export class DatabaseConnectionService {
       .post(this.baseURL + 'postComment', requestBody)
       .pipe(catchError(this.handleError));
   }
-  voteQuestion(qid: any, emailID: any, voteStatus: any) {
+  voteQuestion(qid: any, emailID: any, vote: any,queryType:any) {
     let requestBody = {
       qid: qid,
       emailID: emailID,
-      voteStatus: voteStatus,
+      vote: vote,
+      queryType : queryType
     };
     return this.http
       .post(this.baseURL + 'voteQuestion', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  getUserVoteForQuestion(emailID:any, qid:any){
+    let requestBody = {
+      emailID: emailID,
+      qid: qid
+    };
+    return this.http
+      .post(this.baseURL + 'getUserVoteForQuestion', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  voteComment(emailID: any, commentID: any, vote: any,queryType:any) {
+    let requestBody = {
+      emailID: emailID,
+      commentID: commentID,
+      vote: vote,
+      queryType : queryType
+    };
+    return this.http
+      .post(this.baseURL + 'voteComment', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  getUserVotesForComments(emailID:any, commentIDS:any){
+    let requestBody = {
+      emailID: emailID,
+      commentIDS: commentIDS
+    };
+    return this.http
+      .post(this.baseURL + 'getUserVoteForComment', requestBody)
+      .pipe(catchError(this.handleError));
+  }
+  tickQuestion(commentID:any, markStatus:any){
+    let requestBody = {
+      commentID: commentID,
+      markStatus: markStatus
+    };
+    return this.http
+      .post(this.baseURL + 'tickQuestion', requestBody)
       .pipe(catchError(this.handleError));
   }
 }

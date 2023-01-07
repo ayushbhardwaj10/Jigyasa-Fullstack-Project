@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+declare var $: any;
 
 @Component({
   selector: 'app-header',
@@ -22,48 +23,40 @@ export class HeaderComponent implements OnInit {
     };
     function scrollFunction() {
       if (
-        document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50
+        document.body.scrollTop > 23 ||
+        document.documentElement.scrollTop > 23
       ) {
-        (document.querySelector('#logoText') as HTMLElement).style.fontSize =
-          '1rem';
-        if (screen.width < 1000) {
-          (
-            document.querySelector('#logoText') as HTMLElement
-          ).style.paddingTop = '3rem';
-          (document.querySelector('#logoImg') as HTMLElement).style.marginTop =
-            '2rem';
-          (
-            document.querySelector('.login-btn') as HTMLElement
-          ).style.marginTop = '1rem';
-        }
-
-        (document.querySelector('#logoImg') as HTMLElement).style.maxHeight =
-          '2.875rem';
-        (document.querySelector('#logoText') as HTMLElement).style.left =
-          '-0.5625rem';
+        document.getElementsByClassName("header")[0].classList.add('box-shadow-header');
       } else {
-        (document.querySelector('#logoText') as HTMLElement).style.fontSize =
-          '1.5rem';
-        (document.querySelector('#logoImg') as HTMLElement).style.maxHeight =
-          '4.625rem';
-        (document.querySelector('#logoText') as HTMLElement).style.left =
-          '-1.125rem';
-        if (screen.width < 1000) {
-          (
-            document.querySelector('#logoText') as HTMLElement
-          ).style.paddingTop = '1.5rem';
-          (document.querySelector('#logoImg') as HTMLElement).style.marginTop =
-            '14px';
-          (
-            document.querySelector('.login-btn') as HTMLElement
-          ).style.paddingTop = '1rem';
-        }
+        document.getElementsByClassName("header")[0].classList.remove('box-shadow-header');
       }
     }
   }
   logout() {
     sessionStorage.clear();
     this.router.navigate(['/']);
+  }
+  login() {
+    this.router.navigate(['/login']);
+  }
+  scrollToTopSection(){
+    $('html,body').animate({
+      scrollTop: $(".home-body").offset().top},
+      'slow');
+      document.getElementsByClassName("head-right-content")[0].classList.add("nav-active");
+      document.getElementsByClassName("head-right-content")[1].classList.remove("nav-active");
+  }
+  scrollToServiceSection(){
+    $('html,body').animate({
+      scrollTop: $(".home-section4").offset().top},
+      'slow');
+    document.getElementsByClassName("head-right-content")[1].classList.add("nav-active");
+    document.getElementsByClassName("head-right-content")[0].classList.remove("nav-active");  
+  }
+  isLogin(){
+    let userName = sessionStorage.getItem("userName");
+    if(userName==null || userName=='')
+     return false;
+    else return true;
   }
 }
